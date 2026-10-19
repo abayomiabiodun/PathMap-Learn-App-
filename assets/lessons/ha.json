@@ -1,0 +1,793 @@
+{
+  "html": {
+    "title": "Gina shafin HTML na farko",
+    "body": "HTML yana bayyana tsarin shafi. <h1> kanun labari ne, <p> sakin layi ne, <a href=\"...\"> mahaɗi ne. Alamomin buɗewa da rufewa suna kewaye da abun ciki. href yana nuna inda mahaɗin zai kai.\nFara da kanun labari da gajeren sakin layi. Rubutun mahaɗi ya bayyana inda zai kai. Shafi ya kasance mai fahimta ba tare da launi ko hoto ba.",
+    "practice": "Rubuta HTML game da kanka: h1, p game da abubuwan da kake so, da a zuwa shafi mai amfani. Bayyana aikin href.",
+    "statement": "HTML yana bayyana tsarin shafin yanar gizo.",
+    "answer": true,
+    "code": "<h1>Ada</h1>\n<p>Ina son koyo.</p>\n<a href=\"https://example.com\">Shafin misali</a>"
+  },
+  "css": {
+    "title": "Yi wa shafi ado da CSS",
+    "body": "CSS yana sarrafa launi, tazara da shimfiɗa. Selector yana zaɓar sashe; declarations a cikin {} suna saita properties. A h1 { color: green; }, h1 selector ne, color kuwa property ne.\nYi rubutu mai sauƙin karantawa. Faɗin 900px na iya wuce allo na waya. max-width: 100% yana taimaka wa abun ciki ya dace da allo.",
+    "practice": "Rubuta CSS don launin kanun labari da padding na sakin layi. Bayyana dalilin dacewa da ƙaramin allo.",
+    "statement": "CSS yana kawar da buƙatar tsarin HTML.",
+    "answer": false,
+    "code": "h1 { color: green; }\np { padding: 16px; max-width: 100%; }"
+  },
+  "javascript": {
+    "title": "Ƙara hulɗa da JavaScript",
+    "body": "JavaScript yana amsa ayyuka. querySelector yana gano sashe; addEventListener yana gudanar da function idan event ya faru. textContent yana canza rubutu ba tare da ɗaukarsa HTML ba.\nYi amfani da button na gaske don keyboard ya yi aiki. Shafi ya kasance mai amfani kafin script ya zo.",
+    "practice": "Rubuta button da click listener wanda zai canza sakin layi zuwa saƙon maraba. Bayyana event ɗin da ke fara canjin.",
+    "statement": "Click event listener na iya amsa idan an kunna button.",
+    "answer": true,
+    "code": "<button id=\"welcome\">Barka da zuwa</button>\n<p id=\"message\"></p>\n<script>\ndocument.querySelector(\"#welcome\").addEventListener(\"click\", () => {\n  document.querySelector(\"#message\").textContent = \"Barka da zuwa!\";\n});\n</script>"
+  },
+  "data": {
+    "title": "Yi tambaya mai amfani da bayanai",
+    "body": "Bayanai su ne abubuwan da aka rubuta. Fara da tambaya, tsara abubuwan da aka gani a rows da fields a columns. Abin da ya ɓace ba sifili ba ne. Duba ma’auni da maimaitawa. Average shi ne jimilla raba da yawan ƙimomi.",
+    "practice": "Tallace-tallace: 10, 20, 30. Lissafa average, rubuta ma’auni, da tambayar da lambobin ba za su amsa ba.",
+    "statement": "Average na 10, 20 da 30 shi ne 20.",
+    "answer": true
+  },
+  "cyber": {
+    "title": "Kare asusu",
+    "body": "Yi kalmar sirri daban ga kowane sabis, ka adana da password manager. Multi-factor authentication yana ƙara bincike. Saƙon bazata mai neman sirri ko code na iya zama phishing. Buɗe sabis kai tsaye don tabbatarwa.",
+    "practice": "Bayyana yadda za ka binciki saƙon shiga na bazata. Rubuta hanyoyi biyu na kare asusun gwaji; kada ka saka sirri na gaske.",
+    "statement": "Aika code na shiga ga duk mai cewa shi ma’aikacin taimako ne yana da aminci.",
+    "answer": false
+  },
+  "ai": {
+    "title": "Fahimci hasashen model",
+    "body": "Model na machine learning yana koyon tsari daga misalai. Bayanan horo suna shafar hasashe. Yana iya yin kuskure, musamman da sabbin misalai daban. Gwada da misalai dabam, ka duba kurakurai ma.",
+    "practice": "Ga model mai gane ’ya’yan itace, bayyana misalan horo da na gwaji daban. Faɗi inda zai iya kuskure.",
+    "statement": "Hasashen model yana daidai koyaushe.",
+    "answer": false
+  },
+  "design": {
+    "title": "Zana don buƙatar mai amfani",
+    "body": "Ƙwarewar mai amfani tana farawa da mutum da buri. Bayyana matsala kafin zana allo. Lakabi mai kyau yana sauƙaƙa zaɓi. Gwada zane mai sauƙi kafin gini. Lura da inda mutum ya makale.",
+    "practice": "Zana matakai uku don adana darasi. Rubuta burin mai amfani da tambayar gwaji.",
+    "statement": "Gwada zane na iya gano matsaloli kafin gina app.",
+    "answer": true
+  },
+  "marketing": {
+    "title": "Tsara saƙo mai amfani",
+    "body": "Talla tana haɗa abu mai amfani da masu buƙatarsa. Bayyana masu sauraro, matsalar da kake warwarewa da aikin da za su yi. Auna sakamako kamar tambayoyin saye, ba kallo kaɗai ba. Kada ka yi da’awa marar hujja.",
+    "practice": "Rubuta saƙon sabis na unguwa. Faɗi masu sauraro, amfani, aiki ɗaya da ma’aunin nasara.",
+    "statement": "Ƙarin kallo yana nufin ƙarin kwastomomi koyaushe.",
+    "answer": false
+  },
+  "business": {
+    "title": "Gwada ra’ayin kasuwanci",
+    "body": "Ra’ayin kasuwanci yana buƙatar matsalar kwastoma da tayin da zai yi aiki. Yi magana da kwastomomi kafin kashe kuɗi da yawa. Revenue kuɗin shiga ne; profit yana la’akari da tsada. Ƙaramin gwaji yana nuna darajar tayin.",
+    "practice": "Ana sayar da abu 100, tsadar samarwa 70. Lissafa bambanci kafin sauran tsada, sannan bayyana ƙaramin gwajin kwastoma.",
+    "statement": "Dole a la’akari da tsada wajen ƙiyasta riba.",
+    "answer": true
+  },
+  "writing": {
+    "title": "Rubuta don mai karatu",
+    "body": "Rubutu mai kyau yana da buri da masu karatu. Fara da muhimmin batu, yi kalmomi bayyanannu, ka ba da mataki na gaba. Gyara jimlar da ke haɗa ra’ayoyi da yawa. Duba ko mai karatu yana da bayanan yin aiki.",
+    "practice": "Rubuta jimloli huɗu don gayyatar aboki zuwa karatu. Saka buri, lokaci, wuri da aikin gaba.",
+    "statement": "Sanin masu karatu yana taimaka wajen zaɓar bayanai.",
+    "answer": true
+  },
+  "project": {
+    "title": "Raba aiki zuwa ƙananan ayyuka",
+    "body": "Aikin project yana da sakamako, ayyuka da iyaka. Raba aiki, sanya masu alhaki da gano dependencies. Wani aiki na iya jiran wani ya ƙare. Duba ci gaba, ka daidaita shiri.",
+    "practice": "Tsara taron karatu da ayyuka huɗu, masu alhaki da dependency ɗaya. Bayyana nasarar da ake so.",
+    "statement": "Dukkan ayyukan project suna iya farawa lokaci guda koyaushe.",
+    "answer": false
+  },
+  "teaching": {
+    "title": "Taimaka wa mutum ya koya",
+    "body": "Darasi yana buƙatar buri bayyananne, misali, gwaji da ra’ayin gyara. Nuna fasaha kaɗai ba koyarwa cikakke ba ne. Bari ɗalibi ya gwada kuma ya bayyana tunaninsa. Yi amfani da amsarsa don darasi na gaba.",
+    "practice": "Tsara darasin minti goma kan fasaha da ka sani. Rubuta buri, aikin gwaji da tambayar fahimta.",
+    "statement": "Gwaji da ra’ayin gyara suna taimaka wa malami ya duba fahimta.",
+    "answer": true
+  },
+  "web-semantic": {
+    "title": "Yi amfani da HTML mai ma’ana",
+    "body": "header na gabatarwa ne, main na babban abun ciki, footer na bayanin ƙarshe.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Yi amfani da HTML mai ma’ana”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "header na gabatarwa ne, main na babban abun ciki, footer na bayanin ƙarshe.",
+    "answer": true,
+    "code": "<header>…</header>\n<main><article>…</article></main>\n<footer>…</footer>"
+  },
+  "web-layout": {
+    "title": "Gina tsari mai dacewa da allo",
+    "body": "Grid auto-fit yana ƙirƙirar ginshiƙai masu shiga; minmax yana hana kati yin ƙanƙanta sosai.\n\nKwatanta zaɓuɓɓuka bisa buri bayyananne, ba kyawunsu kawai ba. Misalin yana nuna zaɓuɓɓuka ko iyaka. Bayyana abin da ake samu da abin da ake rasa; yi kwatanci na adalci da hujja. Abin da ya yi aiki a wuri ɗaya na iya buƙatar gyara a wani.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Gina tsari mai dacewa da allo”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Zaɓin da ya fi kyau a gani shi ne mafi dacewa ga kowane buri.",
+    "answer": false,
+    "code": ".cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }"
+  },
+  "web-forms": {
+    "title": "Karɓi bayanai da fom",
+    "body": "label yana bayyana input; type=email yana duba tsari, required yana hana babu bayanai.\n\nGwaji mai amfani yana bayyana abin shiga da sakamakon da ake tsammani kafin dubawa. Gwada misalin, sannan gwada babu bayanai ko abin da ba a zata ba. Rubuta abin da ya faru ka yi ƙaramin gyara. Sake gwadawa bayan gyara don tabbatar da warware matsalar.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Karɓi bayanai da fom”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "label yana bayyana input; type=email yana duba tsari, required yana hana babu bayanai.",
+    "answer": true,
+    "code": "<label for=\"email\">Email</label>\n<input id=\"email\" type=\"email\" required>\n// test: \"\", \"ada\", \"ada@example.test\""
+  },
+  "web-dom": {
+    "title": "Haɗa abubuwa da DOM",
+    "body": "querySelector yana gano abu; addEventListener yana haɗa aiki da function; textContent yana canza rubutu.\n\nWasu matakai suna dogara da na baya. Bi kibiyoyin misalin ka bayyana abin da zai fara da dalilinsa. Shirya abin da za a yi idan mataki ya kasa. Duba kowane sauyi kafin ci gaba; kaiwa ƙarshe kaɗai ba ya nuna cewa duk aikin ya yi nasara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Haɗa abubuwa da DOM”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Matakin dogaro yana iya farawa kafin na farko koyaushe.",
+    "answer": false,
+    "code": "const button = document.querySelector(\"button\");\nbutton.addEventListener(\"click\", () => {\n  document.querySelector(\"p\").textContent = \"✓\";\n});"
+  },
+  "web-access": {
+    "title": "Sauƙaƙa shafi ga kowa",
+    "body": "Button na gaske yana aiki da keyboard. Rubutu yana buƙatar bambancin launi da bayyanannen suna.\n\nShawara mai amfani tana danganta da abin da aka gani kuma ta nuna mataki na gaba. Duba misalin don hujjar nasara da wahala. Raba abin da ka gani da abin da ka zato. Inganta abu guda ka duba tasirinsa; ƙaramin samfur ba ya wakiltar kowa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Sauƙaƙa shafi ga kowa”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Button na gaske yana aiki da keyboard. Rubutu yana buƙatar bambancin launi da bayyanannen suna.",
+    "answer": true,
+    "code": "<button type=\"button\">✓</button>\n// Tab → Enter → ✓\n// contrast: 4.5:1"
+  },
+  "web-debug": {
+    "title": "Gano kuskure ka gwada aiki",
+    "body": "Gwada adadi na yau da kullum da sifili: 5 × 3 = 15, 5 × 0 = 0.\n\nGwaji mai amfani yana bayyana abin shiga da sakamakon da ake tsammani kafin dubawa. Gwada misalin, sannan gwada babu bayanai ko abin da ba a zata ba. Rubuta abin da ya faru ka yi ƙaramin gyara. Sake gwadawa bayan gyara don tabbatar da warware matsalar.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Gano kuskure ka gwada aiki”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Gwajin nasara guda yana tabbatar da aiki a kowane yanayi.",
+    "answer": false,
+    "code": "const total = (price, quantity) => price * quantity;\n// total(5, 3) → 15\n// total(5, 0) → 0"
+  },
+  "web-project": {
+    "title": "Gina shafinka na kai",
+    "body": "Haɗa HTML mai ma’ana, CSS mai sassauci da aikin keyboard a shafinka.\n\nHaɗa ƙwarewar da ka koya a ƙaramin aiki. Yi amfani da misalin a matsayin tsari, saita buri mai amfani ka ƙirƙiri abin da za ka nuna. Gwada shi da burinka, bayyana iyaka guda da gyara guda. Riƙe rubutunka da hujja don wani ɗalibi ya fahimci shawararka.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Gina shafinka na kai”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Haɗa HTML mai ma’ana, CSS mai sassauci da aikin keyboard a shafinka.",
+    "answer": true,
+    "code": "<!doctype html>\n<html lang=\"en\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <main>…</main>\n</html>"
+  },
+  "data-clean": {
+    "title": "Tsaftace ƙaramin bayanai",
+    "body": "Maimaita ID na iya nuna kwafi. Babu ƙima yana nufin ba a sani ba, ba sifili ba.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsaftace ƙaramin bayanai”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Maimaita ID na iya nuna kwafi. Babu ƙima yana nufin ba a sani ba, ba sifili ba.",
+    "answer": true,
+    "code": "id,value\n1,10\n2,\n2,20\n3,30\n// duplicate id: 2; missing ≠ 0"
+  },
+  "data-measures": {
+    "title": "Zaɓi ma’aunin taƙaitawa",
+    "body": "Matsakaici yana shafar manyan ƙimomi; median ita ce ƙimar tsakiya bayan jerawa.\n\nLissafi yana buƙatar bayanan shiga, aikin lissafi da ma’auni. Yi misalin da hannu kafin amfani da kayan aiki. Duba abin da ake rabawa da shi, bayanan da babu su da ko sakamakon ya yi ma’ana. Daidaiton lissafi yana buƙatar mahalli kafin yanke shawara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Zaɓi ma’aunin taƙaitawa”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ma’auni da abin rabawa ba su da muhimmanci a lissafi.",
+    "answer": false,
+    "code": "(10 + 20 + 30) / 3 = 20\nmedian(10, 20, 90) = 20\nmean(10, 20, 90) = 40"
+  },
+  "data-sheets": {
+    "title": "Yi lissafi da takardar lissafi",
+    "body": "SUM yana tara ƙimomi, AVERAGE yana lissafin matsakaici, COUNT yana ƙidaya sel masu lambobi.\n\nLissafi yana buƙatar bayanan shiga, aikin lissafi da ma’auni. Yi misalin da hannu kafin amfani da kayan aiki. Duba abin da ake rabawa da shi, bayanan da babu su da ko sakamakon ya yi ma’ana. Daidaiton lissafi yana buƙatar mahalli kafin yanke shawara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Yi lissafi da takardar lissafi”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "SUM yana tara ƙimomi, AVERAGE yana lissafin matsakaici, COUNT yana ƙidaya sel masu lambobi.",
+    "answer": true,
+    "code": "=SUM(B2:B4)\n=AVERAGE(B2:B4)\n=COUNT(B2:B4)\n// B2:B4 = 10,20,30"
+  },
+  "data-filter": {
+    "title": "Jera ka tace bayanai",
+    "body": "Tacewa tana riƙe layuka masu dacewa; jerawa tana sauya tsari ba ƙimomi ba.\n\nKwatanta zaɓuɓɓuka bisa buri bayyananne, ba kyawunsu kawai ba. Misalin yana nuna zaɓuɓɓuka ko iyaka. Bayyana abin da ake samu da abin da ake rasa; yi kwatanci na adalci da hujja. Abin da ya yi aiki a wuri ɗaya na iya buƙatar gyara a wani.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Jera ka tace bayanai”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Zaɓin da ya fi kyau a gani shi ne mafi dacewa ga kowane buri.",
+    "answer": false,
+    "code": "id,region,value\n1,A,10\n2,B,30\n3,A,20\n// region=A → 1,3; value descending → 2,3,1"
+  },
+  "data-charts": {
+    "title": "Zaɓi jadawalin da bai yaudara ba",
+    "body": "Jadawalin sanduna yana kwatanta rukuni. Bayyana ma’auni ka fara axis daga sifili.\n\nKwatanta zaɓuɓɓuka bisa buri bayyananne, ba kyawunsu kawai ba. Misalin yana nuna zaɓuɓɓuka ko iyaka. Bayyana abin da ake samu da abin da ake rasa; yi kwatanci na adalci da hujja. Abin da ya yi aiki a wuri ɗaya na iya buƙatar gyara a wani.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Zaɓi jadawalin da bai yaudara ba”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Jadawalin sanduna yana kwatanta rukuni. Bayyana ma’auni ka fara axis daga sifili.",
+    "answer": true,
+    "code": "A: ███ 30\nB: ██ 20\nC: █ 10\n// axis starts at 0; same unit"
+  },
+  "data-sql": {
+    "title": "Tara bayanai da SQL",
+    "body": "GROUP BY yana haɗa rukuni; SUM yana lissafin jimlar kowane rukuni.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tara bayanai da SQL”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Bayanin da babu shi dole ya zama sifili koyaushe.",
+    "answer": false,
+    "code": "SELECT region, SUM(value) AS total\nFROM sales\nGROUP BY region;\n// A → 30; B → 30"
+  },
+  "data-privacy": {
+    "title": "Kare bayanan mutum",
+    "body": "Maye sunaye da ID yana rage fallasa, amma sauran bayanai na iya gano mutum.\n\nYi amfani da bayanan ƙirƙira a wannan aiki. Karɓi abin da ake buƙata kawai, cire abin da zai gano mutum kuma rage masu iya gani. Misalin yana nuna bayanan da za a cire ko izinin da za a duba. Kada ka rubuta kalmar sirri ta gaskiya, bayanan tuntuɓa ko takardun sirri.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Kare bayanan mutum”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Maye sunaye da ID yana rage fallasa, amma sauran bayanai na iya gano mutum.",
+    "answer": true,
+    "code": "{\"person_id\":\"P01\",\"age_band\":\"20–29\",\"value\":10}\n// remove: name, email, phone"
+  },
+  "data-evidence": {
+    "title": "Bayyana sakamako da iyakoki",
+    "body": "Bayyana yawan samfur da rashin tabbas. Alaƙa ba ta tabbatar da sanadi ba.\n\nShawara mai amfani tana danganta da abin da aka gani kuma ta nuna mataki na gaba. Duba misalin don hujjar nasara da wahala. Raba abin da ka gani da abin da ka zato. Inganta abu guda ka duba tasirinsa; ƙaramin samfur ba ya wakiltar kowa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Bayyana sakamako da iyakoki”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ƙaramin samfur yana tabbatar da buƙatar kowane mutum.",
+    "answer": false,
+    "code": "n = 3\nmean = 20\nrange = 10–30\n// correlation ≠ causation"
+  },
+  "data-project": {
+    "title": "Ƙirƙiri rahoton bayanai",
+    "body": "Amsa tambaya guda da tsaftataccen data, jadawali mai alama da shawara mai iyaka.\n\nHaɗa ƙwarewar da ka koya a ƙaramin aiki. Yi amfani da misalin a matsayin tsari, saita buri mai amfani ka ƙirƙiri abin da za ka nuna. Gwada shi da burinka, bayyana iyaka guda da gyara guda. Riƙe rubutunka da hujja don wani ɗalibi ya fahimci shawararka.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Ƙirƙiri rahoton bayanai”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Amsa tambaya guda da tsaftataccen data, jadawali mai alama da shawara mai iyaka.",
+    "answer": true,
+    "code": "CSV → clean → calculate → chart → recommendation\n10,20,30 → 20 → ███ → ?"
+  },
+  "cyber-phishing": {
+    "title": "Gane hanyar yaudara",
+    "body": "Duba hostname: example.test.evil.test na evil.test ne, ba example.test ba.\n\nHaɗari yana haɗa yiwuwar faruwar abu da illarsa. Kwatanta yiwuwa da tasiri a misalin sannan zaɓi matakin kariya. Fara da manyan haɗari ka bayyana mai ɗaukar mataki. Jerin dubawa yana rage kuskure amma ba ya kawar da duk barazana.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Gane hanyar yaudara”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Duba hostname: example.test.evil.test na evil.test ne, ba example.test ba.",
+    "answer": true,
+    "code": "https://example.test\nhttps://example.test.evil.test\n// host: example.test ≠ example.test.evil.test"
+  },
+  "cyber-privacy": {
+    "title": "Riƙe bayanan sirri",
+    "body": "Kalmar sirri da lambar shiga sirri ne; yi amfani da misalan ƙirƙira a rahoto.\n\nYi amfani da bayanan ƙirƙira a wannan aiki. Karɓi abin da ake buƙata kawai, cire abin da zai gano mutum kuma rage masu iya gani. Misalin yana nuna bayanan da za a cire ko izinin da za a duba. Kada ka rubuta kalmar sirri ta gaskiya, bayanan tuntuɓa ko takardun sirri.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Riƙe bayanan sirri”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "A saka kalmar sirri ta gaskiya cikin bayanan gwajin da ake rabawa.",
+    "answer": false,
+    "code": "{\"account\":\"test-01\",\"password\":\"[REDACTED]\",\"mfa_code\":\"[REDACTED]\"}"
+  },
+  "cyber-updates": {
+    "title": "Sabunta na’ura cikin aminci",
+    "body": "Yi ajiya, samo sabuntawa daga hukuma, sake kunnawa ka duba version.\n\nWasu matakai suna dogara da na baya. Bi kibiyoyin misalin ka bayyana abin da zai fara da dalilinsa. Shirya abin da za a yi idan mataki ya kasa. Duba kowane sauyi kafin ci gaba; kaiwa ƙarshe kaɗai ba ya nuna cewa duk aikin ya yi nasara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Sabunta na’ura cikin aminci”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Yi ajiya, samo sabuntawa daga hukuma, sake kunnawa ka duba version.",
+    "answer": true,
+    "code": "backup → official update → restart → version check"
+  },
+  "cyber-network": {
+    "title": "Fahimci tafiyar hanyar sadarwa",
+    "body": "DNS yana gano address daga suna. HTTPS yana kare tafiyar data, amma shafin yaudara ma yana amfani da shi.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Fahimci tafiyar hanyar sadarwa”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Bayanin da babu shi dole ya zama sifili koyaushe.",
+    "answer": false,
+    "code": "device → router → DNS → HTTPS server\n// HTTPS protects transit; does not guarantee honesty"
+  },
+  "cyber-permissions": {
+    "title": "Zaɓi izini mafi ƙaranci",
+    "body": "Least privilege yana ba da izinin da aiki ke buƙata kawai; admin yana ƙara haɗari.\n\nKwatanta zaɓuɓɓuka bisa buri bayyananne, ba kyawunsu kawai ba. Misalin yana nuna zaɓuɓɓuka ko iyaka. Bayyana abin da ake samu da abin da ake rasa; yi kwatanci na adalci da hujja. Abin da ya yi aiki a wuri ɗaya na iya buƙatar gyara a wani.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Zaɓi izini mafi ƙaranci”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Least privilege yana ba da izinin da aiki ke buƙata kawai; admin yana ƙara haɗari.",
+    "answer": true,
+    "code": "viewer: read\neditor: read + write\nadmin: read + write + manage\n// role = minimum needed"
+  },
+  "cyber-backup": {
+    "title": "Gwada ajiyar bayanai da dawo da su",
+    "body": "Ajiyar da ba a gwada ba na iya kasa. Dawo da fayil na gwaji ka kwatanta abun ciki.\n\nGwaji mai amfani yana bayyana abin shiga da sakamakon da ake tsammani kafin dubawa. Gwada misalin, sannan gwada babu bayanai ko abin da ba a zata ba. Rubuta abin da ya faru ka yi ƙaramin gyara. Sake gwadawa bayan gyara don tabbatar da warware matsalar.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Gwada ajiyar bayanai da dawo da su”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Gwajin nasara guda yana tabbatar da aiki a kowane yanayi.",
+    "answer": false,
+    "code": "3 copies · 2 storage types · 1 off-site\n// restore a test file; compare contents"
+  },
+  "cyber-threats": {
+    "title": "Jera haɗarin tsaro",
+    "body": "Yiwuwa sau tasiri yana ba da fifiko, ba hasashen da ya tabbata ba.\n\nHaɗari yana haɗa yiwuwar faruwar abu da illarsa. Kwatanta yiwuwa da tasiri a misalin sannan zaɓi matakin kariya. Fara da manyan haɗari ka bayyana mai ɗaukar mataki. Jerin dubawa yana rage kuskure amma ba ya kawar da duk barazana.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Jera haɗarin tsaro”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Yiwuwa sau tasiri yana ba da fifiko, ba hasashen da ya tabbata ba.",
+    "answer": true,
+    "code": "risk = likelihood × impact\nA: 3 × 4 = 12\nB: 1 × 2 = 2"
+  },
+  "cyber-response": {
+    "title": "Amsa abin da ake zargi",
+    "body": "Ware na’urar da ake zargi, kai rahoto ka kiyaye hujja kafin dawo da aiki.\n\nWasu matakai suna dogara da na baya. Bi kibiyoyin misalin ka bayyana abin da zai fara da dalilinsa. Shirya abin da za a yi idan mataki ya kasa. Duba kowane sauyi kafin ci gaba; kaiwa ƙarshe kaɗai ba ya nuna cewa duk aikin ya yi nasara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Amsa abin da ake zargi”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Matakin dogaro yana iya farawa kafin na farko koyaushe.",
+    "answer": false,
+    "code": "isolate → report → preserve evidence → recover\n// practise only on your own test device"
+  },
+  "cyber-project": {
+    "title": "Ƙirƙiri jerin duba tsaro",
+    "body": "Rubuta kariyar account, sabuntawa, izini da nasarar dawo da ajiya a na’urar gwaji.\n\nHaɗa ƙwarewar da ka koya a ƙaramin aiki. Yi amfani da misalin a matsayin tsari, saita buri mai amfani ka ƙirƙiri abin da za ka nuna. Gwada shi da burinka, bayyana iyaka guda da gyara guda. Riƙe rubutunka da hujja don wani ɗalibi ya fahimci shawararka.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Ƙirƙiri jerin duba tsaro”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Rubuta kariyar account, sabuntawa, izini da nasarar dawo da ajiya a na’urar gwaji.",
+    "answer": true,
+    "code": "test account → MFA → permissions → backup → restore check"
+  },
+  "ai-data": {
+    "title": "Tsara misalai masu alama",
+    "body": "Kowane layin horo yana buƙatar input mai amfani da label daidai; duba kuskure da gibba.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsara misalai masu alama”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Kowane layin horo yana buƙatar input mai amfani da label daidai; duba kuskure da gibba.",
+    "answer": true,
+    "code": "id,x,label\n1,1,A\n2,2,A\n3,8,B\n4,9,B"
+  },
+  "ai-split": {
+    "title": "Raba horo da gwaji",
+    "body": "Raba misalan gwaji kafin horo; shigarsu horo yana ɓata sakamakon gwaji.\n\nMisalan horo suna taimaka wa samfurin koyo; misalan gwaji daban suna duba aikinsa. Kada a saka bayanan gwaji cikin horo. Kwatanta hasashe da amsoshin da aka sani ka duba kurakurai. Nasara a ƙaramin gwaji ba ta tabbatar da inganci a ko’ina ba.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Raba horo da gwaji”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Saka misalan gwaji cikin horo yana ba da gwaji na adalci.",
+    "answer": false,
+    "code": "train: 1,2,3\ntest: 4\n// no test examples in training"
+  },
+  "ai-baseline": {
+    "title": "Kwatanta da ma’aunin farko",
+    "body": "Hasashen A kullum yana samun 75% ga A uku da B ɗaya; kwatanta da wannan tushe.\n\nKwatanta zaɓuɓɓuka bisa buri bayyananne, ba kyawunsu kawai ba. Misalin yana nuna zaɓuɓɓuka ko iyaka. Bayyana abin da ake samu da abin da ake rasa; yi kwatanci na adalci da hujja. Abin da ya yi aiki a wuri ɗaya na iya buƙatar gyara a wani.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Kwatanta da ma’aunin farko”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Hasashen A kullum yana samun 75% ga A uku da B ɗaya; kwatanta da wannan tushe.",
+    "answer": true,
+    "code": "labels: A,A,A,B\n// always predict A → 3/4\n// model accuracy must be compared with baseline"
+  },
+  "ai-evaluate": {
+    "title": "Auna daidaiton hasashe",
+    "body": "Daidaito shi ne amsoshin daidai raba da duka; uku cikin huɗu = 75%.\n\nLissafi yana buƙatar bayanan shiga, aikin lissafi da ma’auni. Yi misalin da hannu kafin amfani da kayan aiki. Duba abin da ake rabawa da shi, bayanan da babu su da ko sakamakon ya yi ma’ana. Daidaiton lissafi yana buƙatar mahalli kafin yanke shawara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Auna daidaiton hasashe”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ma’auni da abin rabawa ba su da muhimmanci a lissafi.",
+    "answer": false,
+    "code": "actual: A,A,B,B\npredicted: A,B,B,B\naccuracy = 3 / 4 = 75%"
+  },
+  "ai-bias": {
+    "title": "Duba kuskure tsakanin rukuni",
+    "body": "Maki na gaba ɗaya na iya ɓoye matsalar rukuni; duba maki da yawan kowanne.\n\nShawara mai amfani tana danganta da abin da aka gani kuma ta nuna mataki na gaba. Duba misalin don hujjar nasara da wahala. Raba abin da ka gani da abin da ka zato. Inganta abu guda ka duba tasirinsa; ƙaramin samfur ba ya wakiltar kowa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Duba kuskure tsakanin rukuni”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Maki na gaba ɗaya na iya ɓoye matsalar rukuni; duba maki da yawan kowanne.",
+    "answer": true,
+    "code": "group A: 9/10 = 90%\ngroup B: 5/10 = 50%\noverall: 14/20 = 70%"
+  },
+  "ai-prompts": {
+    "title": "Rubuta umarni mai tsari",
+    "body": "Prompt yana bayyana task, context, format da constraints; cire sirri.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Rubuta umarni mai tsari”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Bayanin da babu shi dole ya zama sifili koyaushe.",
+    "answer": false,
+    "code": "{\"task\":\"summarise\",\"context\":\"[synthetic text]\",\"format\":\"3 bullet points\",\"constraint\":\"use only supplied facts\"}"
+  },
+  "ai-verification": {
+    "title": "Tabbatar da maganar AI",
+    "body": "AI na iya ƙirƙirar gaskiya da tushe. Duba magana da hujjar asali.\n\nGwaji mai amfani yana bayyana abin shiga da sakamakon da ake tsammani kafin dubawa. Gwada misalin, sannan gwada babu bayanai ko abin da ba a zata ba. Rubuta abin da ya faru ka yi ƙaramin gyara. Sake gwadawa bayan gyara don tabbatar da warware matsalar.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tabbatar da maganar AI”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "AI na iya ƙirƙirar gaskiya da tushe. Duba magana da hujjar asali.",
+    "answer": true,
+    "code": "claim → source → evidence → verified / unknown\n// fluent text ≠ proof"
+  },
+  "ai-privacy": {
+    "title": "Kada a saka sirri a umarni",
+    "body": "Yi amfani da data na ƙirƙira ko mai izini ka cire bayanan sirri.\n\nYi amfani da bayanan ƙirƙira a wannan aiki. Karɓi abin da ake buƙata kawai, cire abin da zai gano mutum kuma rage masu iya gani. Misalin yana nuna bayanan da za a cire ko izinin da za a duba. Kada ka rubuta kalmar sirri ta gaskiya, bayanan tuntuɓa ko takardun sirri.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Kada a saka sirri a umarni”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "A saka kalmar sirri ta gaskiya cikin bayanan gwajin da ake rabawa.",
+    "answer": false,
+    "code": "{\"name\":\"[REMOVED]\",\"health_record\":\"[REMOVED]\",\"example\":\"synthetic\"}"
+  },
+  "ai-project": {
+    "title": "Gina gwajin AI mai alhaki",
+    "body": "Saita tambaya, tushe mai sauƙi, gwaji daban da rahoton kuskure da iyaka.\n\nHaɗa ƙwarewar da ka koya a ƙaramin aiki. Yi amfani da misalin a matsayin tsari, saita buri mai amfani ka ƙirƙiri abin da za ka nuna. Gwada shi da burinka, bayyana iyaka guda da gyara guda. Riƙe rubutunka da hujja don wani ɗalibi ya fahimci shawararka.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Gina gwajin AI mai alhaki”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Saita tambaya, tushe mai sauƙi, gwaji daban da rahoton kuskure da iyaka.",
+    "answer": true,
+    "code": "question → synthetic examples → baseline → test → limitations"
+  },
+  "design-research": {
+    "title": "Binciki matsalar mai amfani",
+    "body": "Tambayi kwarewar kwanan nan ka lura da matsala ba tare da ba da amsa ba.\n\nFara da mutumin da yake buƙatar aikin da abin da yake son yi. Misalin yana haɗa buƙata, amsa mai amfani da mataki na gaba. Ba da isasshen bayani, yi magana cikin mutunci kuma ka guji magana ba tare da hujja ba. Duba aikin tare da mutumin da aka yi masa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Binciki matsalar mai amfani”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Tambayi kwarewar kwanan nan ka lura da matsala ba tare da ba da amsa ba.",
+    "answer": true,
+    "code": "person → goal → obstacle\n// observe behaviour; ask open questions"
+  },
+  "design-flow": {
+    "title": "Zana tafiyar mai amfani",
+    "body": "Zana hanya ta yau da kullum da hanyar kuskure ko offline don murmurewa.\n\nWasu matakai suna dogara da na baya. Bi kibiyoyin misalin ka bayyana abin da zai fara da dalilinsa. Shirya abin da za a yi idan mataki ya kasa. Duba kowane sauyi kafin ci gaba; kaiwa ƙarshe kaɗai ba ya nuna cewa duk aikin ya yi nasara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Zana tafiyar mai amfani”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Matakin dogaro yana iya farawa kafin na farko koyaushe.",
+    "answer": false,
+    "code": "home → lesson → save → confirmation\n// also: offline → retry"
+  },
+  "design-wireframe": {
+    "title": "Zana tsarin farko",
+    "body": "Wireframe yana tsara abun ciki da aiki kafin launi da ado.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Zana tsarin farko”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Wireframe yana tsara abun ciki da aiki kafin launi da ado.",
+    "answer": true,
+    "code": "[heading]\n[explanation]\n[primary action]\n[help]"
+  },
+  "design-hierarchy": {
+    "title": "Tsara muhimmancin abubuwan gani",
+    "body": "Girman take, tazara da aikin farko suna nuna abin da ya fi muhimmanci.\n\nKwatanta zaɓuɓɓuka bisa buri bayyananne, ba kyawunsu kawai ba. Misalin yana nuna zaɓuɓɓuka ko iyaka. Bayyana abin da ake samu da abin da ake rasa; yi kwatanci na adalci da hujja. Abin da ya yi aiki a wuri ɗaya na iya buƙatar gyara a wani.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsara muhimmancin abubuwan gani”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Zaɓin da ya fi kyau a gani shi ne mafi dacewa ga kowane buri.",
+    "answer": false,
+    "code": "H1 > H2 > body\nprimary action: 1\nspacing: 8,16,24"
+  },
+  "design-access": {
+    "title": "Duba amfani ga kowa",
+    "body": "Duba bambancin launi, keyboard, focus, suna da zoom ba tare da ɓoye abun ciki ba.\n\nGwaji mai amfani yana bayyana abin shiga da sakamakon da ake tsammani kafin dubawa. Gwada misalin, sannan gwada babu bayanai ko abin da ba a zata ba. Rubuta abin da ya faru ka yi ƙaramin gyara. Sake gwadawa bayan gyara don tabbatar da warware matsalar.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Duba amfani ga kowa”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Duba bambancin launi, keyboard, focus, suna da zoom ba tare da ɓoye abun ciki ba.",
+    "answer": true,
+    "code": "contrast ≥ 4.5:1\nkeyboard: Tab → Enter\nzoom: 200%\nlabel + input"
+  },
+  "design-prototype": {
+    "title": "Haɗa samfurin dannawa",
+    "body": "Prototype yana haɗa zane don kwaikwayon aiki ba tare da kammala backend ba.\n\nWasu matakai suna dogara da na baya. Bi kibiyoyin misalin ka bayyana abin da zai fara da dalilinsa. Shirya abin da za a yi idan mataki ya kasa. Duba kowane sauyi kafin ci gaba; kaiwa ƙarshe kaɗai ba ya nuna cewa duk aikin ya yi nasara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Haɗa samfurin dannawa”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Matakin dogaro yana iya farawa kafin na farko koyaushe.",
+    "answer": false,
+    "code": "screen A → tap → screen B → back → screen A"
+  },
+  "design-usability": {
+    "title": "Yi gwajin amfani",
+    "body": "Ba da aiki na gaske ka lura ba tare da taimako ba; rubuta inda mutum ya tsaya.\n\nShawara mai amfani tana danganta da abin da aka gani kuma ta nuna mataki na gaba. Duba misalin don hujjar nasara da wahala. Raba abin da ka gani da abin da ka zato. Inganta abu guda ka duba tasirinsa; ƙaramin samfur ba ya wakiltar kowa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Yi gwajin amfani”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ba da aiki na gaske ka lura ba tare da taimako ba; rubuta inda mutum ya tsaya.",
+    "answer": true,
+    "code": "task: A → B\nparticipant 1: ✓\nparticipant 2: A → C → ?\n// observe; do not coach"
+  },
+  "design-iterate": {
+    "title": "Inganta shawarar zane guda",
+    "body": "Canza shawara guda, maimaita aiki ka kwatanta da hankali.\n\nGwaji yana farawa da tambayar da za a bincika da ma’aunin nasara. Misalin yana canza abu guda tare da barin sauran iri ɗaya. Rubuta sakamakon farko, yi ƙaramin gwaji ka kwatanta. Sakamako guda ba ya tabbatar da nasara ga kowane rukuni ko yanayi.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Inganta shawarar zane guda”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Canza abubuwa da yawa tare yana ware tasirin abu guda.",
+    "answer": false,
+    "code": "A: 2/5 succeed\nB: 4/5 succeed\n// same task; changed label only"
+  },
+  "design-project": {
+    "title": "Gabatar da zanen da aka gwada",
+    "body": "Gabatar da buƙata, hanyar da aka gwada, prototype, lura da gyaran da hujja ta goyi baya.\n\nHaɗa ƙwarewar da ka koya a ƙaramin aiki. Yi amfani da misalin a matsayin tsari, saita buri mai amfani ka ƙirƙiri abin da za ka nuna. Gwada shi da burinka, bayyana iyaka guda da gyara guda. Riƙe rubutunka da hujja don wani ɗalibi ya fahimci shawararka.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Gabatar da zanen da aka gwada”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Gabatar da buƙata, hanyar da aka gwada, prototype, lura da gyaran da hujja ta goyi baya.",
+    "answer": true,
+    "code": "need → flow → sketch → prototype → test → revision"
+  },
+  "marketing-audience": {
+    "title": "Bayyana masu sauraro",
+    "body": "Bayyana matsalar rukuni na musamman kafin zaɓar saƙo ko hanya.\n\nFara da mutumin da yake buƙatar aikin da abin da yake son yi. Misalin yana haɗa buƙata, amsa mai amfani da mataki na gaba. Ba da isasshen bayani, yi magana cikin mutunci kuma ka guji magana ba tare da hujja ba. Duba aikin tare da mutumin da aka yi masa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Bayyana masu sauraro”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Bayyana matsalar rukuni na musamman kafin zaɓar saƙo ko hanya.",
+    "answer": true,
+    "code": "audience → problem → benefit → action"
+  },
+  "marketing-value": {
+    "title": "Bayyana amfani mai ma’ana",
+    "body": "Feature yana bayyana tayin; benefit yana nuna taimakon da abokin ciniki zai samu.\n\nKwatanta zaɓuɓɓuka bisa buri bayyananne, ba kyawunsu kawai ba. Misalin yana nuna zaɓuɓɓuka ko iyaka. Bayyana abin da ake samu da abin da ake rasa; yi kwatanci na adalci da hujja. Abin da ya yi aiki a wuri ɗaya na iya buƙatar gyara a wani.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Bayyana amfani mai ma’ana”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Zaɓin da ya fi kyau a gani shi ne mafi dacewa ga kowane buri.",
+    "answer": false,
+    "code": "feature: 10\nbenefit: 10 → goal\n// benefit must be supported by evidence"
+  },
+  "marketing-channel": {
+    "title": "Zaɓi hanyar talla",
+    "body": "Kwatanta kuɗin kowace tambaya mai amfani, ba yawan masu sauraro kawai ba.\n\nKwatanta zaɓuɓɓuka bisa buri bayyananne, ba kyawunsu kawai ba. Misalin yana nuna zaɓuɓɓuka ko iyaka. Bayyana abin da ake samu da abin da ake rasa; yi kwatanci na adalci da hujja. Abin da ya yi aiki a wuri ɗaya na iya buƙatar gyara a wani.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Zaɓi hanyar talla”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Kwatanta kuɗin kowace tambaya mai amfani, ba yawan masu sauraro kawai ba.",
+    "answer": true,
+    "code": "A: cost 20 / 2 enquiries\nB: cost 30 / 6 enquiries"
+  },
+  "marketing-copy": {
+    "title": "Rubuta kiran aiki bayyananne",
+    "body": "Saƙo mai amfani yana bayyana matsala, amfani mai hujja da aiki guda.\n\nFara da mutumin da yake buƙatar aikin da abin da yake son yi. Misalin yana haɗa buƙata, amsa mai amfani da mataki na gaba. Ba da isasshen bayani, yi magana cikin mutunci kuma ka guji magana ba tare da hujja ba. Duba aikin tare da mutumin da aka yi masa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Rubuta kiran aiki bayyananne”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Masu karatu ba sa shafar bayanin saƙo ko kaɗan.",
+    "answer": false,
+    "code": "problem → useful offer → evidence → one action"
+  },
+  "marketing-calendar": {
+    "title": "Tsara kalandar abun ciki",
+    "body": "Saita kwanan wata, mai aiki, masu sauraro da buri ga kowane abun ciki.\n\nWasu matakai suna dogara da na baya. Bi kibiyoyin misalin ka bayyana abin da zai fara da dalilinsa. Shirya abin da za a yi idan mataki ya kasa. Duba kowane sauyi kafin ci gaba; kaiwa ƙarshe kaɗai ba ya nuna cewa duk aikin ya yi nasara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsara kalandar abun ciki”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Saita kwanan wata, mai aiki, masu sauraro da buri ga kowane abun ciki.",
+    "answer": true,
+    "code": "Mon: A\nWed: B\nFri: C\n// owner + date + goal for each"
+  },
+  "marketing-metrics": {
+    "title": "Auna sakamako da kuɗi",
+    "body": "Conversion shi ne aiki raba da visits; cost per enquiry shi ne kuɗi raba da tambayoyi.\n\nLissafi yana buƙatar bayanan shiga, aikin lissafi da ma’auni. Yi misalin da hannu kafin amfani da kayan aiki. Duba abin da ake rabawa da shi, bayanan da babu su da ko sakamakon ya yi ma’ana. Daidaiton lissafi yana buƙatar mahalli kafin yanke shawara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Auna sakamako da kuɗi”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ma’auni da abin rabawa ba su da muhimmanci a lissafi.",
+    "answer": false,
+    "code": "100 visits → 5 enquiries\nconversion = 5 / 100 × 100 = 5%\ncost 20 / 5 enquiries = 4"
+  },
+  "marketing-test": {
+    "title": "Gwada canjin saƙo guda",
+    "body": "Kwatanta saƙonni biyu da sauyi guda a yanayi iri ɗaya; ƙaramin samfur ba tabbas ba ne.\n\nGwaji yana farawa da tambayar da za a bincika da ma’aunin nasara. Misalin yana canza abu guda tare da barin sauran iri ɗaya. Rubuta sakamakon farko, yi ƙaramin gwaji ka kwatanta. Sakamako guda ba ya tabbatar da nasara ga kowane rukuni ko yanayi.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Gwada canjin saƙo guda”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Kwatanta saƙonni biyu da sauyi guda a yanayi iri ɗaya; ƙaramin samfur ba tabbas ba ne.",
+    "answer": true,
+    "code": "A: 10/100 = 10%\nB: 15/100 = 15%\n// change one headline; same audience and period"
+  },
+  "marketing-consent": {
+    "title": "Mutunta yarda da sirri",
+    "body": "Nemi izini kafin tuntuɓar talla ka sauƙaƙa ficewa.\n\nYi amfani da bayanan ƙirƙira a wannan aiki. Karɓi abin da ake buƙata kawai, cire abin da zai gano mutum kuma rage masu iya gani. Misalin yana nuna bayanan da za a cire ko izinin da za a duba. Kada ka rubuta kalmar sirri ta gaskiya, bayanan tuntuɓa ko takardun sirri.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Mutunta yarda da sirri”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "A saka kalmar sirri ta gaskiya cikin bayanan gwajin da ake rabawa.",
+    "answer": false,
+    "code": "opt-in → explain use → unsubscribe\n// no bought contact lists"
+  },
+  "marketing-project": {
+    "title": "Ƙirƙiri ƙaramin shirin talla",
+    "body": "Saita ƙaramin kasafi, hanya da saƙo sannan bayyana abin da za a auna.\n\nHaɗa ƙwarewar da ka koya a ƙaramin aiki. Yi amfani da misalin a matsayin tsari, saita buri mai amfani ka ƙirƙiri abin da za ka nuna. Gwada shi da burinka, bayyana iyaka guda da gyara guda. Riƙe rubutunka da hujja don wani ɗalibi ya fahimci shawararka.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Ƙirƙiri ƙaramin shirin talla”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Saita ƙaramin kasafi, hanya da saƙo sannan bayyana abin da za a auna.",
+    "answer": true,
+    "code": "audience → message → channel → budget → measure → revise"
+  },
+  "business-customer": {
+    "title": "Tambayi abokin ciniki mai yiwuwa",
+    "body": "Tambayi halayen kwanan nan da matsaloli kafin gabatar da mafita.\n\nFara da mutumin da yake buƙatar aikin da abin da yake son yi. Misalin yana haɗa buƙata, amsa mai amfani da mataki na gaba. Ba da isasshen bayani, yi magana cikin mutunci kuma ka guji magana ba tare da hujja ba. Duba aikin tare da mutumin da aka yi masa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tambayi abokin ciniki mai yiwuwa”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Tambayi halayen kwanan nan da matsaloli kafin gabatar da mafita.",
+    "answer": true,
+    "code": "person → problem → current workaround → willingness to pay"
+  },
+  "business-offer": {
+    "title": "Bayyana tayinka",
+    "body": "Tayi yana bayyana abokin ciniki, matsala, kaya, farashi da hanyar isarwa.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Bayyana tayinka”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Bayanin da babu shi dole ya zama sifili koyaushe.",
+    "answer": false,
+    "code": "customer + problem + offer + price + delivery"
+  },
+  "business-costs": {
+    "title": "Lissafa kuɗi da matakin daidaito",
+    "body": "Contribution shi ne farashi rage variable cost; break-even yana rufe fixed costs.\n\nLissafi yana buƙatar bayanan shiga, aikin lissafi da ma’auni. Yi misalin da hannu kafin amfani da kayan aiki. Duba abin da ake rabawa da shi, bayanan da babu su da ko sakamakon ya yi ma’ana. Daidaiton lissafi yana buƙatar mahalli kafin yanke shawara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Lissafa kuɗi da matakin daidaito”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Contribution shi ne farashi rage variable cost; break-even yana rufe fixed costs.",
+    "answer": true,
+    "code": "price = 100\nvariable cost = 70\ncontribution = 30\nfixed costs = 300\nbreak-even = 300 / 30 = 10 units"
+  },
+  "business-cash": {
+    "title": "Tsara shigar kuɗi da fita",
+    "body": "Kuɗin ƙarshe shi ne na farko ƙara shigarwa rage biyan kuɗi; sayar da bashi ba kuɗin hannu ba ne.\n\nLissafi yana buƙatar bayanan shiga, aikin lissafi da ma’auni. Yi misalin da hannu kafin amfani da kayan aiki. Duba abin da ake rabawa da shi, bayanan da babu su da ko sakamakon ya yi ma’ana. Daidaiton lissafi yana buƙatar mahalli kafin yanke shawara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsara shigar kuɗi da fita”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ma’auni da abin rabawa ba su da muhimmanci a lissafi.",
+    "answer": false,
+    "code": "opening cash 200 + receipts 100 − payments 150 = closing cash 150"
+  },
+  "business-validation": {
+    "title": "Tabbatar da ƙaramin gwaji",
+    "body": "Yi hira da ƙaramin gwaji don duba buƙata kafin babban jari.\n\nGwaji yana farawa da tambayar da za a bincika da ma’aunin nasara. Misalin yana canza abu guda tare da barin sauran iri ɗaya. Rubuta sakamakon farko, yi ƙaramin gwaji ka kwatanta. Sakamako guda ba ya tabbatar da nasara ga kowane rukuni ko yanayi.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tabbatar da ƙaramin gwaji”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Yi hira da ƙaramin gwaji don duba buƙata kafin babban jari.",
+    "answer": true,
+    "code": "hypothesis → 5 conversations → small trial → evidence → decision"
+  },
+  "business-operations": {
+    "title": "Tsara matakan isarwa",
+    "body": "Zana matakai daga oda zuwa bin diddigi; zaɓi mai duba inganci.\n\nWasu matakai suna dogara da na baya. Bi kibiyoyin misalin ka bayyana abin da zai fara da dalilinsa. Shirya abin da za a yi idan mataki ya kasa. Duba kowane sauyi kafin ci gaba; kaiwa ƙarshe kaɗai ba ya nuna cewa duk aikin ya yi nasara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsara matakan isarwa”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Matakin dogaro yana iya farawa kafin na farko koyaushe.",
+    "answer": false,
+    "code": "order → confirm → prepare → check → deliver → follow up"
+  },
+  "business-records": {
+    "title": "Riƙe bayanan kasuwanci",
+    "body": "Rubuta kwanan wata, nau’i, adadi da reference; riƙe hujjar kowane motsi.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Riƙe bayanan kasuwanci”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Rubuta kwanan wata, nau’i, adadi da reference; riƙe hujjar kowane motsi.",
+    "answer": true,
+    "code": "date,type,amount,reference\n2026-01-01,in,100,R01\n2026-01-02,out,70,R02"
+  },
+  "business-risk": {
+    "title": "Shirya haɗarin kasuwanci",
+    "body": "Gano babban dogaro, kimanta haɗari ka shirya madadin.\n\nHaɗari yana haɗa yiwuwar faruwar abu da illarsa. Kwatanta yiwuwa da tasiri a misalin sannan zaɓi matakin kariya. Fara da manyan haɗari ka bayyana mai ɗaukar mataki. Jerin dubawa yana rage kuskure amma ba ya kawar da duk barazana.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Shirya haɗarin kasuwanci”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ƙarancin yiwuwa yana nufin haɗari ba zai taɓa cutarwa ba.",
+    "answer": false,
+    "code": "supplier A: likelihood 3 × impact 4 = 12\nbackup supplier → reduce impact"
+  },
+  "business-project": {
+    "title": "Gabatar da ra’ayin da aka gwada",
+    "body": "Gabatar da hujjar abokin ciniki, farashin tayi, gwaji da shirin kuɗi tare da tambayoyi.\n\nHaɗa ƙwarewar da ka koya a ƙaramin aiki. Yi amfani da misalin a matsayin tsari, saita buri mai amfani ka ƙirƙiri abin da za ka nuna. Gwada shi da burinka, bayyana iyaka guda da gyara guda. Riƙe rubutunka da hujja don wani ɗalibi ya fahimci shawararka.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Gabatar da ra’ayin da aka gwada”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Gabatar da hujjar abokin ciniki, farashin tayi, gwaji da shirin kuɗi tare da tambayoyi.",
+    "answer": true,
+    "code": "problem → offer → costs → trial → cash plan → next decision"
+  },
+  "writing-purpose": {
+    "title": "Bayyana mai karatu da manufa",
+    "body": "Gano mai karatu, manufar saƙo da aikin da zai yi na gaba.\n\nFara da mutumin da yake buƙatar aikin da abin da yake son yi. Misalin yana haɗa buƙata, amsa mai amfani da mataki na gaba. Ba da isasshen bayani, yi magana cikin mutunci kuma ka guji magana ba tare da hujja ba. Duba aikin tare da mutumin da aka yi masa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Bayyana mai karatu da manufa”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Gano mai karatu, manufar saƙo da aikin da zai yi na gaba.",
+    "answer": true,
+    "code": "reader → purpose → main point → next action"
+  },
+  "writing-outline": {
+    "title": "Tsara jigon rubutu",
+    "body": "Tsari yana sanya babban batu kafin hujja da kiran aiki.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsara jigon rubutu”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Bayanin da babu shi dole ya zama sifili koyaushe.",
+    "answer": false,
+    "code": "I. main point\nII. evidence\nIII. next action"
+  },
+  "writing-paragraph": {
+    "title": "Gina sakin layi bayyananne",
+    "body": "Sakin layi yana haɓaka ra’ayi guda da bayani da haɗin na gaba.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Gina sakin layi bayyananne”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Sakin layi yana haɓaka ra’ayi guda da bayani da haɗin na gaba.",
+    "answer": true,
+    "code": "topic → supporting detail → connection"
+  },
+  "writing-clarity": {
+    "title": "Sauƙaƙa jimloli",
+    "body": "Cire maimaitawa ka raba dogayen jimloli ba tare da rasa ma’ana ba.\n\nKwatanta zaɓuɓɓuka bisa buri bayyananne, ba kyawunsu kawai ba. Misalin yana nuna zaɓuɓɓuka ko iyaka. Bayyana abin da ake samu da abin da ake rasa; yi kwatanci na adalci da hujja. Abin da ya yi aiki a wuri ɗaya na iya buƙatar gyara a wani.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Sauƙaƙa jimloli”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Zaɓin da ya fi kyau a gani shi ne mafi dacewa ga kowane buri.",
+    "answer": false,
+    "code": "A: 42 words, 3 ideas\nB: 12 words, 1 idea\n// keep meaning; remove repetition"
+  },
+  "writing-evidence": {
+    "title": "Tallafa magana da hujja",
+    "body": "Duba magana da tushen asali, kwanan wata da hujja.\n\nGwaji mai amfani yana bayyana abin shiga da sakamakon da ake tsammani kafin dubawa. Gwada misalin, sannan gwada babu bayanai ko abin da ba a zata ba. Rubuta abin da ya faru ka yi ƙaramin gyara. Sake gwadawa bayan gyara don tabbatar da warware matsalar.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tallafa magana da hujja”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Duba magana da tushen asali, kwanan wata da hujja.",
+    "answer": true,
+    "code": "claim → original source → date → supporting evidence"
+  },
+  "writing-tone": {
+    "title": "Zaɓi salon magana mai dacewa",
+    "body": "Daidaita salon magana da dangantaka tare da gaskiya da mutunci.\n\nFara da mutumin da yake buƙatar aikin da abin da yake son yi. Misalin yana haɗa buƙata, amsa mai amfani da mataki na gaba. Ba da isasshen bayani, yi magana cikin mutunci kuma ka guji magana ba tare da hujja ba. Duba aikin tare da mutumin da aka yi masa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Zaɓi salon magana mai dacewa”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Masu karatu ba sa shafar bayanin saƙo ko kaɗan.",
+    "answer": false,
+    "code": "same facts + different reader → different tone\n// respectful; clear; specific"
+  },
+  "writing-edit": {
+    "title": "Gyara a matakai",
+    "body": "Gyara ma’ana da tsari kafin jimloli da rubutun kalmomi.\n\nShawara mai amfani tana danganta da abin da aka gani kuma ta nuna mataki na gaba. Duba misalin don hujjar nasara da wahala. Raba abin da ka gani da abin da ka zato. Inganta abu guda ka duba tasirinsa; ƙaramin samfur ba ya wakiltar kowa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Gyara a matakai”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Gyara ma’ana da tsari kafin jimloli da rubutun kalmomi.",
+    "answer": true,
+    "code": "draft → meaning → structure → sentence → spelling"
+  },
+  "writing-feedback": {
+    "title": "Yi amfani da ra’ayin mai karatu",
+    "body": "Tambayi abin da mai karatu ya fahimta da inda ya tsaya; gyara wurin.\n\nShawara mai amfani tana danganta da abin da aka gani kuma ta nuna mataki na gaba. Duba misalin don hujjar nasara da wahala. Raba abin da ka gani da abin da ka zato. Inganta abu guda ka duba tasirinsa; ƙaramin samfur ba ya wakiltar kowa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Yi amfani da ra’ayin mai karatu”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ƙaramin samfur yana tabbatar da buƙatar kowane mutum.",
+    "answer": false,
+    "code": "reader understands: A\nreader asks: B?\nrevision: clarify B"
+  },
+  "writing-project": {
+    "title": "Wallafa saƙo mai kyau",
+    "body": "Ƙirƙiri gajeren saƙo mai buri, gaskiyar da aka duba da aiki na gaba.\n\nHaɗa ƙwarewar da ka koya a ƙaramin aiki. Yi amfani da misalin a matsayin tsari, saita buri mai amfani ka ƙirƙiri abin da za ka nuna. Gwada shi da burinka, bayyana iyaka guda da gyara guda. Riƙe rubutunka da hujja don wani ɗalibi ya fahimci shawararka.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Wallafa saƙo mai kyau”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ƙirƙiri gajeren saƙo mai buri, gaskiyar da aka duba da aiki na gaba.",
+    "answer": true,
+    "code": "brief → outline → draft → source check → revision → final message"
+  },
+  "project-scope": {
+    "title": "Saita iyaka da ma’aunin nasara",
+    "body": "Bayyana abin da ya shiga, abin da bai shiga ba da sharadin karɓa.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Saita iyaka da ma’aunin nasara”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Bayyana abin da ya shiga, abin da bai shiga ba da sharadin karɓa.",
+    "answer": true,
+    "code": "outcome + acceptance criteria\nin: A,B\nout: C"
+  },
+  "project-breakdown": {
+    "title": "Rarraba sakamako zuwa ayyuka",
+    "body": "Raba abin da za a bayar zuwa ayyuka masu sauƙi ka sa mai alhaki guda.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Rarraba sakamako zuwa ayyuka”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Bayanin da babu shi dole ya zama sifili koyaushe.",
+    "answer": false,
+    "code": "deliverable → task A → subtask A1,A2\n// one owner per task"
+  },
+  "project-dependencies": {
+    "title": "Tsara dogaron ayyuka",
+    "body": "Aikin dogaro yana jiran na farko; mafi tsawon jerin dogaro yana ƙayyade ƙarshe.\n\nWasu matakai suna dogara da na baya. Bi kibiyoyin misalin ka bayyana abin da zai fara da dalilinsa. Shirya abin da za a yi idan mataki ya kasa. Duba kowane sauyi kafin ci gaba; kaiwa ƙarshe kaɗai ba ya nuna cewa duk aikin ya yi nasara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsara dogaron ayyuka”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Aikin dogaro yana jiran na farko; mafi tsawon jerin dogaro yana ƙayyade ƙarshe.",
+    "answer": true,
+    "code": "A(2 days) → B(3 days) → D(1 day)\nA → C(1 day) → D\n// longest chain: 6 days"
+  },
+  "project-estimates": {
+    "title": "Kimanta lokaci da ƙarfi",
+    "body": "Raba ƙoƙarin aiki da tsawon kalanda ka bar sararin rashin tabbas.\n\nLissafi yana buƙatar bayanan shiga, aikin lissafi da ma’auni. Yi misalin da hannu kafin amfani da kayan aiki. Duba abin da ake rabawa da shi, bayanan da babu su da ko sakamakon ya yi ma’ana. Daidaiton lissafi yana buƙatar mahalli kafin yanke shawara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Kimanta lokaci da ƙarfi”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ma’auni da abin rabawa ba su da muhimmanci a lissafi.",
+    "answer": false,
+    "code": "A: 2h\nB: 3h\nC: 1h\ntotal: 6h + contingency"
+  },
+  "project-board": {
+    "title": "Sarrafa aikin a allo",
+    "body": "Matsar da aiki daga To do zuwa In progress zuwa Done bayan sharadin karɓa.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Sarrafa aikin a allo”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Matsar da aiki daga To do zuwa In progress zuwa Done bayan sharadin karɓa.",
+    "answer": true,
+    "code": "[To do] → [In progress] → [Done]\n// task + owner + acceptance check"
+  },
+  "project-risks": {
+    "title": "Tsara amsar haɗari",
+    "body": "Rubuta yiwuwa, tasiri, mai alhaki da amsa ga haɗari; sake dubawa.\n\nHaɗari yana haɗa yiwuwar faruwar abu da illarsa. Kwatanta yiwuwa da tasiri a misalin sannan zaɓi matakin kariya. Fara da manyan haɗari ka bayyana mai ɗaukar mataki. Jerin dubawa yana rage kuskure amma ba ya kawar da duk barazana.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsara amsar haɗari”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ƙarancin yiwuwa yana nufin haɗari ba zai taɓa cutarwa ba.",
+    "answer": false,
+    "code": "risk: A\nlikelihood: 3\nimpact: 4\nowner: B\nresponse: C"
+  },
+  "project-updates": {
+    "title": "Rubuta rahoton ci gaba",
+    "body": "Rahoton ci gaba yana nuna kammalalle, na gaba, matsala da buƙata bayyananne.\n\nFara da mutumin da yake buƙatar aikin da abin da yake son yi. Misalin yana haɗa buƙata, amsa mai amfani da mataki na gaba. Ba da isasshen bayani, yi magana cikin mutunci kuma ka guji magana ba tare da hujja ba. Duba aikin tare da mutumin da aka yi masa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Rubuta rahoton ci gaba”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Rahoton ci gaba yana nuna kammalalle, na gaba, matsala da buƙata bayyananne.",
+    "answer": true,
+    "code": "completed → next → blocker → request + date"
+  },
+  "project-retro": {
+    "title": "Yi bitar abin da ya faru",
+    "body": "Duba abin da ya taimaka da ya hana; ba gyara guda mai aiki da kwanan wata.\n\nShawara mai amfani tana danganta da abin da aka gani kuma ta nuna mataki na gaba. Duba misalin don hujjar nasara da wahala. Raba abin da ka gani da abin da ka zato. Inganta abu guda ka duba tasirinsa; ƙaramin samfur ba ya wakiltar kowa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Yi bitar abin da ya faru”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ƙaramin samfur yana tabbatar da buƙatar kowane mutum.",
+    "answer": false,
+    "code": "worked: A\nblocked: B\nnext change: C + owner + date"
+  },
+  "project-capstone": {
+    "title": "Tsara ka duba ƙaramin aiki",
+    "body": "Tsara iyaka, ayyuka, dogaro da haɗari ka duba sharadin karɓa na farko.\n\nHaɗa ƙwarewar da ka koya a ƙaramin aiki. Yi amfani da misalin a matsayin tsari, saita buri mai amfani ka ƙirƙiri abin da za ka nuna. Gwada shi da burinka, bayyana iyaka guda da gyara guda. Riƙe rubutunka da hujja don wani ɗalibi ya fahimci shawararka.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsara ka duba ƙaramin aiki”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Tsara iyaka, ayyuka, dogaro da haɗari ka duba sharadin karɓa na farko.",
+    "answer": true,
+    "code": "scope → tasks → dependencies → board → risk review → delivery check"
+  },
+  "teaching-goals": {
+    "title": "Rubuta burin koyo da ake iya gani",
+    "body": "Yi amfani da aiki mai gani kamar bayyana ko lissafa maimakon fahimta kawai.\n\nTsari bayyananne yana ba kowane sashi aikinsa. Karanta misalin daga sama zuwa ƙasa ka gano abin shiga, muhimman filaye da sakamako. Nuna bayanin da babu shi maimakon ƙirƙirarsa. Alamomi masu daidaito suna sauƙaƙa dubawa da sake amfani da aikin.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Rubuta burin koyo da ake iya gani”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Yi amfani da aiki mai gani kamar bayyana ko lissafa maimakon fahimta kawai.",
+    "answer": true,
+    "code": "By the end: learner can [observable action]\n// explain, calculate, demonstrate"
+  },
+  "teaching-baseline": {
+    "title": "Duba ilimin farko",
+    "body": "Gajeren aiki na farko yana nuna ilimin da aka sani da mataki na gaba.\n\nShawara mai amfani tana danganta da abin da aka gani kuma ta nuna mataki na gaba. Duba misalin don hujjar nasara da wahala. Raba abin da ka gani da abin da ka zato. Inganta abu guda ka duba tasirinsa; ƙaramin samfur ba ya wakiltar kowa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Duba ilimin farko”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ƙaramin samfur yana tabbatar da buƙatar kowane mutum.",
+    "answer": false,
+    "code": "before: example task → learner response → next teaching step"
+  },
+  "teaching-example": {
+    "title": "Nuna misalin da aka warware",
+    "body": "Nuna matakai da dalili sannan tambayi ɗalibi ya hango mataki na gaba.\n\nWasu matakai suna dogara da na baya. Bi kibiyoyin misalin ka bayyana abin da zai fara da dalilinsa. Shirya abin da za a yi idan mataki ya kasa. Duba kowane sauyi kafin ci gaba; kaiwa ƙarshe kaɗai ba ya nuna cewa duk aikin ya yi nasara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Nuna misalin da aka warware”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Nuna matakai da dalili sannan tambayi ɗalibi ya hango mataki na gaba.",
+    "answer": true,
+    "code": "show → explain why → learner predicts → compare"
+  },
+  "teaching-practice": {
+    "title": "Tsara gwaji tare da jagora",
+    "body": "Fara da jagora ka rage alamomi kafin aikin kai.\n\nWasu matakai suna dogara da na baya. Bi kibiyoyin misalin ka bayyana abin da zai fara da dalilinsa. Shirya abin da za a yi idan mataki ya kasa. Duba kowane sauyi kafin ci gaba; kaiwa ƙarshe kaɗai ba ya nuna cewa duk aikin ya yi nasara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsara gwaji tare da jagora”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Matakin dogaro yana iya farawa kafin na farko koyaushe.",
+    "answer": false,
+    "code": "guided attempt → hints → independent attempt"
+  },
+  "teaching-feedback": {
+    "title": "Ba da shawarar da za a yi amfani da ita",
+    "body": "Bayyana abin da ka gani da gyara na gaba sannan ba da damar sake gwadawa.\n\nShawara mai amfani tana danganta da abin da aka gani kuma ta nuna mataki na gaba. Duba misalin don hujjar nasara da wahala. Raba abin da ka gani da abin da ka zato. Inganta abu guda ka duba tasirinsa; ƙaramin samfur ba ya wakiltar kowa.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Ba da shawarar da za a yi amfani da ita”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Bayyana abin da ka gani da gyara na gaba sannan ba da damar sake gwadawa.",
+    "answer": true,
+    "code": "specific observation → next improvement → retry"
+  },
+  "teaching-check": {
+    "title": "Duba ƙwarewa da sabon misali",
+    "body": "Duba ƙwarewa ɗaya da sabon misali domin haddacewa kaɗai ba ta isa ba.\n\nGwaji mai amfani yana bayyana abin shiga da sakamakon da ake tsammani kafin dubawa. Gwada misalin, sannan gwada babu bayanai ko abin da ba a zata ba. Rubuta abin da ya faru ka yi ƙaramin gyara. Sake gwadawa bayan gyara don tabbatar da warware matsalar.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Duba ƙwarewa da sabon misali”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Gwajin nasara guda yana tabbatar da aiki a kowane yanayi.",
+    "answer": false,
+    "code": "goal: calculate 10 + 20\ncheck: learner calculates 15 + 25\n// new example; same skill"
+  },
+  "teaching-inclusive": {
+    "title": "Sauƙaƙa gwaji ga kowa",
+    "body": "Ba da rubutu mai karantawa, zane da sauƙin amfani tare da buri ɗaya.\n\nKwatanta zaɓuɓɓuka bisa buri bayyananne, ba kyawunsu kawai ba. Misalin yana nuna zaɓuɓɓuka ko iyaka. Bayyana abin da ake samu da abin da ake rasa; yi kwatanci na adalci da hujja. Abin da ya yi aiki a wuri ɗaya na iya buƙatar gyara a wani.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Sauƙaƙa gwaji ga kowa”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Ba da rubutu mai karantawa, zane da sauƙin amfani tare da buri ɗaya.",
+    "answer": true,
+    "code": "text + diagram + keyboard access\n// same goal; different ways to practise"
+  },
+  "teaching-plan": {
+    "title": "Tsara gajeren zaman koyo",
+    "body": "Raba lokaci ga buri, misali, gwaji da dubawa tare da shawara.\n\nWasu matakai suna dogara da na baya. Bi kibiyoyin misalin ka bayyana abin da zai fara da dalilinsa. Shirya abin da za a yi idan mataki ya kasa. Duba kowane sauyi kafin ci gaba; kaiwa ƙarshe kaɗai ba ya nuna cewa duk aikin ya yi nasara.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Tsara gajeren zaman koyo”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Matakin dogaro yana iya farawa kafin na farko koyaushe.",
+    "answer": false,
+    "code": "2 min: goal\n3 min: example\n7 min: practice\n3 min: check + feedback"
+  },
+  "teaching-project": {
+    "title": "Koyar da ƙaramin darasi ka yi tunani",
+    "body": "Koyar da gajeren zama, riƙe hujjar ƙoƙarin ɗalibi ka gyara matsalar da aka gani.\n\nHaɗa ƙwarewar da ka koya a ƙaramin aiki. Yi amfani da misalin a matsayin tsari, saita buri mai amfani ka ƙirƙiri abin da za ka nuna. Gwada shi da burinka, bayyana iyaka guda da gyara guda. Riƙe rubutunka da hujja don wani ɗalibi ya fahimci shawararka.",
+    "practice": "Yi nazarin misalin sannan ƙirƙiri naka na “Koyar da ƙaramin darasi ka yi tunani”. Canza bayanin shiga ko shawara guda, bayyana sakamako da yadda tsarinka ya cika buri.",
+    "statement": "Koyar da gajeren zama, riƙe hujjar ƙoƙarin ɗalibi ka gyara matsalar da aka gani.",
+    "answer": true,
+    "code": "goal → starting check → example → practice → feedback → reflection"
+  }
+}

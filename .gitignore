@@ -1,0 +1,14 @@
+.tools/
+website-source/
+.dart_tool/
+.flutter-plugins-dependencies
+build/
+*.iml
+
+.idea/
+.DS_Store
+coverage/
+
+.data/
+__pycache__/
+*.pyc

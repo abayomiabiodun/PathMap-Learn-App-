@@ -1,0 +1,793 @@
+{
+  "html": {
+    "title": "Build your first HTML page",
+    "body": "HTML describes the structure of a page. A heading uses <h1>, a paragraph uses <p>, and a link uses <a href=\"...\">. Opening and closing tags wrap the content. The href attribute tells the browser where a link goes.\nStart with one clear heading and a short paragraph. Use descriptive link text so people know where it leads. Your page should still make sense without colours or images.",
+    "practice": "Write HTML for a page about yourself: one h1, a p about your interests, and an a linking to a useful website. Explain what href does.",
+    "statement": "HTML describes the structure of a web page.",
+    "answer": true,
+    "code": "<h1>Ada</h1>\n<p>I enjoy learning.</p>\n<a href=\"https://example.com\">Example website</a>"
+  },
+  "css": {
+    "title": "Style a page with CSS",
+    "body": "CSS controls presentation: colour, spacing and layout. A selector chooses an element; declarations inside braces set properties. In h1 { color: green; }, h1 is the selector and color is the property.\nUse readable text, enough contrast and flexible widths. A fixed width of 900px can overflow a phone screen. max-width: 100% helps content fit. Keep the heading structure from your HTML.",
+    "practice": "Write CSS to give your heading a colour and your paragraph some padding. Explain why a page should fit a small screen.",
+    "statement": "CSS replaces the need for HTML page structure.",
+    "answer": false,
+    "code": "h1 { color: green; }\np { padding: 16px; max-width: 100%; }"
+  },
+  "javascript": {
+    "title": "Add interaction with JavaScript",
+    "body": "JavaScript responds to actions and changes page behaviour. querySelector finds an element; addEventListener runs a function when an event occurs. textContent changes text without treating it as HTML.\nA button already supports keyboard interaction. Use a real button rather than a clickable paragraph. Keep the page useful before the script loads.",
+    "practice": "Write a button and a JavaScript click listener that changes a paragraph to a welcome message. Explain which event starts the change.",
+    "statement": "A click event listener can respond when a button is activated.",
+    "answer": true,
+    "code": "<button id=\"welcome\">Welcome</button>\n<p id=\"message\"></p>\n<script>\ndocument.querySelector(\"#welcome\").addEventListener(\"click\", () => {\n  document.querySelector(\"#message\").textContent = \"Welcome!\";\n});\n</script>"
+  },
+  "data": {
+    "title": "Turn data into a useful question",
+    "body": "Data is recorded information. Start with a question, then organise observations into rows and fields into columns. Missing values are not the same as zero. Check units and repeated rows before calculating. An average is the sum divided by the number of values.",
+    "practice": "Use these daily sales: 10, 20, 30. Calculate the average, label the unit, and write one question the numbers cannot answer.",
+    "statement": "The average of 10, 20 and 30 is 20.",
+    "answer": true
+  },
+  "cyber": {
+    "title": "Protect an account",
+    "body": "A password protects access to an account. Use a unique password for each service and a password manager to store it. Multi-factor authentication adds another check. Unexpected messages asking for a password or code may be phishing. Open the service directly to verify a request.",
+    "practice": "Describe how you would check an unexpected login message. List two steps to protect a test account; do not enter any real passwords here.",
+    "statement": "It is safe to send a sign-in code to anyone who claims to be support.",
+    "answer": false
+  },
+  "ai": {
+    "title": "Understand a model prediction",
+    "body": "A machine learning model learns patterns from examples. Training data influences its predictions. A prediction can be wrong, especially when new examples differ from the training data. Evaluate on separate examples and compare errors, not just successes.",
+    "practice": "Imagine a model recognising fruit. Describe examples for training and separate examples for testing. Name one situation where it might fail.",
+    "statement": "A model prediction is guaranteed to be correct.",
+    "answer": false
+  },
+  "design": {
+    "title": "Design around a user need",
+    "body": "User experience starts with a person and a goal. Describe the problem before drawing screens. A clear label helps people choose the right action. A simple sketch can be tested before building. Observe where someone gets stuck rather than assuming what they need.",
+    "practice": "Sketch a three-step flow for saving a lesson. Name the user goal and one question you would ask during a test.",
+    "statement": "Testing a sketch can reveal problems before an app is built.",
+    "answer": true
+  },
+  "marketing": {
+    "title": "Plan a useful message",
+    "body": "Marketing connects a useful offer with an audience. Define who you want to reach, what problem you solve and what action you want them to take. Measure a relevant outcome, such as enquiries, rather than relying only on views. Avoid claims you cannot support.",
+    "practice": "Write a short message for a local service. Identify its audience, benefit and one clear action. Choose a measure of success.",
+    "statement": "More views always mean more customers.",
+    "answer": false
+  },
+  "business": {
+    "title": "Test a business idea",
+    "body": "A business idea needs a customer problem and a workable offer. Talk to potential customers before investing heavily. Revenue is money received; profit also accounts for costs. A small test can reveal whether people value your offer.",
+    "practice": "An item sells for 100 and costs 70 to provide. Calculate the difference before other costs, then describe a small customer test.",
+    "statement": "Costs need to be considered when estimating profit.",
+    "answer": true
+  },
+  "writing": {
+    "title": "Write for a reader",
+    "body": "Clear writing has a purpose and an audience. Put the main point early, use concrete words and give the reader a next step. Revise sentences that combine too many ideas. Check whether the reader has enough context to act.",
+    "practice": "Write a four-sentence message inviting a friend to a study session. Include the purpose, time, place and next action.",
+    "statement": "Knowing your audience helps you decide what details to include.",
+    "answer": true
+  },
+  "project": {
+    "title": "Break a project into tasks",
+    "body": "A project has an outcome, tasks and constraints. Break work into small tasks, assign responsibility and identify dependencies. A task that needs another task first cannot start freely. Review progress and adjust the plan when circumstances change.",
+    "practice": "Plan a small study event with four tasks, an owner for each and one dependency. State what a successful event would achieve.",
+    "statement": "Every project task can always start at the same time.",
+    "answer": false
+  },
+  "teaching": {
+    "title": "Help someone learn",
+    "body": "A lesson needs a clear learning goal, an example, practice and feedback. Demonstrating a skill is not the same as learning it. Ask the learner to try the skill and explain their reasoning. Use the response to decide what to teach next.",
+    "practice": "Plan a ten-minute lesson on a skill you know. Write its goal, a practice activity and one question to check understanding.",
+    "statement": "Practice and feedback help a teacher check understanding.",
+    "answer": true
+  },
+  "web-semantic": {
+    "title": "Use semantic HTML",
+    "body": "Use header for introductory content, main for the page’s central content and footer for closing information.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Use semantic HTML”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Use header for introductory content, main for the page’s central content and footer for closing information.",
+    "answer": true,
+    "code": "<header>…</header>\n<main><article>…</article></main>\n<footer>…</footer>"
+  },
+  "web-layout": {
+    "title": "Build responsive layouts",
+    "body": "Grid auto-fit creates as many columns as fit; minmax prevents cards becoming too narrow.\n\nCompare options against a clear goal rather than choosing the most attractive one. The example shows alternatives or a constraint. Name the trade-off, keep the comparison fair and justify your choice with evidence. A solution that works in one situation may need adjustment in another.",
+    "practice": "Study the example, then create your own version of “Build responsive layouts”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The most attractive option is always the best for every goal.",
+    "answer": false,
+    "code": ".cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }"
+  },
+  "web-forms": {
+    "title": "Collect input with forms",
+    "body": "A label names its input; type=email checks format and required rejects an empty value.\n\nA useful test states the input and the expected result before checking the actual result. Try the worked example, then include an empty, unexpected or boundary case. Record what happened and make a small correction. Repeat the test after the correction so you know the problem was addressed.",
+    "practice": "Study the example, then create your own version of “Collect input with forms”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A label names its input; type=email checks format and required rejects an empty value.",
+    "answer": true,
+    "code": "<label for=\"email\">Email</label>\n<input id=\"email\" type=\"email\" required>\n// test: \"\", \"ada\", \"ada@example.test\""
+  },
+  "web-dom": {
+    "title": "Connect events to the DOM",
+    "body": "querySelector finds an element; addEventListener connects an action to a function; textContent changes plain text.\n\nSome steps depend on earlier steps. Follow the arrows in the worked example and explain what must happen first and why. A sequence should also describe what happens when a step fails. Check each transition before moving on; completing the last step alone does not prove the whole process worked.",
+    "practice": "Study the example, then create your own version of “Connect events to the DOM”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A dependent step can always start before its prerequisite.",
+    "answer": false,
+    "code": "const button = document.querySelector(\"button\");\nbutton.addEventListener(\"click\", () => {\n  document.querySelector(\"p\").textContent = \"✓\";\n});"
+  },
+  "web-access": {
+    "title": "Make a page accessible",
+    "body": "Real buttons support keyboard activation. Text needs sufficient contrast, and actions need descriptive labels.\n\nFeedback is useful when it refers to an observation and suggests a specific next step. Inspect the example for evidence of what worked and what caused difficulty. Separate what you observed from what you assumed. Make one improvement and check whether it helps; a small sample does not represent everyone.",
+    "practice": "Study the example, then create your own version of “Make a page accessible”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Real buttons support keyboard activation. Text needs sufficient contrast, and actions need descriptive labels.",
+    "answer": true,
+    "code": "<button type=\"button\">✓</button>\n// Tab → Enter → ✓\n// contrast: 4.5:1"
+  },
+  "web-debug": {
+    "title": "Debug and test a feature",
+    "body": "Test normal and zero quantities; a multiplication function should return 15 for 5 × 3 and zero for 5 × 0.\n\nA useful test states the input and the expected result before checking the actual result. Try the worked example, then include an empty, unexpected or boundary case. Record what happened and make a small correction. Repeat the test after the correction so you know the problem was addressed.",
+    "practice": "Study the example, then create your own version of “Debug and test a feature”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Testing only one successful case proves a feature works in all situations.",
+    "answer": false,
+    "code": "const total = (price, quantity) => price * quantity;\n// total(5, 3) → 15\n// total(5, 0) → 0"
+  },
+  "web-project": {
+    "title": "Build a personal website",
+    "body": "Combine semantic HTML, responsive CSS and one keyboard-accessible interaction in your personal website.\n\nBring the earlier skills together in a small project. Use the worked example as a starting outline, define a useful outcome and create something you can demonstrate. Test it against your goal, explain a limitation and record one improvement. Keep your draft and evidence so another learner can understand your decisions.",
+    "practice": "Study the example, then create your own version of “Build a personal website”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Combine semantic HTML, responsive CSS and one keyboard-accessible interaction in your personal website.",
+    "answer": true,
+    "code": "<!doctype html>\n<html lang=\"en\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <main>…</main>\n</html>"
+  },
+  "data-clean": {
+    "title": "Clean a small dataset",
+    "body": "A repeated identifier may be a duplicate. An empty value is unknown, not automatically zero.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Clean a small dataset”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A repeated identifier may be a duplicate. An empty value is unknown, not automatically zero.",
+    "answer": true,
+    "code": "id,value\n1,10\n2,\n2,20\n3,30\n// duplicate id: 2; missing ≠ 0"
+  },
+  "data-measures": {
+    "title": "Choose useful summary measures",
+    "body": "Mean uses all values and is sensitive to extremes; median is the middle of sorted values.\n\nA calculation needs defined inputs, an operation and a meaningful unit. Work through the example by hand before using a tool. Check the denominator, missing values and whether the result is plausible. An accurate calculation still needs context before it supports a decision.",
+    "practice": "Study the example, then create your own version of “Choose useful summary measures”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The units and denominator do not matter in a calculation.",
+    "answer": false,
+    "code": "(10 + 20 + 30) / 3 = 20\nmedian(10, 20, 90) = 20\nmean(10, 20, 90) = 40"
+  },
+  "data-sheets": {
+    "title": "Calculate with spreadsheets",
+    "body": "SUM adds a range, AVERAGE finds its mean and COUNT counts its numeric cells.\n\nA calculation needs defined inputs, an operation and a meaningful unit. Work through the example by hand before using a tool. Check the denominator, missing values and whether the result is plausible. An accurate calculation still needs context before it supports a decision.",
+    "practice": "Study the example, then create your own version of “Calculate with spreadsheets”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "SUM adds a range, AVERAGE finds its mean and COUNT counts its numeric cells.",
+    "answer": true,
+    "code": "=SUM(B2:B4)\n=AVERAGE(B2:B4)\n=COUNT(B2:B4)\n// B2:B4 = 10,20,30"
+  },
+  "data-filter": {
+    "title": "Sort and filter records",
+    "body": "Filtering keeps matching rows; sorting changes row order without changing the recorded values.\n\nCompare options against a clear goal rather than choosing the most attractive one. The example shows alternatives or a constraint. Name the trade-off, keep the comparison fair and justify your choice with evidence. A solution that works in one situation may need adjustment in another.",
+    "practice": "Study the example, then create your own version of “Sort and filter records”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The most attractive option is always the best for every goal.",
+    "answer": false,
+    "code": "id,region,value\n1,A,10\n2,B,30\n3,A,20\n// region=A → 1,3; value descending → 2,3,1"
+  },
+  "data-charts": {
+    "title": "Choose an honest chart",
+    "body": "Bar charts compare categories. Label units and start a bar’s numerical axis at zero.\n\nCompare options against a clear goal rather than choosing the most attractive one. The example shows alternatives or a constraint. Name the trade-off, keep the comparison fair and justify your choice with evidence. A solution that works in one situation may need adjustment in another.",
+    "practice": "Study the example, then create your own version of “Choose an honest chart”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Bar charts compare categories. Label units and start a bar’s numerical axis at zero.",
+    "answer": true,
+    "code": "A: ███ 30\nB: ██ 20\nC: █ 10\n// axis starts at 0; same unit"
+  },
+  "data-sql": {
+    "title": "Group data with SQL",
+    "body": "GROUP BY forms groups; SUM calculates one total for each group in the SQL result.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Group data with SQL”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Missing information should always be replaced with zero.",
+    "answer": false,
+    "code": "SELECT region, SUM(value) AS total\nFROM sales\nGROUP BY region;\n// A → 30; B → 30"
+  },
+  "data-privacy": {
+    "title": "Handle personal data carefully",
+    "body": "Replacing names with IDs reduces exposure, but other fields may still identify a person.\n\nUse invented information for this exercise. Collect only the information needed for a clear purpose, remove identifying details and limit who can see it. The example shows data that should be removed or permission that should be checked. Do not put real passwords, contact details or confidential records in your notes.",
+    "practice": "Study the example, then create your own version of “Handle personal data carefully”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Replacing names with IDs reduces exposure, but other fields may still identify a person.",
+    "answer": true,
+    "code": "{\"person_id\":\"P01\",\"age_band\":\"20–29\",\"value\":10}\n// remove: name, email, phone"
+  },
+  "data-evidence": {
+    "title": "Explain findings and limits",
+    "body": "State sample size and uncertainty. An association between two values does not establish causation.\n\nFeedback is useful when it refers to an observation and suggests a specific next step. Inspect the example for evidence of what worked and what caused difficulty. Separate what you observed from what you assumed. Make one improvement and check whether it helps; a small sample does not represent everyone.",
+    "practice": "Study the example, then create your own version of “Explain findings and limits”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A small sample proves what every person needs.",
+    "answer": false,
+    "code": "n = 3\nmean = 20\nrange = 10–30\n// correlation ≠ causation"
+  },
+  "data-project": {
+    "title": "Create a small data report",
+    "body": "Answer one question using cleaned data, a labelled chart and a recommendation with stated limitations.\n\nBring the earlier skills together in a small project. Use the worked example as a starting outline, define a useful outcome and create something you can demonstrate. Test it against your goal, explain a limitation and record one improvement. Keep your draft and evidence so another learner can understand your decisions.",
+    "practice": "Study the example, then create your own version of “Create a small data report”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Answer one question using cleaned data, a labelled chart and a recommendation with stated limitations.",
+    "answer": true,
+    "code": "CSV → clean → calculate → chart → recommendation\n10,20,30 → 20 → ███ → ?"
+  },
+  "cyber-phishing": {
+    "title": "Spot a phishing link",
+    "body": "Read the actual hostname: example.test.evil.test belongs to evil.test, not example.test.\n\nA risk combines the chance of something happening with the harm it could cause. In the example, compare likelihood and impact, then choose a practical control. Prioritise larger risks and name who will act. A checklist reduces mistakes but cannot guarantee that every threat has disappeared.",
+    "practice": "Study the example, then create your own version of “Spot a phishing link”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Read the actual hostname: example.test.evil.test belongs to evil.test, not example.test.",
+    "answer": true,
+    "code": "https://example.test\nhttps://example.test.evil.test\n// host: example.test ≠ example.test.evil.test"
+  },
+  "cyber-privacy": {
+    "title": "Keep sensitive information private",
+    "body": "Passwords and sign-in codes are secrets; replace them with invented placeholders in reports.\n\nUse invented information for this exercise. Collect only the information needed for a clear purpose, remove identifying details and limit who can see it. The example shows data that should be removed or permission that should be checked. Do not put real passwords, contact details or confidential records in your notes.",
+    "practice": "Study the example, then create your own version of “Keep sensitive information private”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Real passwords should be included in shared practice notes.",
+    "answer": false,
+    "code": "{\"account\":\"test-01\",\"password\":\"[REDACTED]\",\"mfa_code\":\"[REDACTED]\"}"
+  },
+  "cyber-updates": {
+    "title": "Update devices safely",
+    "body": "Back up important data, obtain updates from the official source, restart and confirm the installed version.\n\nSome steps depend on earlier steps. Follow the arrows in the worked example and explain what must happen first and why. A sequence should also describe what happens when a step fails. Check each transition before moving on; completing the last step alone does not prove the whole process worked.",
+    "practice": "Study the example, then create your own version of “Update devices safely”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Back up important data, obtain updates from the official source, restart and confirm the installed version.",
+    "answer": true,
+    "code": "backup → official update → restart → version check"
+  },
+  "cyber-network": {
+    "title": "Understand a network journey",
+    "body": "DNS resolves names. HTTPS protects data in transit but a fraudulent site can also use HTTPS.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Understand a network journey”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Missing information should always be replaced with zero.",
+    "answer": false,
+    "code": "device → router → DNS → HTTPS server\n// HTTPS protects transit; does not guarantee honesty"
+  },
+  "cyber-permissions": {
+    "title": "Choose minimum permissions",
+    "body": "Least privilege gives only the permissions needed for the task; admin access carries additional risk.\n\nCompare options against a clear goal rather than choosing the most attractive one. The example shows alternatives or a constraint. Name the trade-off, keep the comparison fair and justify your choice with evidence. A solution that works in one situation may need adjustment in another.",
+    "practice": "Study the example, then create your own version of “Choose minimum permissions”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Least privilege gives only the permissions needed for the task; admin access carries additional risk.",
+    "answer": true,
+    "code": "viewer: read\neditor: read + write\nadmin: read + write + manage\n// role = minimum needed"
+  },
+  "cyber-backup": {
+    "title": "Test a backup and restore",
+    "body": "An untested backup may be unusable. Restore a harmless test file and compare its contents.\n\nA useful test states the input and the expected result before checking the actual result. Try the worked example, then include an empty, unexpected or boundary case. Record what happened and make a small correction. Repeat the test after the correction so you know the problem was addressed.",
+    "practice": "Study the example, then create your own version of “Test a backup and restore”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Testing only one successful case proves a feature works in all situations.",
+    "answer": false,
+    "code": "3 copies · 2 storage types · 1 off-site\n// restore a test file; compare contents"
+  },
+  "cyber-threats": {
+    "title": "Prioritise security risks",
+    "body": "Likelihood multiplied by impact provides a simple prioritisation score, not a certain prediction.\n\nA risk combines the chance of something happening with the harm it could cause. In the example, compare likelihood and impact, then choose a practical control. Prioritise larger risks and name who will act. A checklist reduces mistakes but cannot guarantee that every threat has disappeared.",
+    "practice": "Study the example, then create your own version of “Prioritise security risks”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Likelihood multiplied by impact provides a simple prioritisation score, not a certain prediction.",
+    "answer": true,
+    "code": "risk = likelihood × impact\nA: 3 × 4 = 12\nB: 1 × 2 = 2"
+  },
+  "cyber-response": {
+    "title": "Respond to a suspected incident",
+    "body": "For a suspected incident, isolate affected equipment, report it and preserve evidence before recovery.\n\nSome steps depend on earlier steps. Follow the arrows in the worked example and explain what must happen first and why. A sequence should also describe what happens when a step fails. Check each transition before moving on; completing the last step alone does not prove the whole process worked.",
+    "practice": "Study the example, then create your own version of “Respond to a suspected incident”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A dependent step can always start before its prerequisite.",
+    "answer": false,
+    "code": "isolate → report → preserve evidence → recover\n// practise only on your own test device"
+  },
+  "cyber-project": {
+    "title": "Create a security checklist",
+    "body": "Document account protection, updates, permissions and a successful backup restore on your own test setup.\n\nBring the earlier skills together in a small project. Use the worked example as a starting outline, define a useful outcome and create something you can demonstrate. Test it against your goal, explain a limitation and record one improvement. Keep your draft and evidence so another learner can understand your decisions.",
+    "practice": "Study the example, then create your own version of “Create a security checklist”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Document account protection, updates, permissions and a successful backup restore on your own test setup.",
+    "answer": true,
+    "code": "test account → MFA → permissions → backup → restore check"
+  },
+  "ai-data": {
+    "title": "Organise labelled examples",
+    "body": "Each training row needs relevant input features and a consistent label; check errors and missing examples.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Organise labelled examples”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Each training row needs relevant input features and a consistent label; check errors and missing examples.",
+    "answer": true,
+    "code": "id,x,label\n1,1,A\n2,2,A\n3,8,B\n4,9,B"
+  },
+  "ai-split": {
+    "title": "Separate training and testing",
+    "body": "Hold out test examples before training; leaking them into training makes the evaluation misleading.\n\nTraining examples help a model learn a pattern; separate test examples check whether it works beyond those examples. Keep the test set out of training and compare predictions with known answers. Errors and unfamiliar cases matter. Good performance on a small test does not guarantee reliable performance everywhere.",
+    "practice": "Study the example, then create your own version of “Separate training and testing”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Using test examples in training gives a fair evaluation.",
+    "answer": false,
+    "code": "train: 1,2,3\ntest: 4\n// no test examples in training"
+  },
+  "ai-baseline": {
+    "title": "Compare with a baseline",
+    "body": "An always-A prediction reaches 75% on three A labels and one B; compare models with this baseline.\n\nCompare options against a clear goal rather than choosing the most attractive one. The example shows alternatives or a constraint. Name the trade-off, keep the comparison fair and justify your choice with evidence. A solution that works in one situation may need adjustment in another.",
+    "practice": "Study the example, then create your own version of “Compare with a baseline”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "An always-A prediction reaches 75% on three A labels and one B; compare models with this baseline.",
+    "answer": true,
+    "code": "labels: A,A,A,B\n// always predict A → 3/4\n// model accuracy must be compared with baseline"
+  },
+  "ai-evaluate": {
+    "title": "Measure prediction accuracy",
+    "body": "Accuracy is correct predictions divided by all predictions; three correct out of four gives 75%.\n\nA calculation needs defined inputs, an operation and a meaningful unit. Work through the example by hand before using a tool. Check the denominator, missing values and whether the result is plausible. An accurate calculation still needs context before it supports a decision.",
+    "practice": "Study the example, then create your own version of “Measure prediction accuracy”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The units and denominator do not matter in a calculation.",
+    "answer": false,
+    "code": "actual: A,A,B,B\npredicted: A,B,B,B\naccuracy = 3 / 4 = 75%"
+  },
+  "ai-bias": {
+    "title": "Check errors across groups",
+    "body": "An overall score can hide poor results for a group; inspect group results and sample sizes.\n\nFeedback is useful when it refers to an observation and suggests a specific next step. Inspect the example for evidence of what worked and what caused difficulty. Separate what you observed from what you assumed. Make one improvement and check whether it helps; a small sample does not represent everyone.",
+    "practice": "Study the example, then create your own version of “Check errors across groups”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "An overall score can hide poor results for a group; inspect group results and sample sizes.",
+    "answer": true,
+    "code": "group A: 9/10 = 90%\ngroup B: 5/10 = 50%\noverall: 14/20 = 70%"
+  },
+  "ai-prompts": {
+    "title": "Write a structured prompt",
+    "body": "A prompt should define a task, context, output format and constraints; avoid confidential input.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Write a structured prompt”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Missing information should always be replaced with zero.",
+    "answer": false,
+    "code": "{\"task\":\"summarise\",\"context\":\"[synthetic text]\",\"format\":\"3 bullet points\",\"constraint\":\"use only supplied facts\"}"
+  },
+  "ai-verification": {
+    "title": "Verify generated claims",
+    "body": "Generated text can invent facts and sources. Check claims against the original evidence.\n\nA useful test states the input and the expected result before checking the actual result. Try the worked example, then include an empty, unexpected or boundary case. Record what happened and make a small correction. Repeat the test after the correction so you know the problem was addressed.",
+    "practice": "Study the example, then create your own version of “Verify generated claims”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Generated text can invent facts and sources. Check claims against the original evidence.",
+    "answer": true,
+    "code": "claim → source → evidence → verified / unknown\n// fluent text ≠ proof"
+  },
+  "ai-privacy": {
+    "title": "Keep private data out of prompts",
+    "body": "Use synthetic or permitted data and remove confidential details before submitting a prompt.\n\nUse invented information for this exercise. Collect only the information needed for a clear purpose, remove identifying details and limit who can see it. The example shows data that should be removed or permission that should be checked. Do not put real passwords, contact details or confidential records in your notes.",
+    "practice": "Study the example, then create your own version of “Keep private data out of prompts”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Real passwords should be included in shared practice notes.",
+    "answer": false,
+    "code": "{\"name\":\"[REMOVED]\",\"health_record\":\"[REMOVED]\",\"example\":\"synthetic\"}"
+  },
+  "ai-project": {
+    "title": "Build a responsible AI experiment",
+    "body": "Define a question, build a simple baseline, test separate examples and report errors and limitations.\n\nBring the earlier skills together in a small project. Use the worked example as a starting outline, define a useful outcome and create something you can demonstrate. Test it against your goal, explain a limitation and record one improvement. Keep your draft and evidence so another learner can understand your decisions.",
+    "practice": "Study the example, then create your own version of “Build a responsible AI experiment”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Define a question, build a simple baseline, test separate examples and report errors and limitations.",
+    "answer": true,
+    "code": "question → synthetic examples → baseline → test → limitations"
+  },
+  "design-research": {
+    "title": "Research a user problem",
+    "body": "Ask about a real recent experience and observe obstacles rather than suggesting the answer.\n\nBegin with the person who needs the work and the action they want to take. The example connects a need, a useful response and a next step. Include enough context to make that step clear, use respectful language and avoid unsupported claims. Check the result with someone from the intended audience.",
+    "practice": "Study the example, then create your own version of “Research a user problem”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Ask about a real recent experience and observe obstacles rather than suggesting the answer.",
+    "answer": true,
+    "code": "person → goal → obstacle\n// observe behaviour; ask open questions"
+  },
+  "design-flow": {
+    "title": "Map the user journey",
+    "body": "Map the happy path and an error or offline path so the user can recover.\n\nSome steps depend on earlier steps. Follow the arrows in the worked example and explain what must happen first and why. A sequence should also describe what happens when a step fails. Check each transition before moving on; completing the last step alone does not prove the whole process worked.",
+    "practice": "Study the example, then create your own version of “Map the user journey”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A dependent step can always start before its prerequisite.",
+    "answer": false,
+    "code": "home → lesson → save → confirmation\n// also: offline → retry"
+  },
+  "design-wireframe": {
+    "title": "Sketch a wireframe",
+    "body": "A wireframe organises content and actions before spending time on colour and visual decoration.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Sketch a wireframe”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A wireframe organises content and actions before spending time on colour and visual decoration.",
+    "answer": true,
+    "code": "[heading]\n[explanation]\n[primary action]\n[help]"
+  },
+  "design-hierarchy": {
+    "title": "Create a visual hierarchy",
+    "body": "Heading size, spacing and one primary action help the user identify what matters first.\n\nCompare options against a clear goal rather than choosing the most attractive one. The example shows alternatives or a constraint. Name the trade-off, keep the comparison fair and justify your choice with evidence. A solution that works in one situation may need adjustment in another.",
+    "practice": "Study the example, then create your own version of “Create a visual hierarchy”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The most attractive option is always the best for every goal.",
+    "answer": false,
+    "code": "H1 > H2 > body\nprimary action: 1\nspacing: 8,16,24"
+  },
+  "design-access": {
+    "title": "Check accessible design",
+    "body": "Check readable contrast, keyboard operation, visible focus, labels and zoom without hiding content.\n\nA useful test states the input and the expected result before checking the actual result. Try the worked example, then include an empty, unexpected or boundary case. Record what happened and make a small correction. Repeat the test after the correction so you know the problem was addressed.",
+    "practice": "Study the example, then create your own version of “Check accessible design”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Check readable contrast, keyboard operation, visible focus, labels and zoom without hiding content.",
+    "answer": true,
+    "code": "contrast ≥ 4.5:1\nkeyboard: Tab → Enter\nzoom: 200%\nlabel + input"
+  },
+  "design-prototype": {
+    "title": "Connect a clickable prototype",
+    "body": "A clickable prototype links sketches to simulate an action; it does not need a finished backend.\n\nSome steps depend on earlier steps. Follow the arrows in the worked example and explain what must happen first and why. A sequence should also describe what happens when a step fails. Check each transition before moving on; completing the last step alone does not prove the whole process worked.",
+    "practice": "Study the example, then create your own version of “Connect a clickable prototype”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A dependent step can always start before its prerequisite.",
+    "answer": false,
+    "code": "screen A → tap → screen B → back → screen A"
+  },
+  "design-usability": {
+    "title": "Run a usability test",
+    "body": "Give a realistic task and observe without coaching; record where the participant gets stuck.\n\nFeedback is useful when it refers to an observation and suggests a specific next step. Inspect the example for evidence of what worked and what caused difficulty. Separate what you observed from what you assumed. Make one improvement and check whether it helps; a small sample does not represent everyone.",
+    "practice": "Study the example, then create your own version of “Run a usability test”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Give a realistic task and observe without coaching; record where the participant gets stuck.",
+    "answer": true,
+    "code": "task: A → B\nparticipant 1: ✓\nparticipant 2: A → C → ?\n// observe; do not coach"
+  },
+  "design-iterate": {
+    "title": "Improve one design decision",
+    "body": "Change one design choice, repeat the same task and compare observations cautiously.\n\nAn experiment begins with a testable question and a measure of success. The example changes one factor while keeping the rest comparable. Record a baseline, run a small trial and compare the result. Do not promise that one small result will hold for every audience or situation.",
+    "practice": "Study the example, then create your own version of “Improve one design decision”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Changing many factors at once isolates the effect of one factor.",
+    "answer": false,
+    "code": "A: 2/5 succeed\nB: 4/5 succeed\n// same task; changed label only"
+  },
+  "design-project": {
+    "title": "Present a tested design",
+    "body": "Present a user need, tested flow, prototype, observations and the revision they supported.\n\nBring the earlier skills together in a small project. Use the worked example as a starting outline, define a useful outcome and create something you can demonstrate. Test it against your goal, explain a limitation and record one improvement. Keep your draft and evidence so another learner can understand your decisions.",
+    "practice": "Study the example, then create your own version of “Present a tested design”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Present a user need, tested flow, prototype, observations and the revision they supported.",
+    "answer": true,
+    "code": "need → flow → sketch → prototype → test → revision"
+  },
+  "marketing-audience": {
+    "title": "Define your audience",
+    "body": "Describe a specific audience’s problem before choosing a message or channel.\n\nBegin with the person who needs the work and the action they want to take. The example connects a need, a useful response and a next step. Include enough context to make that step clear, use respectful language and avoid unsupported claims. Check the result with someone from the intended audience.",
+    "practice": "Study the example, then create your own version of “Define your audience”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Describe a specific audience’s problem before choosing a message or channel.",
+    "answer": true,
+    "code": "audience → problem → benefit → action"
+  },
+  "marketing-value": {
+    "title": "Explain a useful benefit",
+    "body": "A feature describes the offer; a benefit explains how it helps the customer reach a goal.\n\nCompare options against a clear goal rather than choosing the most attractive one. The example shows alternatives or a constraint. Name the trade-off, keep the comparison fair and justify your choice with evidence. A solution that works in one situation may need adjustment in another.",
+    "practice": "Study the example, then create your own version of “Explain a useful benefit”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The most attractive option is always the best for every goal.",
+    "answer": false,
+    "code": "feature: 10\nbenefit: 10 → goal\n// benefit must be supported by evidence"
+  },
+  "marketing-channel": {
+    "title": "Choose a marketing channel",
+    "body": "Compare cost per relevant enquiry, not audience size alone, when choosing a channel.\n\nCompare options against a clear goal rather than choosing the most attractive one. The example shows alternatives or a constraint. Name the trade-off, keep the comparison fair and justify your choice with evidence. A solution that works in one situation may need adjustment in another.",
+    "practice": "Study the example, then create your own version of “Choose a marketing channel”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Compare cost per relevant enquiry, not audience size alone, when choosing a channel.",
+    "answer": true,
+    "code": "A: cost 20 / 2 enquiries\nB: cost 30 / 6 enquiries"
+  },
+  "marketing-copy": {
+    "title": "Write a clear call to action",
+    "body": "A useful message states a problem, a supported benefit and one clear action.\n\nBegin with the person who needs the work and the action they want to take. The example connects a need, a useful response and a next step. Include enough context to make that step clear, use respectful language and avoid unsupported claims. Check the result with someone from the intended audience.",
+    "practice": "Study the example, then create your own version of “Write a clear call to action”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The intended audience never affects the details a message needs.",
+    "answer": false,
+    "code": "problem → useful offer → evidence → one action"
+  },
+  "marketing-calendar": {
+    "title": "Plan a content calendar",
+    "body": "Plan a date, owner, audience and objective for each item of content.\n\nSome steps depend on earlier steps. Follow the arrows in the worked example and explain what must happen first and why. A sequence should also describe what happens when a step fails. Check each transition before moving on; completing the last step alone does not prove the whole process worked.",
+    "practice": "Study the example, then create your own version of “Plan a content calendar”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Plan a date, owner, audience and objective for each item of content.",
+    "answer": true,
+    "code": "Mon: A\nWed: B\nFri: C\n// owner + date + goal for each"
+  },
+  "marketing-metrics": {
+    "title": "Measure conversion and cost",
+    "body": "Conversion rate is actions divided by visits; cost per enquiry is spend divided by enquiries.\n\nA calculation needs defined inputs, an operation and a meaningful unit. Work through the example by hand before using a tool. Check the denominator, missing values and whether the result is plausible. An accurate calculation still needs context before it supports a decision.",
+    "practice": "Study the example, then create your own version of “Measure conversion and cost”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The units and denominator do not matter in a calculation.",
+    "answer": false,
+    "code": "100 visits → 5 enquiries\nconversion = 5 / 100 × 100 = 5%\ncost 20 / 5 enquiries = 4"
+  },
+  "marketing-test": {
+    "title": "Test one message change",
+    "body": "Compare two messages with one changed element under similar conditions; small samples remain uncertain.\n\nAn experiment begins with a testable question and a measure of success. The example changes one factor while keeping the rest comparable. Record a baseline, run a small trial and compare the result. Do not promise that one small result will hold for every audience or situation.",
+    "practice": "Study the example, then create your own version of “Test one message change”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Compare two messages with one changed element under similar conditions; small samples remain uncertain.",
+    "answer": true,
+    "code": "A: 10/100 = 10%\nB: 15/100 = 15%\n// change one headline; same audience and period"
+  },
+  "marketing-consent": {
+    "title": "Respect consent and privacy",
+    "body": "Ask permission before marketing contact and provide an easy way to unsubscribe.\n\nUse invented information for this exercise. Collect only the information needed for a clear purpose, remove identifying details and limit who can see it. The example shows data that should be removed or permission that should be checked. Do not put real passwords, contact details or confidential records in your notes.",
+    "practice": "Study the example, then create your own version of “Respect consent and privacy”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Real passwords should be included in shared practice notes.",
+    "answer": false,
+    "code": "opt-in → explain use → unsubscribe\n// no bought contact lists"
+  },
+  "marketing-project": {
+    "title": "Create a small campaign plan",
+    "body": "Set a small budget, select a channel and message, then define the result you will measure.\n\nBring the earlier skills together in a small project. Use the worked example as a starting outline, define a useful outcome and create something you can demonstrate. Test it against your goal, explain a limitation and record one improvement. Keep your draft and evidence so another learner can understand your decisions.",
+    "practice": "Study the example, then create your own version of “Create a small campaign plan”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Set a small budget, select a channel and message, then define the result you will measure.",
+    "answer": true,
+    "code": "audience → message → channel → budget → measure → revise"
+  },
+  "business-customer": {
+    "title": "Interview a potential customer",
+    "body": "Ask customers about recent behaviour and current problems before pitching your solution.\n\nBegin with the person who needs the work and the action they want to take. The example connects a need, a useful response and a next step. Include enough context to make that step clear, use respectful language and avoid unsupported claims. Check the result with someone from the intended audience.",
+    "practice": "Study the example, then create your own version of “Interview a potential customer”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Ask customers about recent behaviour and current problems before pitching your solution.",
+    "answer": true,
+    "code": "person → problem → current workaround → willingness to pay"
+  },
+  "business-offer": {
+    "title": "Define your offer",
+    "body": "An offer identifies the customer, problem, deliverable, price and how it will be delivered.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Define your offer”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Missing information should always be replaced with zero.",
+    "answer": false,
+    "code": "customer + problem + offer + price + delivery"
+  },
+  "business-costs": {
+    "title": "Calculate costs and break-even",
+    "body": "Contribution is price minus variable cost; break-even units cover fixed costs using that contribution.\n\nA calculation needs defined inputs, an operation and a meaningful unit. Work through the example by hand before using a tool. Check the denominator, missing values and whether the result is plausible. An accurate calculation still needs context before it supports a decision.",
+    "practice": "Study the example, then create your own version of “Calculate costs and break-even”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Contribution is price minus variable cost; break-even units cover fixed costs using that contribution.",
+    "answer": true,
+    "code": "price = 100\nvariable cost = 70\ncontribution = 30\nfixed costs = 300\nbreak-even = 300 / 30 = 10 units"
+  },
+  "business-cash": {
+    "title": "Plan cash flow",
+    "body": "Closing cash is opening cash plus receipts minus payments; sales on credit may not be cash yet.\n\nA calculation needs defined inputs, an operation and a meaningful unit. Work through the example by hand before using a tool. Check the denominator, missing values and whether the result is plausible. An accurate calculation still needs context before it supports a decision.",
+    "practice": "Study the example, then create your own version of “Plan cash flow”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The units and denominator do not matter in a calculation.",
+    "answer": false,
+    "code": "opening cash 200 + receipts 100 − payments 150 = closing cash 150"
+  },
+  "business-validation": {
+    "title": "Validate with a small trial",
+    "body": "Use conversations and a small trial to test demand before committing a large investment.\n\nAn experiment begins with a testable question and a measure of success. The example changes one factor while keeping the rest comparable. Record a baseline, run a small trial and compare the result. Do not promise that one small result will hold for every audience or situation.",
+    "practice": "Study the example, then create your own version of “Validate with a small trial”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Use conversations and a small trial to test demand before committing a large investment.",
+    "answer": true,
+    "code": "hypothesis → 5 conversations → small trial → evidence → decision"
+  },
+  "business-operations": {
+    "title": "Map delivery operations",
+    "body": "Map fulfilment from order to follow-up; specify who checks quality before delivery.\n\nSome steps depend on earlier steps. Follow the arrows in the worked example and explain what must happen first and why. A sequence should also describe what happens when a step fails. Check each transition before moving on; completing the last step alone does not prove the whole process worked.",
+    "practice": "Study the example, then create your own version of “Map delivery operations”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A dependent step can always start before its prerequisite.",
+    "answer": false,
+    "code": "order → confirm → prepare → check → deliver → follow up"
+  },
+  "business-records": {
+    "title": "Keep simple business records",
+    "body": "Record date, type, amount and reference; keep evidence for each receipt and payment.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Keep simple business records”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Record date, type, amount and reference; keep evidence for each receipt and payment.",
+    "answer": true,
+    "code": "date,type,amount,reference\n2026-01-01,in,100,R01\n2026-01-02,out,70,R02"
+  },
+  "business-risk": {
+    "title": "Prepare for business risks",
+    "body": "Identify a major dependency, estimate its risk and prepare a practical backup option.\n\nA risk combines the chance of something happening with the harm it could cause. In the example, compare likelihood and impact, then choose a practical control. Prioritise larger risks and name who will act. A checklist reduces mistakes but cannot guarantee that every threat has disappeared.",
+    "practice": "Study the example, then create your own version of “Prepare for business risks”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A low likelihood means a risk can never cause harm.",
+    "answer": false,
+    "code": "supplier A: likelihood 3 × impact 4 = 12\nbackup supplier → reduce impact"
+  },
+  "business-project": {
+    "title": "Present a tested business idea",
+    "body": "Present customer evidence, a costed offer, a trial result and a cash plan with open questions.\n\nBring the earlier skills together in a small project. Use the worked example as a starting outline, define a useful outcome and create something you can demonstrate. Test it against your goal, explain a limitation and record one improvement. Keep your draft and evidence so another learner can understand your decisions.",
+    "practice": "Study the example, then create your own version of “Present a tested business idea”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Present customer evidence, a costed offer, a trial result and a cash plan with open questions.",
+    "answer": true,
+    "code": "problem → offer → costs → trial → cash plan → next decision"
+  },
+  "writing-purpose": {
+    "title": "Define reader and purpose",
+    "body": "Identify the reader, the purpose of your message and what the reader should do next.\n\nBegin with the person who needs the work and the action they want to take. The example connects a need, a useful response and a next step. Include enough context to make that step clear, use respectful language and avoid unsupported claims. Check the result with someone from the intended audience.",
+    "practice": "Study the example, then create your own version of “Define reader and purpose”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Identify the reader, the purpose of your message and what the reader should do next.",
+    "answer": true,
+    "code": "reader → purpose → main point → next action"
+  },
+  "writing-outline": {
+    "title": "Organise an outline",
+    "body": "An outline places the main point before supporting evidence and the requested action.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Organise an outline”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Missing information should always be replaced with zero.",
+    "answer": false,
+    "code": "I. main point\nII. evidence\nIII. next action"
+  },
+  "writing-paragraph": {
+    "title": "Build a clear paragraph",
+    "body": "A paragraph develops one main idea with a relevant detail and connection to the next idea.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Build a clear paragraph”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A paragraph develops one main idea with a relevant detail and connection to the next idea.",
+    "answer": true,
+    "code": "topic → supporting detail → connection"
+  },
+  "writing-clarity": {
+    "title": "Make sentences easier to read",
+    "body": "Remove repeated words and split overloaded sentences without losing important meaning.\n\nCompare options against a clear goal rather than choosing the most attractive one. The example shows alternatives or a constraint. Name the trade-off, keep the comparison fair and justify your choice with evidence. A solution that works in one situation may need adjustment in another.",
+    "practice": "Study the example, then create your own version of “Make sentences easier to read”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The most attractive option is always the best for every goal.",
+    "answer": false,
+    "code": "A: 42 words, 3 ideas\nB: 12 words, 1 idea\n// keep meaning; remove repetition"
+  },
+  "writing-evidence": {
+    "title": "Support claims with evidence",
+    "body": "Check a claim against an original source, its date and the evidence that supports it.\n\nA useful test states the input and the expected result before checking the actual result. Try the worked example, then include an empty, unexpected or boundary case. Record what happened and make a small correction. Repeat the test after the correction so you know the problem was addressed.",
+    "practice": "Study the example, then create your own version of “Support claims with evidence”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Check a claim against an original source, its date and the evidence that supports it.",
+    "answer": true,
+    "code": "claim → original source → date → supporting evidence"
+  },
+  "writing-tone": {
+    "title": "Choose an appropriate tone",
+    "body": "Adapt tone to the relationship and situation while keeping the facts clear and respectful.\n\nBegin with the person who needs the work and the action they want to take. The example connects a need, a useful response and a next step. Include enough context to make that step clear, use respectful language and avoid unsupported claims. Check the result with someone from the intended audience.",
+    "practice": "Study the example, then create your own version of “Choose an appropriate tone”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The intended audience never affects the details a message needs.",
+    "answer": false,
+    "code": "same facts + different reader → different tone\n// respectful; clear; specific"
+  },
+  "writing-edit": {
+    "title": "Edit in useful stages",
+    "body": "Edit meaning and structure before polishing sentences, spelling and punctuation.\n\nFeedback is useful when it refers to an observation and suggests a specific next step. Inspect the example for evidence of what worked and what caused difficulty. Separate what you observed from what you assumed. Make one improvement and check whether it helps; a small sample does not represent everyone.",
+    "practice": "Study the example, then create your own version of “Edit in useful stages”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Edit meaning and structure before polishing sentences, spelling and punctuation.",
+    "answer": true,
+    "code": "draft → meaning → structure → sentence → spelling"
+  },
+  "writing-feedback": {
+    "title": "Use reader feedback",
+    "body": "Ask a reader what they understood and where they hesitated, then revise that section.\n\nFeedback is useful when it refers to an observation and suggests a specific next step. Inspect the example for evidence of what worked and what caused difficulty. Separate what you observed from what you assumed. Make one improvement and check whether it helps; a small sample does not represent everyone.",
+    "practice": "Study the example, then create your own version of “Use reader feedback”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A small sample proves what every person needs.",
+    "answer": false,
+    "code": "reader understands: A\nreader asks: B?\nrevision: clarify B"
+  },
+  "writing-project": {
+    "title": "Publish a polished message",
+    "body": "Create a short message with a clear purpose, checked facts and a specific next action.\n\nBring the earlier skills together in a small project. Use the worked example as a starting outline, define a useful outcome and create something you can demonstrate. Test it against your goal, explain a limitation and record one improvement. Keep your draft and evidence so another learner can understand your decisions.",
+    "practice": "Study the example, then create your own version of “Publish a polished message”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Create a short message with a clear purpose, checked facts and a specific next action.",
+    "answer": true,
+    "code": "brief → outline → draft → source check → revision → final message"
+  },
+  "project-scope": {
+    "title": "Set scope and acceptance criteria",
+    "body": "State what is included, excluded and how the result will be accepted.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Set scope and acceptance criteria”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "State what is included, excluded and how the result will be accepted.",
+    "answer": true,
+    "code": "outcome + acceptance criteria\nin: A,B\nout: C"
+  },
+  "project-breakdown": {
+    "title": "Break down deliverables",
+    "body": "Break a deliverable into manageable tasks and assign one accountable owner to each.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Break down deliverables”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Missing information should always be replaced with zero.",
+    "answer": false,
+    "code": "deliverable → task A → subtask A1,A2\n// one owner per task"
+  },
+  "project-dependencies": {
+    "title": "Map task dependencies",
+    "body": "A dependent task waits for its prerequisite; the longest dependency chain constrains the finish date.\n\nSome steps depend on earlier steps. Follow the arrows in the worked example and explain what must happen first and why. A sequence should also describe what happens when a step fails. Check each transition before moving on; completing the last step alone does not prove the whole process worked.",
+    "practice": "Study the example, then create your own version of “Map task dependencies”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A dependent task waits for its prerequisite; the longest dependency chain constrains the finish date.",
+    "answer": true,
+    "code": "A(2 days) → B(3 days) → D(1 day)\nA → C(1 day) → D\n// longest chain: 6 days"
+  },
+  "project-estimates": {
+    "title": "Estimate time and capacity",
+    "body": "Estimate effort separately from calendar duration and include room for uncertainty.\n\nA calculation needs defined inputs, an operation and a meaningful unit. Work through the example by hand before using a tool. Check the denominator, missing values and whether the result is plausible. An accurate calculation still needs context before it supports a decision.",
+    "practice": "Study the example, then create your own version of “Estimate time and capacity”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "The units and denominator do not matter in a calculation.",
+    "answer": false,
+    "code": "A: 2h\nB: 3h\nC: 1h\ntotal: 6h + contingency"
+  },
+  "project-board": {
+    "title": "Manage work on a task board",
+    "body": "Move tasks through To do, In progress and Done only when acceptance criteria are met.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Manage work on a task board”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Move tasks through To do, In progress and Done only when acceptance criteria are met.",
+    "answer": true,
+    "code": "[To do] → [In progress] → [Done]\n// task + owner + acceptance check"
+  },
+  "project-risks": {
+    "title": "Plan risk responses",
+    "body": "Record each risk’s likelihood, impact, owner and response; revisit it as work changes.\n\nA risk combines the chance of something happening with the harm it could cause. In the example, compare likelihood and impact, then choose a practical control. Prioritise larger risks and name who will act. A checklist reduces mistakes but cannot guarantee that every threat has disappeared.",
+    "practice": "Study the example, then create your own version of “Plan risk responses”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A low likelihood means a risk can never cause harm.",
+    "answer": false,
+    "code": "risk: A\nlikelihood: 3\nimpact: 4\nowner: B\nresponse: C"
+  },
+  "project-updates": {
+    "title": "Write a useful status update",
+    "body": "A status update names completed work, next steps, blockers and a specific request.\n\nBegin with the person who needs the work and the action they want to take. The example connects a need, a useful response and a next step. Include enough context to make that step clear, use respectful language and avoid unsupported claims. Check the result with someone from the intended audience.",
+    "practice": "Study the example, then create your own version of “Write a useful status update”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A status update names completed work, next steps, blockers and a specific request.",
+    "answer": true,
+    "code": "completed → next → blocker → request + date"
+  },
+  "project-retro": {
+    "title": "Run a retrospective",
+    "body": "Review what helped and what blocked progress, then assign one improvement an owner and date.\n\nFeedback is useful when it refers to an observation and suggests a specific next step. Inspect the example for evidence of what worked and what caused difficulty. Separate what you observed from what you assumed. Make one improvement and check whether it helps; a small sample does not represent everyone.",
+    "practice": "Study the example, then create your own version of “Run a retrospective”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A small sample proves what every person needs.",
+    "answer": false,
+    "code": "worked: A\nblocked: B\nnext change: C + owner + date"
+  },
+  "project-capstone": {
+    "title": "Plan and review a small project",
+    "body": "Plan scope, tasks, dependencies and risks, then assess delivery against the original acceptance criteria.\n\nBring the earlier skills together in a small project. Use the worked example as a starting outline, define a useful outcome and create something you can demonstrate. Test it against your goal, explain a limitation and record one improvement. Keep your draft and evidence so another learner can understand your decisions.",
+    "practice": "Study the example, then create your own version of “Plan and review a small project”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Plan scope, tasks, dependencies and risks, then assess delivery against the original acceptance criteria.",
+    "answer": true,
+    "code": "scope → tasks → dependencies → board → risk review → delivery check"
+  },
+  "teaching-goals": {
+    "title": "Write an observable learning goal",
+    "body": "Use an observable action such as explain, calculate or demonstrate instead of simply understand.\n\nA clear structure gives each part a specific role. Read the worked example from top to bottom and identify the input, the important fields and the result. Missing information should be made explicit, not silently invented. Consistent labels make the work easier to check and reuse.",
+    "practice": "Study the example, then create your own version of “Write an observable learning goal”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Use an observable action such as explain, calculate or demonstrate instead of simply understand.",
+    "answer": true,
+    "code": "By the end: learner can [observable action]\n// explain, calculate, demonstrate"
+  },
+  "teaching-baseline": {
+    "title": "Check starting knowledge",
+    "body": "A short starting task reveals prior knowledge and helps you choose the next teaching step.\n\nFeedback is useful when it refers to an observation and suggests a specific next step. Inspect the example for evidence of what worked and what caused difficulty. Separate what you observed from what you assumed. Make one improvement and check whether it helps; a small sample does not represent everyone.",
+    "practice": "Study the example, then create your own version of “Check starting knowledge”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A small sample proves what every person needs.",
+    "answer": false,
+    "code": "before: example task → learner response → next teaching step"
+  },
+  "teaching-example": {
+    "title": "Demonstrate a worked example",
+    "body": "Demonstrate the steps and reasoning, then ask the learner to predict the next step.\n\nSome steps depend on earlier steps. Follow the arrows in the worked example and explain what must happen first and why. A sequence should also describe what happens when a step fails. Check each transition before moving on; completing the last step alone does not prove the whole process worked.",
+    "practice": "Study the example, then create your own version of “Demonstrate a worked example”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Demonstrate the steps and reasoning, then ask the learner to predict the next step.",
+    "answer": true,
+    "code": "show → explain why → learner predicts → compare"
+  },
+  "teaching-practice": {
+    "title": "Design guided practice",
+    "body": "Begin with guidance and gradually remove hints before an independent attempt.\n\nSome steps depend on earlier steps. Follow the arrows in the worked example and explain what must happen first and why. A sequence should also describe what happens when a step fails. Check each transition before moving on; completing the last step alone does not prove the whole process worked.",
+    "practice": "Study the example, then create your own version of “Design guided practice”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A dependent step can always start before its prerequisite.",
+    "answer": false,
+    "code": "guided attempt → hints → independent attempt"
+  },
+  "teaching-feedback": {
+    "title": "Give actionable feedback",
+    "body": "Describe a specific observation and a next improvement, then let the learner retry.\n\nFeedback is useful when it refers to an observation and suggests a specific next step. Inspect the example for evidence of what worked and what caused difficulty. Separate what you observed from what you assumed. Make one improvement and check whether it helps; a small sample does not represent everyone.",
+    "practice": "Study the example, then create your own version of “Give actionable feedback”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Describe a specific observation and a next improvement, then let the learner retry.",
+    "answer": true,
+    "code": "specific observation → next improvement → retry"
+  },
+  "teaching-check": {
+    "title": "Check skill with a new example",
+    "body": "Check the same skill using a new example so memorisation alone cannot pass the check.\n\nA useful test states the input and the expected result before checking the actual result. Try the worked example, then include an empty, unexpected or boundary case. Record what happened and make a small correction. Repeat the test after the correction so you know the problem was addressed.",
+    "practice": "Study the example, then create your own version of “Check skill with a new example”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Testing only one successful case proves a feature works in all situations.",
+    "answer": false,
+    "code": "goal: calculate 10 + 20\ncheck: learner calculates 15 + 25\n// new example; same skill"
+  },
+  "teaching-inclusive": {
+    "title": "Make practice inclusive",
+    "body": "Offer readable text, diagrams and accessible interaction while preserving the same learning goal.\n\nCompare options against a clear goal rather than choosing the most attractive one. The example shows alternatives or a constraint. Name the trade-off, keep the comparison fair and justify your choice with evidence. A solution that works in one situation may need adjustment in another.",
+    "practice": "Study the example, then create your own version of “Make practice inclusive”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Offer readable text, diagrams and accessible interaction while preserving the same learning goal.",
+    "answer": true,
+    "code": "text + diagram + keyboard access\n// same goal; different ways to practise"
+  },
+  "teaching-plan": {
+    "title": "Plan a short learning session",
+    "body": "Allocate time for a goal, example, learner practice and a check with feedback.\n\nSome steps depend on earlier steps. Follow the arrows in the worked example and explain what must happen first and why. A sequence should also describe what happens when a step fails. Check each transition before moving on; completing the last step alone does not prove the whole process worked.",
+    "practice": "Study the example, then create your own version of “Plan a short learning session”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "A dependent step can always start before its prerequisite.",
+    "answer": false,
+    "code": "2 min: goal\n3 min: example\n7 min: practice\n3 min: check + feedback"
+  },
+  "teaching-project": {
+    "title": "Deliver and reflect on a mini lesson",
+    "body": "Teach a short session, keep evidence of the learner’s attempt and revise the part that caused difficulty.\n\nBring the earlier skills together in a small project. Use the worked example as a starting outline, define a useful outcome and create something you can demonstrate. Test it against your goal, explain a limitation and record one improvement. Keep your draft and evidence so another learner can understand your decisions.",
+    "practice": "Study the example, then create your own version of “Deliver and reflect on a mini lesson”. Change one input or decision, describe the result, and explain why your approach meets the goal.",
+    "statement": "Teach a short session, keep evidence of the learner’s attempt and revise the part that caused difficulty.",
+    "answer": true,
+    "code": "goal → starting check → example → practice → feedback → reflection"
+  }
+}

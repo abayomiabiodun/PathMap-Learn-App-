@@ -1,0 +1,793 @@
+{
+  "html": {
+    "title": "Wuo ibe HTML mbụ gị",
+    "body": "HTML na-akọwa nhazi ibe. <h1> bụ isiokwu, <p> bụ paragraf, <a href=\"...\"> bụ njikọ. Tags mmeghe na mmechi na-agba ọdịnaya gburugburu. href na-egosi ebe njikọ na-aga.\nMalite na isiokwu doro anya na paragraf dị mkpirikpi. Okwu njikọ kwesịrị ịkọwa ebe ọ na-aga. Ibe kwesịrị doo anya n’enweghị agba ma ọ bụ foto.",
+    "practice": "Dee HTML gbasara onwe gị: otu h1, p gbasara mmasị gị na a gaa na weebụsaịtị bara uru. Kọwaa href.",
+    "statement": "HTML na-akọwa nhazi ibe weebụ.",
+    "answer": true,
+    "code": "<h1>Ada</h1>\n<p>Ịmụ ihe na-amasị m.</p>\n<a href=\"https://example.com\">Weebụsaịtị ihe atụ</a>"
+  },
+  "css": {
+    "title": "Jiri CSS chọọ ibe mma",
+    "body": "CSS na-achịkwa agba, oghere na nhazi anya. Selector na-ahọrọ element; declarations dị n’ime {} na-edobe properties. Na h1 { color: green; }, h1 bụ selector, color bụ property.\nMee ka ederede dị mfe ịgụ. Obosara 900px nwere ike gafee ekwentị. max-width: 100% na-enyere ọdịnaya dabara na ihuenyo.",
+    "practice": "Dee CSS nye isiokwu agba na paragraf padding. Kọwaa ihe mere ibe ga-eji dabara na obere ihuenyo.",
+    "statement": "CSS na-ewepụ mkpa nhazi HTML.",
+    "answer": false,
+    "code": "h1 { color: green; }\np { padding: 16px; max-width: 100%; }"
+  },
+  "javascript": {
+    "title": "Tinye mmekọrịta na JavaScript",
+    "body": "JavaScript na-aza omume. querySelector na-achọta element; addEventListener na-eme function mgbe event mere. textContent na-agbanwe ederede n’enweghị ịgụ ya dịka HTML.\nJiri button n’ezie ka keyboard nwee ike iji ya. Mee ka ibe bara uru tupu script abịa.",
+    "practice": "Dee button na click listener nke na-agbanwe paragraf gaa na ozi nnabata. Kọwaa event na-amalite mgbanwe ahụ.",
+    "statement": "Click event listener nwere ike ịza mgbe a na-eji button.",
+    "answer": true,
+    "code": "<button id=\"welcome\">Nnọọ</button>\n<p id=\"message\"></p>\n<script>\ndocument.querySelector(\"#welcome\").addEventListener(\"click\", () => {\n  document.querySelector(\"#message\").textContent = \"Nnọọ!\";\n});\n</script>"
+  },
+  "data": {
+    "title": "Jụọ ajụjụ bara uru banyere data",
+    "body": "Data bụ ozi edekọtara. Malite na ajụjụ, tinye observations na rows na fields na columns. Ihe efu abụghị zero. Lelee units na rows ugboro abụọ. Average bụ nchikota kewara n’ọnụọgụ values.",
+    "practice": "Ahịa kwa ụbọchị bụ 10, 20, 30. Gbakọọ average, dee unit na otu ajụjụ ọnụọgụ ndị a enweghị ike ịza.",
+    "statement": "Average nke 10, 20 na 30 bụ 20.",
+    "answer": true
+  },
+  "cyber": {
+    "title": "Chebe akaụntụ",
+    "body": "Jiri paswọọdụ dị iche maka ọrụ ọ bụla na password manager iji chekwaa ha. Multi-factor authentication na-agbakwunye nyocha. Ozi na-atụghị anya ya na-arịọ paswọọdụ ma ọ bụ code nwere ike ịbụ phishing. Mepee ọrụ ahụ n’onwe gị ka ị nyochaa.",
+    "practice": "Kọwaa otu ị ga-esi lelee ozi nbanye na-atụghị anya ya. Dee ụzọ abụọ ichebe akaụntụ ule; etinyela paswọọdụ n’ezie.",
+    "statement": "Ọ dị mma iziga code nbanye nye onye ọ bụla sị na ọ bụ onye nkwado.",
+    "answer": false
+  },
+  "ai": {
+    "title": "Ghọta amụma model",
+    "body": "Machine learning model na-amụta patterns site na ihe atụ. Data ọzụzụ na-emetụta amụma ya. Ọ nwere ike mehie, karịsịa mgbe ihe atụ ọhụrụ dị iche. Nyochaa ya na ihe atụ dị iche, lelee mmejọkwa.",
+    "practice": "Maka model na-amata mkpụrụ osisi, kọwaa ihe atụ ọzụzụ na ule dị iche. Kwuo otu ebe ọ nwere ike ịda.",
+    "statement": "Amụma model na-adị ziri ezi mgbe niile.",
+    "answer": false
+  },
+  "design": {
+    "title": "Mee nhazi maka mkpa onye ọrụ",
+    "body": "Ahụmịhe onye ọrụ na-amalite na mmadụ na ebumnuche. Kọwaa nsogbu tupu ị see ihuenyo. Label doro anya na-enyere ịhọrọ omume. Nwalee obere sketch tupu iwulite. Lelee ebe mmadụ na-enwe nsogbu.",
+    "practice": "See usoro atọ iji chekwaa nkuzi. Dee ebumnuche onye ọrụ na otu ajụjụ ule.",
+    "statement": "Nnwale sketch nwere ike igosi nsogbu tupu iwulite app.",
+    "answer": true
+  },
+  "marketing": {
+    "title": "Hazie ozi bara uru",
+    "body": "Marketing na-ejikọta onyinye bara uru na ndị chọrọ ya. Kọwaa ndị ị chọrọ iru, nsogbu ị na-edozi na omume ha ga-eme. Tụọ nsonaazụ dịka ajụjụ ndị ahịa, ọ bụghị naanị views. Emela nkwa ị na-enweghị ihe akaebe.",
+    "practice": "Dee ozi mkpirikpi maka ọrụ obodo. Kwuo ndị ọ bụ maka, uru, otu omume na ụzọ ịtụ ihe ịga nke ọma.",
+    "statement": "Views ka ukwuu na-apụta ndị ahịa ka ukwuu mgbe niile.",
+    "answer": false
+  },
+  "business": {
+    "title": "Nwalee echiche azụmahịa",
+    "body": "Echiche azụmahịa chọrọ nsogbu onye ahịa na onyinye ga-arụ ọrụ. Gwa ndị ahịa okwu tupu itinye ego buru ibu. Revenue bụ ego batara; profit na-agụkọ expenses. Obere ule na-egosi uru mmadụ na-ahụ.",
+    "practice": "A na-ere ihe 100, ọ na-efu 70 ịnye ya. Gbakọọ ọdịiche tupu expenses ndị ọzọ, kọwaa obere ule ndị ahịa.",
+    "statement": "A ga-agụkọ expenses mgbe a na-atụ atụmatụ profit.",
+    "answer": true
+  },
+  "writing": {
+    "title": "Dee maka onye na-agụ",
+    "body": "Ederede doro anya nwere ebumnuche na ndị na-agụ. Tinye isi okwu na mbido, jiri okwu doro anya ma nye nzọụkwụ ọzọ. Gbanwee ahịrịokwu nwere ọtụtụ echiche. Lelee na onye na-agụ nwere ozi iji mee ihe.",
+    "practice": "Dee ahịrịokwu anọ kpọọ enyi ka unu mụọ ihe. Tinye ebumnuche, oge, ebe na omume ọzọ.",
+    "statement": "Ịmara ndị na-agụ na-enyere ịhọrọ nkọwa kwesịrị ekwesị.",
+    "answer": true
+  },
+  "project": {
+    "title": "Kewaa project n’ọrụ nta",
+    "body": "Project nwere nsonaazụ, ọrụ na oke. Kewaa ọrụ, họrọ ndị ga-eme ya na dependencies. Ụfọdụ ọrụ ga-echere ọzọ ka ọ gwụ. Lelee ọganihu ma gbanwee atụmatụ.",
+    "practice": "Hazie nzukọ ọmụmụ na ọrụ anọ, onye ga-eme nke ọ bụla na dependency otu. Kọwaa ihe ịga nke ọma ga-abụ.",
+    "statement": "Ọrụ project niile nwere ike ịmalite n’otu oge mgbe niile.",
+    "answer": false
+  },
+  "teaching": {
+    "title": "Nyere mmadụ ịmụta",
+    "body": "Nkuzi chọrọ ebumnuche doro anya, ihe atụ, omume na nzaghachi. Igosi nka apụtaghị na mmadụ amụtala ya. Ka onye mmụta nwalee ma kọwaa echiche ya. Jiri azịza họrọ ihe ọzọ ị ga-akụzi.",
+    "practice": "Hazie nkuzi nkeji iri gbasara nka ị maara. Dee ebumnuche, omume na ajụjụ ịlele nghọta.",
+    "statement": "Omume na nzaghachi na-enyere onye nkuzi ịlele nghọta.",
+    "answer": true
+  },
+  "web-semantic": {
+    "title": "Jiri HTML nwere ihe ọ pụtara",
+    "body": "header bụ mmalite, main bụ isi ọdịnaya, footer bụ ozi njedebe.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Jiri HTML nwere ihe ọ pụtara”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "header bụ mmalite, main bụ isi ọdịnaya, footer bụ ozi njedebe.",
+    "answer": true,
+    "code": "<header>…</header>\n<main><article>…</article></main>\n<footer>…</footer>"
+  },
+  "web-layout": {
+    "title": "Mepụta nhazi dabara na ihuenyo",
+    "body": "Grid auto-fit na-emepụta ogidi ga-adaba; minmax na-egbochi kaadị ịdị warara nke ukwuu.\n\nTụnyere nhọrọ site na ebumnuche doro anya kama ịma mma naanị. Ihe atụ na-egosi nhọrọ ma ọ bụ oke. Kọwaa uru na ọghọm, tụnyere n’ezi omume ma jiri ihe akaebe. Ihe na-arụ ọrụ n’otu ọnọdụ nwere ike ịchọ mgbanwe n’ọnọdụ ọzọ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Mepụta nhazi dabara na ihuenyo”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nhọrọ mara mma bụ nke kacha mma maka ebumnuche niile.",
+    "answer": false,
+    "code": ".cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }"
+  },
+  "web-forms": {
+    "title": "Nata ozi site na fọm",
+    "body": "label na-akọwa input; type=email na-enyocha ụdị ya, required anaghị anabata ihe efu.\n\nUle bara uru na-akọwa ihe a na-etinye na nsonaazụ a tụrụ anya tupu a lelee nke mere. Nwaa ihe atụ, mgbe ahụ nwaa ihe efu ma ọ bụ ihe a na-atụghị anya. Dee ihe mere ma mee obere mmezi. Nwalee ọzọ mgbe mmezi gasịrị iji mara na edoziwo nsogbu ahụ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Nata ozi site na fọm”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "label na-akọwa input; type=email na-enyocha ụdị ya, required anaghị anabata ihe efu.",
+    "answer": true,
+    "code": "<label for=\"email\">Email</label>\n<input id=\"email\" type=\"email\" required>\n// test: \"\", \"ada\", \"ada@example.test\""
+  },
+  "web-dom": {
+    "title": "Jikọta ihe omume na DOM",
+    "body": "querySelector na-achọta ihe; addEventListener na-ejikọta omume na ọrụ; textContent na-agbanwe ederede.\n\nỤfọdụ usoro na-eche usoro mbụ. Soro akụ ndị dị n’ihe atụ ma kọwaa ihe ga-ebu ụzọ na ihe kpatara ya. Hazie ihe a ga-eme ma ọ bụrụ na otu usoro ada. Lelee mgbanwe ọ bụla tupu ịga n’ihu; iru njedebe naanị anaghị egosi na ọrụ niile gara nke ọma.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Jikọta ihe omume na DOM”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Usoro dabere nwere ike ịmalite tupu nke mbụ mgbe niile.",
+    "answer": false,
+    "code": "const button = document.querySelector(\"button\");\nbutton.addEventListener(\"click\", () => {\n  document.querySelector(\"p\").textContent = \"✓\";\n});"
+  },
+  "web-access": {
+    "title": "Mee ka onye ọ bụla jiri ibe ahụ",
+    "body": "Button n’ezie na-arụ ọrụ na keyboard. Ederede chọrọ ọdịiche agba na akara omume doro anya.\n\nNdụmọdụ bara uru na-ekwu ihe a hụrụ ma nye usoro ọzọ. Lelee ihe atụ maka ihe akaebe nke ihe rụrụ ọrụ na ihe siri ike. Kewaa ihe ị hụrụ na ihe ị chere. Melite otu ihe ma lelee ma ọ na-enyere aka; obere otu anaghị anọchi anya onye ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Mee ka onye ọ bụla jiri ibe ahụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Button n’ezie na-arụ ọrụ na keyboard. Ederede chọrọ ọdịiche agba na akara omume doro anya.",
+    "answer": true,
+    "code": "<button type=\"button\">✓</button>\n// Tab → Enter → ✓\n// contrast: 4.5:1"
+  },
+  "web-debug": {
+    "title": "Chọta njehie ma nwalee ọrụ",
+    "body": "Nwalee ọnụ ọgụgụ nkịtị na efu: 5 × 3 = 15; 5 × 0 = 0.\n\nUle bara uru na-akọwa ihe a na-etinye na nsonaazụ a tụrụ anya tupu a lelee nke mere. Nwaa ihe atụ, mgbe ahụ nwaa ihe efu ma ọ bụ ihe a na-atụghị anya. Dee ihe mere ma mee obere mmezi. Nwalee ọzọ mgbe mmezi gasịrị iji mara na edoziwo nsogbu ahụ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Chọta njehie ma nwalee ọrụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Otu ule gara nke ọma na-egosi na ọrụ na-arụ n’ọnọdụ niile.",
+    "answer": false,
+    "code": "const total = (price, quantity) => price * quantity;\n// total(5, 3) → 15\n// total(5, 0) → 0"
+  },
+  "web-project": {
+    "title": "Mepụta weebụsaịtị nke gị",
+    "body": "Jikọta HTML nwere ihe ọ pụtara, CSS dabara na ihuenyo na omume keyboard na weebụsaịtị gị.\n\nJikọta nka ị mụtara na obere ọrụ. Jiri ihe atụ malite nhazi, họrọ nsonaazụ bara uru ma mepụta ihe ị pụrụ igosi. Nwalee ya site na ebumnuche gị, kọwaa otu oke na otu mmezi. Debe ndetu na ihe akaebe ka onye na-amụ ọzọ ghọta mkpebi gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Mepụta weebụsaịtị nke gị”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Jikọta HTML nwere ihe ọ pụtara, CSS dabara na ihuenyo na omume keyboard na weebụsaịtị gị.",
+    "answer": true,
+    "code": "<!doctype html>\n<html lang=\"en\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <main>…</main>\n</html>"
+  },
+  "data-clean": {
+    "title": "Hichaa obere data",
+    "body": "ID e degharịrị nwere ike ịbụ oyiri. Ihe efu bụ ihe a na-amaghị, ọ bụghị efu n’onwe ya.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hichaa obere data”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "ID e degharịrị nwere ike ịbụ oyiri. Ihe efu bụ ihe a na-amaghị, ọ bụghị efu n’onwe ya.",
+    "answer": true,
+    "code": "id,value\n1,10\n2,\n2,20\n3,30\n// duplicate id: 2; missing ≠ 0"
+  },
+  "data-measures": {
+    "title": "Họrọ nha nchịkọta bara uru",
+    "body": "Mean na-eji ọnụ ọgụgụ niile; median bụ etiti mgbe a haziri ha.\n\nNgụkọta chọrọ ihe a na-etinye, usoro ngụkọta na nha. Jiri aka rụọ ihe atụ tupu iji ngwaọrụ. Lelee ihe a na-ekewa, data na-adịghị na ma nsonaazụ ọ bụ ihe ezi uche. Ngụkọta ziri ezi ka chọrọ nkọwa tupu e jiri ya mee mkpebi.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Họrọ nha nchịkọta bara uru”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nha na ihe a na-ekewa adịghị mkpa na ngụkọta.",
+    "answer": false,
+    "code": "(10 + 20 + 30) / 3 = 20\nmedian(10, 20, 90) = 20\nmean(10, 20, 90) = 40"
+  },
+  "data-sheets": {
+    "title": "Gbakọọ na spreadsheet",
+    "body": "SUM na-agbakọta, AVERAGE na-achọta nha etiti, COUNT na-agụ sel nọmba.\n\nNgụkọta chọrọ ihe a na-etinye, usoro ngụkọta na nha. Jiri aka rụọ ihe atụ tupu iji ngwaọrụ. Lelee ihe a na-ekewa, data na-adịghị na ma nsonaazụ ọ bụ ihe ezi uche. Ngụkọta ziri ezi ka chọrọ nkọwa tupu e jiri ya mee mkpebi.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Gbakọọ na spreadsheet”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "SUM na-agbakọta, AVERAGE na-achọta nha etiti, COUNT na-agụ sel nọmba.",
+    "answer": true,
+    "code": "=SUM(B2:B4)\n=AVERAGE(B2:B4)\n=COUNT(B2:B4)\n// B2:B4 = 10,20,30"
+  },
+  "data-filter": {
+    "title": "Hazie ma nyochaa ndekọ",
+    "body": "Filter na-ahọrọ ahịrị dabara; sort na-agbanwe usoro ma ọ bụghị ọnụ ọgụgụ.\n\nTụnyere nhọrọ site na ebumnuche doro anya kama ịma mma naanị. Ihe atụ na-egosi nhọrọ ma ọ bụ oke. Kọwaa uru na ọghọm, tụnyere n’ezi omume ma jiri ihe akaebe. Ihe na-arụ ọrụ n’otu ọnọdụ nwere ike ịchọ mgbanwe n’ọnọdụ ọzọ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie ma nyochaa ndekọ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nhọrọ mara mma bụ nke kacha mma maka ebumnuche niile.",
+    "answer": false,
+    "code": "id,region,value\n1,A,10\n2,B,30\n3,A,20\n// region=A → 1,3; value descending → 2,3,1"
+  },
+  "data-charts": {
+    "title": "Họrọ eserese na-eduhieghị",
+    "body": "Eserese bar na-atụnyere otu. Kọwaa nha ma malite axis nọmba na efu.\n\nTụnyere nhọrọ site na ebumnuche doro anya kama ịma mma naanị. Ihe atụ na-egosi nhọrọ ma ọ bụ oke. Kọwaa uru na ọghọm, tụnyere n’ezi omume ma jiri ihe akaebe. Ihe na-arụ ọrụ n’otu ọnọdụ nwere ike ịchọ mgbanwe n’ọnọdụ ọzọ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Họrọ eserese na-eduhieghị”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Eserese bar na-atụnyere otu. Kọwaa nha ma malite axis nọmba na efu.",
+    "answer": true,
+    "code": "A: ███ 30\nB: ██ 20\nC: █ 10\n// axis starts at 0; same unit"
+  },
+  "data-sql": {
+    "title": "Jikọta data na SQL",
+    "body": "GROUP BY na-emepụta otu; SUM na-agbakọta nke otu ọ bụla.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Jikọta data na SQL”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ozi na-adịghị ga-abụ efu mgbe niile.",
+    "answer": false,
+    "code": "SELECT region, SUM(value) AS total\nFROM sales\nGROUP BY region;\n// A → 30; B → 30"
+  },
+  "data-privacy": {
+    "title": "Chebe ozi mmadụ",
+    "body": "ID kama aha na-ebelata mkpughe, mana ozi ọzọ ka nwere ike igosi onye.\n\nJiri ozi emepụtara maka omume a. Nata naanị ihe dị mkpa, wepụ ihe na-egosi onye ma belata ndị ga-ahụ ya. Ihe atụ na-egosi ozi a ga-ewepụ ma ọ bụ ikike a ga-elele. E deela paswọọdụ n’ezie, ozi kọntaktị ma ọ bụ ndekọ nzuzo na ndetu gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Chebe ozi mmadụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "ID kama aha na-ebelata mkpughe, mana ozi ọzọ ka nwere ike igosi onye.",
+    "answer": true,
+    "code": "{\"person_id\":\"P01\",\"age_band\":\"20–29\",\"value\":10}\n// remove: name, email, phone"
+  },
+  "data-evidence": {
+    "title": "Kọwaa nchọpụta na oke ya",
+    "body": "Kọwaa nha otu na ejighị n’aka. Mmekọrịta anaghị egosi ihe kpatara ihe ọzọ.\n\nNdụmọdụ bara uru na-ekwu ihe a hụrụ ma nye usoro ọzọ. Lelee ihe atụ maka ihe akaebe nke ihe rụrụ ọrụ na ihe siri ike. Kewaa ihe ị hụrụ na ihe ị chere. Melite otu ihe ma lelee ma ọ na-enyere aka; obere otu anaghị anọchi anya onye ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Kọwaa nchọpụta na oke ya”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Obere otu na-egosi mkpa onye ọ bụla.",
+    "answer": false,
+    "code": "n = 3\nmean = 20\nrange = 10–30\n// correlation ≠ causation"
+  },
+  "data-project": {
+    "title": "Mepụta obere akụkọ data",
+    "body": "Zaa otu ajụjụ na data dị ọcha, eserese nwere akara na ndụmọdụ nwere oke.\n\nJikọta nka ị mụtara na obere ọrụ. Jiri ihe atụ malite nhazi, họrọ nsonaazụ bara uru ma mepụta ihe ị pụrụ igosi. Nwalee ya site na ebumnuche gị, kọwaa otu oke na otu mmezi. Debe ndetu na ihe akaebe ka onye na-amụ ọzọ ghọta mkpebi gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Mepụta obere akụkọ data”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Zaa otu ajụjụ na data dị ọcha, eserese nwere akara na ndụmọdụ nwere oke.",
+    "answer": true,
+    "code": "CSV → clean → calculate → chart → recommendation\n10,20,30 → 20 → ███ → ?"
+  },
+  "cyber-phishing": {
+    "title": "Chọpụta njikọ aghụghọ",
+    "body": "Lelee hostname n’ezie: example.test.evil.test bụ nke evil.test, ọ bụghị example.test.\n\nIhe ize ndụ jikọtara ohere ihe ga-eme na nsogbu ọ ga-ebute. Tụnyere ohere na mmetụta n’ihe atụ ma họrọ ụzọ nche. Bido na nnukwu ihe ize ndụ ma họrọ onye ga-eme ihe. Ndepụta nyocha na-ebelata njehie ma ọ naghị ewepụ egwu niile.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Chọpụta njikọ aghụghọ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Lelee hostname n’ezie: example.test.evil.test bụ nke evil.test, ọ bụghị example.test.",
+    "answer": true,
+    "code": "https://example.test\nhttps://example.test.evil.test\n// host: example.test ≠ example.test.evil.test"
+  },
+  "cyber-privacy": {
+    "title": "Debe ozi nzuzo",
+    "body": "Paswọọdụ na koodu nbanye bụ nzuzo; jiri ihe emepụtara dochie ha n’akụkọ.\n\nJiri ozi emepụtara maka omume a. Nata naanị ihe dị mkpa, wepụ ihe na-egosi onye ma belata ndị ga-ahụ ya. Ihe atụ na-egosi ozi a ga-ewepụ ma ọ bụ ikike a ga-elele. E deela paswọọdụ n’ezie, ozi kọntaktị ma ọ bụ ndekọ nzuzo na ndetu gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Debe ozi nzuzo”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "A ga-etinye paswọọdụ n’ezie na ndetu omume a na-ekekọrịta.",
+    "answer": false,
+    "code": "{\"account\":\"test-01\",\"password\":\"[REDACTED]\",\"mfa_code\":\"[REDACTED]\"}"
+  },
+  "cyber-updates": {
+    "title": "Melite ngwaọrụ n’enweghị nsogbu",
+    "body": "Chekwaa data, nweta update n’ebe kwesịrị ekwesị, malite ọzọ ma lelee version.\n\nỤfọdụ usoro na-eche usoro mbụ. Soro akụ ndị dị n’ihe atụ ma kọwaa ihe ga-ebu ụzọ na ihe kpatara ya. Hazie ihe a ga-eme ma ọ bụrụ na otu usoro ada. Lelee mgbanwe ọ bụla tupu ịga n’ihu; iru njedebe naanị anaghị egosi na ọrụ niile gara nke ọma.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Melite ngwaọrụ n’enweghị nsogbu”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Chekwaa data, nweta update n’ebe kwesịrị ekwesị, malite ọzọ ma lelee version.",
+    "answer": true,
+    "code": "backup → official update → restart → version check"
+  },
+  "cyber-network": {
+    "title": "Ghọta njem netwọk",
+    "body": "DNS na-achọta address site na aha. HTTPS na-echebe njem data, mana saịtị aghụghọ nwekwara ike iji ya.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Ghọta njem netwọk”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ozi na-adịghị ga-abụ efu mgbe niile.",
+    "answer": false,
+    "code": "device → router → DNS → HTTPS server\n// HTTPS protects transit; does not guarantee honesty"
+  },
+  "cyber-permissions": {
+    "title": "Họrọ naanị ikike dị mkpa",
+    "body": "Least privilege na-enye naanị ikike ọrụ chọrọ; admin na-agbakwunye ihe ize ndụ.\n\nTụnyere nhọrọ site na ebumnuche doro anya kama ịma mma naanị. Ihe atụ na-egosi nhọrọ ma ọ bụ oke. Kọwaa uru na ọghọm, tụnyere n’ezi omume ma jiri ihe akaebe. Ihe na-arụ ọrụ n’otu ọnọdụ nwere ike ịchọ mgbanwe n’ọnọdụ ọzọ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Họrọ naanị ikike dị mkpa”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Least privilege na-enye naanị ikike ọrụ chọrọ; admin na-agbakwunye ihe ize ndụ.",
+    "answer": true,
+    "code": "viewer: read\neditor: read + write\nadmin: read + write + manage\n// role = minimum needed"
+  },
+  "cyber-backup": {
+    "title": "Nwalee nchekwa na iweghachi data",
+    "body": "Nchekwa a na-nwalebeghị nwere ike ada. Weghachi faịlụ ule ma tụnyere ọdịnaya.\n\nUle bara uru na-akọwa ihe a na-etinye na nsonaazụ a tụrụ anya tupu a lelee nke mere. Nwaa ihe atụ, mgbe ahụ nwaa ihe efu ma ọ bụ ihe a na-atụghị anya. Dee ihe mere ma mee obere mmezi. Nwalee ọzọ mgbe mmezi gasịrị iji mara na edoziwo nsogbu ahụ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Nwalee nchekwa na iweghachi data”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Otu ule gara nke ọma na-egosi na ọrụ na-arụ n’ọnọdụ niile.",
+    "answer": false,
+    "code": "3 copies · 2 storage types · 1 off-site\n// restore a test file; compare contents"
+  },
+  "cyber-threats": {
+    "title": "Hazie ihe ize ndụ nche",
+    "body": "Ohere ugboro mmetụta na-enye akara mkpa, ọ bụghị amụma doro anya.\n\nIhe ize ndụ jikọtara ohere ihe ga-eme na nsogbu ọ ga-ebute. Tụnyere ohere na mmetụta n’ihe atụ ma họrọ ụzọ nche. Bido na nnukwu ihe ize ndụ ma họrọ onye ga-eme ihe. Ndepụta nyocha na-ebelata njehie ma ọ naghị ewepụ egwu niile.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie ihe ize ndụ nche”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ohere ugboro mmetụta na-enye akara mkpa, ọ bụghị amụma doro anya.",
+    "answer": true,
+    "code": "risk = likelihood × impact\nA: 3 × 4 = 12\nB: 1 × 2 = 2"
+  },
+  "cyber-response": {
+    "title": "Zaghachi ihe a na-enyo enyo",
+    "body": "Kewaa ngwaọrụ a na-enyo, kọọrọ mmadụ ma debe ihe akaebe tupu iweghachi.\n\nỤfọdụ usoro na-eche usoro mbụ. Soro akụ ndị dị n’ihe atụ ma kọwaa ihe ga-ebu ụzọ na ihe kpatara ya. Hazie ihe a ga-eme ma ọ bụrụ na otu usoro ada. Lelee mgbanwe ọ bụla tupu ịga n’ihu; iru njedebe naanị anaghị egosi na ọrụ niile gara nke ọma.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Zaghachi ihe a na-enyo enyo”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Usoro dabere nwere ike ịmalite tupu nke mbụ mgbe niile.",
+    "answer": false,
+    "code": "isolate → report → preserve evidence → recover\n// practise only on your own test device"
+  },
+  "cyber-project": {
+    "title": "Mepụta ndepụta nyocha nche",
+    "body": "Dee nche account, update, ikike na iweghachi data gara nke ọma na ngwaọrụ ule gị.\n\nJikọta nka ị mụtara na obere ọrụ. Jiri ihe atụ malite nhazi, họrọ nsonaazụ bara uru ma mepụta ihe ị pụrụ igosi. Nwalee ya site na ebumnuche gị, kọwaa otu oke na otu mmezi. Debe ndetu na ihe akaebe ka onye na-amụ ọzọ ghọta mkpebi gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Mepụta ndepụta nyocha nche”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Dee nche account, update, ikike na iweghachi data gara nke ọma na ngwaọrụ ule gị.",
+    "answer": true,
+    "code": "test account → MFA → permissions → backup → restore check"
+  },
+  "ai-data": {
+    "title": "Hazie ihe atụ nwere akara",
+    "body": "Ahịrị ọzụzụ chọrọ input bara uru na label ziri ezi; lelee njehie na ihe na-adịghị.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie ihe atụ nwere akara”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ahịrị ọzụzụ chọrọ input bara uru na label ziri ezi; lelee njehie na ihe na-adịghị.",
+    "answer": true,
+    "code": "id,x,label\n1,1,A\n2,2,A\n3,8,B\n4,9,B"
+  },
+  "ai-split": {
+    "title": "Kewaa ọzụzụ na ule",
+    "body": "Kewaa ihe atụ ule tupu ọzụzụ; ịgwakọta ha na-eme ka nyocha duhie.\n\nIhe atụ ọzụzụ na-enyere ụdị igwe ịmụ; ihe atụ ule dị iche na-enyocha ọrụ ya. E tinyela data ule na ọzụzụ. Tụnyere amụma na azịza a maara ma lelee njehie. Ihe ịga nke ọma na obere ule anaghị egosi na ọ ga-arụ ọrụ nke ọma ebe niile.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Kewaa ọzụzụ na ule”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Iji ihe atụ ule na ọzụzụ na-enye nyocha ziri ezi.",
+    "answer": false,
+    "code": "train: 1,2,3\ntest: 4\n// no test examples in training"
+  },
+  "ai-baseline": {
+    "title": "Tụnyere nha mbido",
+    "body": "Ịkọ A mgbe niile na-enweta 75% na A atọ na B otu; jiri nke a tụnyere.\n\nTụnyere nhọrọ site na ebumnuche doro anya kama ịma mma naanị. Ihe atụ na-egosi nhọrọ ma ọ bụ oke. Kọwaa uru na ọghọm, tụnyere n’ezi omume ma jiri ihe akaebe. Ihe na-arụ ọrụ n’otu ọnọdụ nwere ike ịchọ mgbanwe n’ọnọdụ ọzọ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Tụnyere nha mbido”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ịkọ A mgbe niile na-enweta 75% na A atọ na B otu; jiri nke a tụnyere.",
+    "answer": true,
+    "code": "labels: A,A,A,B\n// always predict A → 3/4\n// model accuracy must be compared with baseline"
+  },
+  "ai-evaluate": {
+    "title": "Tụọ izi ezi amụma",
+    "body": "Izi ezi bụ amụma ziri ezi kewaa na niile; atọ n’ime anọ = 75%.\n\nNgụkọta chọrọ ihe a na-etinye, usoro ngụkọta na nha. Jiri aka rụọ ihe atụ tupu iji ngwaọrụ. Lelee ihe a na-ekewa, data na-adịghị na ma nsonaazụ ọ bụ ihe ezi uche. Ngụkọta ziri ezi ka chọrọ nkọwa tupu e jiri ya mee mkpebi.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Tụọ izi ezi amụma”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nha na ihe a na-ekewa adịghị mkpa na ngụkọta.",
+    "answer": false,
+    "code": "actual: A,A,B,B\npredicted: A,B,B,B\naccuracy = 3 / 4 = 75%"
+  },
+  "ai-bias": {
+    "title": "Lelee njehie n’otu dị iche",
+    "body": "Akara niile nwere ike izochi nsogbu otu; lelee akara na nha otu ọ bụla.\n\nNdụmọdụ bara uru na-ekwu ihe a hụrụ ma nye usoro ọzọ. Lelee ihe atụ maka ihe akaebe nke ihe rụrụ ọrụ na ihe siri ike. Kewaa ihe ị hụrụ na ihe ị chere. Melite otu ihe ma lelee ma ọ na-enyere aka; obere otu anaghị anọchi anya onye ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Lelee njehie n’otu dị iche”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Akara niile nwere ike izochi nsogbu otu; lelee akara na nha otu ọ bụla.",
+    "answer": true,
+    "code": "group A: 9/10 = 90%\ngroup B: 5/10 = 50%\noverall: 14/20 = 70%"
+  },
+  "ai-prompts": {
+    "title": "Dee ntụziaka nwere nhazi",
+    "body": "Prompt chọrọ ọrụ, nkọwa, ụdị azịza na oke; wepụ ozi nzuzo.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Dee ntụziaka nwere nhazi”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ozi na-adịghị ga-abụ efu mgbe niile.",
+    "answer": false,
+    "code": "{\"task\":\"summarise\",\"context\":\"[synthetic text]\",\"format\":\"3 bullet points\",\"constraint\":\"use only supplied facts\"}"
+  },
+  "ai-verification": {
+    "title": "Lelee ihe AI kwuru",
+    "body": "AI nwere ike ịmepụta ihe a na-akpọ eziokwu na isi mmalite. Lelee okwu na ihe akaebe mbụ.\n\nUle bara uru na-akọwa ihe a na-etinye na nsonaazụ a tụrụ anya tupu a lelee nke mere. Nwaa ihe atụ, mgbe ahụ nwaa ihe efu ma ọ bụ ihe a na-atụghị anya. Dee ihe mere ma mee obere mmezi. Nwalee ọzọ mgbe mmezi gasịrị iji mara na edoziwo nsogbu ahụ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Lelee ihe AI kwuru”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "AI nwere ike ịmepụta ihe a na-akpọ eziokwu na isi mmalite. Lelee okwu na ihe akaebe mbụ.",
+    "answer": true,
+    "code": "claim → source → evidence → verified / unknown\n// fluent text ≠ proof"
+  },
+  "ai-privacy": {
+    "title": "E tinyela ozi nzuzo na ntụziaka",
+    "body": "Jiri data emepụtara ma ọ bụ nwere nkwenye ma wepụ ozi nzuzo.\n\nJiri ozi emepụtara maka omume a. Nata naanị ihe dị mkpa, wepụ ihe na-egosi onye ma belata ndị ga-ahụ ya. Ihe atụ na-egosi ozi a ga-ewepụ ma ọ bụ ikike a ga-elele. E deela paswọọdụ n’ezie, ozi kọntaktị ma ọ bụ ndekọ nzuzo na ndetu gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “E tinyela ozi nzuzo na ntụziaka”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "A ga-etinye paswọọdụ n’ezie na ndetu omume a na-ekekọrịta.",
+    "answer": false,
+    "code": "{\"name\":\"[REMOVED]\",\"health_record\":\"[REMOVED]\",\"example\":\"synthetic\"}"
+  },
+  "ai-project": {
+    "title": "Mepụta nnwale AI nwere ọrụ",
+    "body": "Họrọ ajụjụ, nha mbido, ule dị iche na akụkọ njehie na oke.\n\nJikọta nka ị mụtara na obere ọrụ. Jiri ihe atụ malite nhazi, họrọ nsonaazụ bara uru ma mepụta ihe ị pụrụ igosi. Nwalee ya site na ebumnuche gị, kọwaa otu oke na otu mmezi. Debe ndetu na ihe akaebe ka onye na-amụ ọzọ ghọta mkpebi gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Mepụta nnwale AI nwere ọrụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Họrọ ajụjụ, nha mbido, ule dị iche na akụkọ njehie na oke.",
+    "answer": true,
+    "code": "question → synthetic examples → baseline → test → limitations"
+  },
+  "design-research": {
+    "title": "Nyochaa nsogbu onye ọrụ",
+    "body": "Jụọ ahụmahụ nso nso ma lelee nsogbu kama ịtụ aro azịza.\n\nMalite na onye chọrọ ọrụ ahụ na ihe ọ chọrọ ime. Ihe atụ jikọtara mkpa, azịza bara uru na usoro ọzọ. Nye nkọwa zuru oke, jiri okwu nkwanye ùgwù ma zere okwu enweghị ihe akaebe. Lelee ọrụ ahụ na onye n’otu ị chọrọ iru.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Nyochaa nsogbu onye ọrụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Jụọ ahụmahụ nso nso ma lelee nsogbu kama ịtụ aro azịza.",
+    "answer": true,
+    "code": "person → goal → obstacle\n// observe behaviour; ask open questions"
+  },
+  "design-flow": {
+    "title": "See njem onye ọrụ",
+    "body": "See ụzọ nkịtị na ụzọ njehie ma ọ bụ offline ka onye ọrụ laghachi.\n\nỤfọdụ usoro na-eche usoro mbụ. Soro akụ ndị dị n’ihe atụ ma kọwaa ihe ga-ebu ụzọ na ihe kpatara ya. Hazie ihe a ga-eme ma ọ bụrụ na otu usoro ada. Lelee mgbanwe ọ bụla tupu ịga n’ihu; iru njedebe naanị anaghị egosi na ọrụ niile gara nke ọma.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “See njem onye ọrụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Usoro dabere nwere ike ịmalite tupu nke mbụ mgbe niile.",
+    "answer": false,
+    "code": "home → lesson → save → confirmation\n// also: offline → retry"
+  },
+  "design-wireframe": {
+    "title": "See nhazi mbido",
+    "body": "Wireframe na-ahazi ọdịnaya na omume tupu agba na mma.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “See nhazi mbido”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Wireframe na-ahazi ọdịnaya na omume tupu agba na mma.",
+    "answer": true,
+    "code": "[heading]\n[explanation]\n[primary action]\n[help]"
+  },
+  "design-hierarchy": {
+    "title": "Hazie mkpa ihe a na-ahụ",
+    "body": "Nha isiokwu, oghere na otu omume isi na-egosi ihe kacha mkpa.\n\nTụnyere nhọrọ site na ebumnuche doro anya kama ịma mma naanị. Ihe atụ na-egosi nhọrọ ma ọ bụ oke. Kọwaa uru na ọghọm, tụnyere n’ezi omume ma jiri ihe akaebe. Ihe na-arụ ọrụ n’otu ọnọdụ nwere ike ịchọ mgbanwe n’ọnọdụ ọzọ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie mkpa ihe a na-ahụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nhọrọ mara mma bụ nke kacha mma maka ebumnuche niile.",
+    "answer": false,
+    "code": "H1 > H2 > body\nprimary action: 1\nspacing: 8,16,24"
+  },
+  "design-access": {
+    "title": "Lelee atụmatụ onye ọ bụla ga-eji",
+    "body": "Lelee ọdịiche agba, keyboard, focus, label na zoom n’enweghị izochi ọdịnaya.\n\nUle bara uru na-akọwa ihe a na-etinye na nsonaazụ a tụrụ anya tupu a lelee nke mere. Nwaa ihe atụ, mgbe ahụ nwaa ihe efu ma ọ bụ ihe a na-atụghị anya. Dee ihe mere ma mee obere mmezi. Nwalee ọzọ mgbe mmezi gasịrị iji mara na edoziwo nsogbu ahụ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Lelee atụmatụ onye ọ bụla ga-eji”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Lelee ọdịiche agba, keyboard, focus, label na zoom n’enweghị izochi ọdịnaya.",
+    "answer": true,
+    "code": "contrast ≥ 4.5:1\nkeyboard: Tab → Enter\nzoom: 200%\nlabel + input"
+  },
+  "design-prototype": {
+    "title": "Jikọta ihe atụ a na-pịa",
+    "body": "Prototype na-ejikọta eserese igosi omume; ọ chọghị backend emechara.\n\nỤfọdụ usoro na-eche usoro mbụ. Soro akụ ndị dị n’ihe atụ ma kọwaa ihe ga-ebu ụzọ na ihe kpatara ya. Hazie ihe a ga-eme ma ọ bụrụ na otu usoro ada. Lelee mgbanwe ọ bụla tupu ịga n’ihu; iru njedebe naanị anaghị egosi na ọrụ niile gara nke ọma.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Jikọta ihe atụ a na-pịa”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Usoro dabere nwere ike ịmalite tupu nke mbụ mgbe niile.",
+    "answer": false,
+    "code": "screen A → tap → screen B → back → screen A"
+  },
+  "design-usability": {
+    "title": "Mee ule iji ya",
+    "body": "Nye ọrụ n’ezie ma lelee n’enweghị nkuzi; dee ebe onye ahụ kwụsịrị.\n\nNdụmọdụ bara uru na-ekwu ihe a hụrụ ma nye usoro ọzọ. Lelee ihe atụ maka ihe akaebe nke ihe rụrụ ọrụ na ihe siri ike. Kewaa ihe ị hụrụ na ihe ị chere. Melite otu ihe ma lelee ma ọ na-enyere aka; obere otu anaghị anọchi anya onye ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Mee ule iji ya”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nye ọrụ n’ezie ma lelee n’enweghị nkuzi; dee ebe onye ahụ kwụsịrị.",
+    "answer": true,
+    "code": "task: A → B\nparticipant 1: ✓\nparticipant 2: A → C → ?\n// observe; do not coach"
+  },
+  "design-iterate": {
+    "title": "Melite otu mkpebi atụmatụ",
+    "body": "Gbanwee otu mkpebi, megharịa otu ọrụ ma tụnyere nlezianya.\n\nNnwale na-amalite na ajụjụ a pụrụ ịlele na nha ihe ịga nke ọma. Ihe atụ na-agbanwe otu ihe ma debe ndị ọzọ otu. Dee nsonaazụ mbido, mee obere ule ma tụnyere. Otu nsonaazụ anaghị ekwe nkwa otu ihe n’ọnọdụ ma ọ bụ otu ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Melite otu mkpebi atụmatụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ịgbanwe ọtụtụ ihe n’otu oge na-ekewapụ mmetụta otu ihe.",
+    "answer": false,
+    "code": "A: 2/5 succeed\nB: 4/5 succeed\n// same task; changed label only"
+  },
+  "design-project": {
+    "title": "Gosi atụmatụ a nwalere",
+    "body": "Gosi mkpa, ụzọ a nwalere, prototype, ihe a hụrụ na mmezi ihe akaebe kwadoro.\n\nJikọta nka ị mụtara na obere ọrụ. Jiri ihe atụ malite nhazi, họrọ nsonaazụ bara uru ma mepụta ihe ị pụrụ igosi. Nwalee ya site na ebumnuche gị, kọwaa otu oke na otu mmezi. Debe ndetu na ihe akaebe ka onye na-amụ ọzọ ghọta mkpebi gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Gosi atụmatụ a nwalere”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Gosi mkpa, ụzọ a nwalere, prototype, ihe a hụrụ na mmezi ihe akaebe kwadoro.",
+    "answer": true,
+    "code": "need → flow → sketch → prototype → test → revision"
+  },
+  "marketing-audience": {
+    "title": "Kọwaa ndị ị chọrọ iru",
+    "body": "Kọwaa nsogbu otu ndị mmadụ tupu ịhọrọ ozi ma ọ bụ ụzọ.\n\nMalite na onye chọrọ ọrụ ahụ na ihe ọ chọrọ ime. Ihe atụ jikọtara mkpa, azịza bara uru na usoro ọzọ. Nye nkọwa zuru oke, jiri okwu nkwanye ùgwù ma zere okwu enweghị ihe akaebe. Lelee ọrụ ahụ na onye n’otu ị chọrọ iru.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Kọwaa ndị ị chọrọ iru”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Kọwaa nsogbu otu ndị mmadụ tupu ịhọrọ ozi ma ọ bụ ụzọ.",
+    "answer": true,
+    "code": "audience → problem → benefit → action"
+  },
+  "marketing-value": {
+    "title": "Kọwaa uru bara uru",
+    "body": "Feature na-akọwa ihe ị na-enye; benefit na-egosi enyemaka onye ahịa ga-enweta.\n\nTụnyere nhọrọ site na ebumnuche doro anya kama ịma mma naanị. Ihe atụ na-egosi nhọrọ ma ọ bụ oke. Kọwaa uru na ọghọm, tụnyere n’ezi omume ma jiri ihe akaebe. Ihe na-arụ ọrụ n’otu ọnọdụ nwere ike ịchọ mgbanwe n’ọnọdụ ọzọ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Kọwaa uru bara uru”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nhọrọ mara mma bụ nke kacha mma maka ebumnuche niile.",
+    "answer": false,
+    "code": "feature: 10\nbenefit: 10 → goal\n// benefit must be supported by evidence"
+  },
+  "marketing-channel": {
+    "title": "Họrọ ụzọ mgbasa ozi",
+    "body": "Tụnyere ọnụ ahịa ajụjụ bara uru, ọ bụghị naanị nha otu.\n\nTụnyere nhọrọ site na ebumnuche doro anya kama ịma mma naanị. Ihe atụ na-egosi nhọrọ ma ọ bụ oke. Kọwaa uru na ọghọm, tụnyere n’ezi omume ma jiri ihe akaebe. Ihe na-arụ ọrụ n’otu ọnọdụ nwere ike ịchọ mgbanwe n’ọnọdụ ọzọ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Họrọ ụzọ mgbasa ozi”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Tụnyere ọnụ ahịa ajụjụ bara uru, ọ bụghị naanị nha otu.",
+    "answer": true,
+    "code": "A: cost 20 / 2 enquiries\nB: cost 30 / 6 enquiries"
+  },
+  "marketing-copy": {
+    "title": "Dee oku omume doro anya",
+    "body": "Ozi bara uru na-egosi nsogbu, uru nwere ihe akaebe na otu omume.\n\nMalite na onye chọrọ ọrụ ahụ na ihe ọ chọrọ ime. Ihe atụ jikọtara mkpa, azịza bara uru na usoro ọzọ. Nye nkọwa zuru oke, jiri okwu nkwanye ùgwù ma zere okwu enweghị ihe akaebe. Lelee ọrụ ahụ na onye n’otu ị chọrọ iru.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Dee oku omume doro anya”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ndị a chọrọ iru anaghị emetụta nkọwa ozi.",
+    "answer": false,
+    "code": "problem → useful offer → evidence → one action"
+  },
+  "marketing-calendar": {
+    "title": "Hazie kalenda ọdịnaya",
+    "body": "Họrọ ụbọchị, onye ọrụ, ndị a ga-eru na ebumnuche ọdịnaya ọ bụla.\n\nỤfọdụ usoro na-eche usoro mbụ. Soro akụ ndị dị n’ihe atụ ma kọwaa ihe ga-ebu ụzọ na ihe kpatara ya. Hazie ihe a ga-eme ma ọ bụrụ na otu usoro ada. Lelee mgbanwe ọ bụla tupu ịga n’ihu; iru njedebe naanị anaghị egosi na ọrụ niile gara nke ọma.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie kalenda ọdịnaya”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Họrọ ụbọchị, onye ọrụ, ndị a ga-eru na ebumnuche ọdịnaya ọ bụla.",
+    "answer": true,
+    "code": "Mon: A\nWed: B\nFri: C\n// owner + date + goal for each"
+  },
+  "marketing-metrics": {
+    "title": "Tụọ nsonaazụ na ọnụ ahịa",
+    "body": "Conversion bụ omume kewaa na visits; cost per enquiry bụ ego kewaa na ajụjụ.\n\nNgụkọta chọrọ ihe a na-etinye, usoro ngụkọta na nha. Jiri aka rụọ ihe atụ tupu iji ngwaọrụ. Lelee ihe a na-ekewa, data na-adịghị na ma nsonaazụ ọ bụ ihe ezi uche. Ngụkọta ziri ezi ka chọrọ nkọwa tupu e jiri ya mee mkpebi.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Tụọ nsonaazụ na ọnụ ahịa”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nha na ihe a na-ekewa adịghị mkpa na ngụkọta.",
+    "answer": false,
+    "code": "100 visits → 5 enquiries\nconversion = 5 / 100 × 100 = 5%\ncost 20 / 5 enquiries = 4"
+  },
+  "marketing-test": {
+    "title": "Nwalee otu mgbanwe ozi",
+    "body": "Tụnyere ozi abụọ na otu mgbanwe n’ọnọdụ yiri ibe ha; obere otu ka nwere ejighị n’aka.\n\nNnwale na-amalite na ajụjụ a pụrụ ịlele na nha ihe ịga nke ọma. Ihe atụ na-agbanwe otu ihe ma debe ndị ọzọ otu. Dee nsonaazụ mbido, mee obere ule ma tụnyere. Otu nsonaazụ anaghị ekwe nkwa otu ihe n’ọnọdụ ma ọ bụ otu ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Nwalee otu mgbanwe ozi”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Tụnyere ozi abụọ na otu mgbanwe n’ọnọdụ yiri ibe ha; obere otu ka nwere ejighị n’aka.",
+    "answer": true,
+    "code": "A: 10/100 = 10%\nB: 15/100 = 15%\n// change one headline; same audience and period"
+  },
+  "marketing-consent": {
+    "title": "Kwanyere nkwenye na nzuzo ùgwù",
+    "body": "Rịọ nkwenye tupu kọntaktị mgbasa ozi ma mee ka nkwụsị dị mfe.\n\nJiri ozi emepụtara maka omume a. Nata naanị ihe dị mkpa, wepụ ihe na-egosi onye ma belata ndị ga-ahụ ya. Ihe atụ na-egosi ozi a ga-ewepụ ma ọ bụ ikike a ga-elele. E deela paswọọdụ n’ezie, ozi kọntaktị ma ọ bụ ndekọ nzuzo na ndetu gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Kwanyere nkwenye na nzuzo ùgwù”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "A ga-etinye paswọọdụ n’ezie na ndetu omume a na-ekekọrịta.",
+    "answer": false,
+    "code": "opt-in → explain use → unsubscribe\n// no bought contact lists"
+  },
+  "marketing-project": {
+    "title": "Mepụta obere atụmatụ mgbasa ozi",
+    "body": "Họrọ obere ego, ụzọ na ozi, kọwaa nsonaazụ ị ga-atụ.\n\nJikọta nka ị mụtara na obere ọrụ. Jiri ihe atụ malite nhazi, họrọ nsonaazụ bara uru ma mepụta ihe ị pụrụ igosi. Nwalee ya site na ebumnuche gị, kọwaa otu oke na otu mmezi. Debe ndetu na ihe akaebe ka onye na-amụ ọzọ ghọta mkpebi gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Mepụta obere atụmatụ mgbasa ozi”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Họrọ obere ego, ụzọ na ozi, kọwaa nsonaazụ ị ga-atụ.",
+    "answer": true,
+    "code": "audience → message → channel → budget → measure → revise"
+  },
+  "business-customer": {
+    "title": "Jụọ onye ahịa nwere ike ịzụta",
+    "body": "Jụọ omume nso nso na nsogbu ugbu a tupu ịkọwa ngwọta.\n\nMalite na onye chọrọ ọrụ ahụ na ihe ọ chọrọ ime. Ihe atụ jikọtara mkpa, azịza bara uru na usoro ọzọ. Nye nkọwa zuru oke, jiri okwu nkwanye ùgwù ma zere okwu enweghị ihe akaebe. Lelee ọrụ ahụ na onye n’otu ị chọrọ iru.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Jụọ onye ahịa nwere ike ịzụta”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Jụọ omume nso nso na nsogbu ugbu a tupu ịkọwa ngwọta.",
+    "answer": true,
+    "code": "person → problem → current workaround → willingness to pay"
+  },
+  "business-offer": {
+    "title": "Kọwaa ihe ị na-enye",
+    "body": "Ihe ị na-enye na-egosi onye ahịa, nsogbu, ọrụ, ọnụ ahịa na nnyefe.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Kọwaa ihe ị na-enye”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ozi na-adịghị ga-abụ efu mgbe niile.",
+    "answer": false,
+    "code": "customer + problem + offer + price + delivery"
+  },
+  "business-costs": {
+    "title": "Gbakọọ ọnụ ahịa na ebe ego nhata",
+    "body": "Contribution bụ ọnụ ahịa wepụ variable cost; break-even na-ekpuchi fixed costs.\n\nNgụkọta chọrọ ihe a na-etinye, usoro ngụkọta na nha. Jiri aka rụọ ihe atụ tupu iji ngwaọrụ. Lelee ihe a na-ekewa, data na-adịghị na ma nsonaazụ ọ bụ ihe ezi uche. Ngụkọta ziri ezi ka chọrọ nkọwa tupu e jiri ya mee mkpebi.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Gbakọọ ọnụ ahịa na ebe ego nhata”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Contribution bụ ọnụ ahịa wepụ variable cost; break-even na-ekpuchi fixed costs.",
+    "answer": true,
+    "code": "price = 100\nvariable cost = 70\ncontribution = 30\nfixed costs = 300\nbreak-even = 300 / 30 = 10 units"
+  },
+  "business-cash": {
+    "title": "Hazie ego na-abata na-apụ",
+    "body": "Ego njedebe bụ ego mbido gbakwunye ego bata wepụ ịkwụ ụgwọ; ahịa ụgwọ abụghị ego aka.\n\nNgụkọta chọrọ ihe a na-etinye, usoro ngụkọta na nha. Jiri aka rụọ ihe atụ tupu iji ngwaọrụ. Lelee ihe a na-ekewa, data na-adịghị na ma nsonaazụ ọ bụ ihe ezi uche. Ngụkọta ziri ezi ka chọrọ nkọwa tupu e jiri ya mee mkpebi.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie ego na-abata na-apụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nha na ihe a na-ekewa adịghị mkpa na ngụkọta.",
+    "answer": false,
+    "code": "opening cash 200 + receipts 100 − payments 150 = closing cash 150"
+  },
+  "business-validation": {
+    "title": "Lelee echiche na obere ule",
+    "body": "Jiri mkparịta ụka na obere ule nyochaa mkpa tupu itinye nnukwu ego.\n\nNnwale na-amalite na ajụjụ a pụrụ ịlele na nha ihe ịga nke ọma. Ihe atụ na-agbanwe otu ihe ma debe ndị ọzọ otu. Dee nsonaazụ mbido, mee obere ule ma tụnyere. Otu nsonaazụ anaghị ekwe nkwa otu ihe n’ọnọdụ ma ọ bụ otu ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Lelee echiche na obere ule”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Jiri mkparịta ụka na obere ule nyochaa mkpa tupu itinye nnukwu ego.",
+    "answer": true,
+    "code": "hypothesis → 5 conversations → small trial → evidence → decision"
+  },
+  "business-operations": {
+    "title": "Hazie ọrụ nnyefe",
+    "body": "See usoro site n’ịtụ ihe ruo nnyocha ọzọ; họrọ onye ga-enyocha ịdị mma.\n\nỤfọdụ usoro na-eche usoro mbụ. Soro akụ ndị dị n’ihe atụ ma kọwaa ihe ga-ebu ụzọ na ihe kpatara ya. Hazie ihe a ga-eme ma ọ bụrụ na otu usoro ada. Lelee mgbanwe ọ bụla tupu ịga n’ihu; iru njedebe naanị anaghị egosi na ọrụ niile gara nke ọma.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie ọrụ nnyefe”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Usoro dabere nwere ike ịmalite tupu nke mbụ mgbe niile.",
+    "answer": false,
+    "code": "order → confirm → prepare → check → deliver → follow up"
+  },
+  "business-records": {
+    "title": "Debe obere ndekọ azụmahịa",
+    "body": "Dee ụbọchị, ụdị, ọnụ ọgụgụ na reference; debe ihe akaebe ego ọ bụla.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Debe obere ndekọ azụmahịa”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Dee ụbọchị, ụdị, ọnụ ọgụgụ na reference; debe ihe akaebe ego ọ bụla.",
+    "answer": true,
+    "code": "date,type,amount,reference\n2026-01-01,in,100,R01\n2026-01-02,out,70,R02"
+  },
+  "business-risk": {
+    "title": "Kwadebe maka ihe ize ndụ azụmahịa",
+    "body": "Chọpụta ihe ọrụ dabere, tụọ ihe ize ndụ ma kwadebe ụzọ ọzọ.\n\nIhe ize ndụ jikọtara ohere ihe ga-eme na nsogbu ọ ga-ebute. Tụnyere ohere na mmetụta n’ihe atụ ma họrọ ụzọ nche. Bido na nnukwu ihe ize ndụ ma họrọ onye ga-eme ihe. Ndepụta nyocha na-ebelata njehie ma ọ naghị ewepụ egwu niile.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Kwadebe maka ihe ize ndụ azụmahịa”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Obere ohere pụtara na ihe ize ndụ agaghị emebi ihe.",
+    "answer": false,
+    "code": "supplier A: likelihood 3 × impact 4 = 12\nbackup supplier → reduce impact"
+  },
+  "business-project": {
+    "title": "Gosi echiche azụmahịa a nwalere",
+    "body": "Gosi ihe akaebe onye ahịa, ọnụ ahịa ọrụ, ule na atụmatụ ego nwere ajụjụ.\n\nJikọta nka ị mụtara na obere ọrụ. Jiri ihe atụ malite nhazi, họrọ nsonaazụ bara uru ma mepụta ihe ị pụrụ igosi. Nwalee ya site na ebumnuche gị, kọwaa otu oke na otu mmezi. Debe ndetu na ihe akaebe ka onye na-amụ ọzọ ghọta mkpebi gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Gosi echiche azụmahịa a nwalere”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Gosi ihe akaebe onye ahịa, ọnụ ahịa ọrụ, ule na atụmatụ ego nwere ajụjụ.",
+    "answer": true,
+    "code": "problem → offer → costs → trial → cash plan → next decision"
+  },
+  "writing-purpose": {
+    "title": "Kọwaa onye na-agụ na ebumnuche",
+    "body": "Chọpụta onye na-agụ, ebumnuche ozi na ihe ọ ga-eme ọzọ.\n\nMalite na onye chọrọ ọrụ ahụ na ihe ọ chọrọ ime. Ihe atụ jikọtara mkpa, azịza bara uru na usoro ọzọ. Nye nkọwa zuru oke, jiri okwu nkwanye ùgwù ma zere okwu enweghị ihe akaebe. Lelee ọrụ ahụ na onye n’otu ị chọrọ iru.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Kọwaa onye na-agụ na ebumnuche”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Chọpụta onye na-agụ, ebumnuche ozi na ihe ọ ga-eme ọzọ.",
+    "answer": true,
+    "code": "reader → purpose → main point → next action"
+  },
+  "writing-outline": {
+    "title": "Hazie atụmatụ edemede",
+    "body": "Atụmatụ na-etinye isi okwu tupu ihe akaebe na oku omume.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie atụmatụ edemede”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ozi na-adịghị ga-abụ efu mgbe niile.",
+    "answer": false,
+    "code": "I. main point\nII. evidence\nIII. next action"
+  },
+  "writing-paragraph": {
+    "title": "Mepụta paragraf doro anya",
+    "body": "Paragraf na-etolite otu echiche na nkọwa bara uru na njikọ ọzọ.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Mepụta paragraf doro anya”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Paragraf na-etolite otu echiche na nkọwa bara uru na njikọ ọzọ.",
+    "answer": true,
+    "code": "topic → supporting detail → connection"
+  },
+  "writing-clarity": {
+    "title": "Mee ka ahịrịokwu dị mfe",
+    "body": "Wepụ okwu e degharịrị ma kewaa ahịrịokwu juru n’enweghị ịtụfu ihe ọ pụtara.\n\nTụnyere nhọrọ site na ebumnuche doro anya kama ịma mma naanị. Ihe atụ na-egosi nhọrọ ma ọ bụ oke. Kọwaa uru na ọghọm, tụnyere n’ezi omume ma jiri ihe akaebe. Ihe na-arụ ọrụ n’otu ọnọdụ nwere ike ịchọ mgbanwe n’ọnọdụ ọzọ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Mee ka ahịrịokwu dị mfe”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nhọrọ mara mma bụ nke kacha mma maka ebumnuche niile.",
+    "answer": false,
+    "code": "A: 42 words, 3 ideas\nB: 12 words, 1 idea\n// keep meaning; remove repetition"
+  },
+  "writing-evidence": {
+    "title": "Jiri ihe akaebe kwado okwu",
+    "body": "Lelee okwu na isi mmalite mbụ, ụbọchị na ihe akaebe.\n\nUle bara uru na-akọwa ihe a na-etinye na nsonaazụ a tụrụ anya tupu a lelee nke mere. Nwaa ihe atụ, mgbe ahụ nwaa ihe efu ma ọ bụ ihe a na-atụghị anya. Dee ihe mere ma mee obere mmezi. Nwalee ọzọ mgbe mmezi gasịrị iji mara na edoziwo nsogbu ahụ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Jiri ihe akaebe kwado okwu”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Lelee okwu na isi mmalite mbụ, ụbọchị na ihe akaebe.",
+    "answer": true,
+    "code": "claim → original source → date → supporting evidence"
+  },
+  "writing-tone": {
+    "title": "Họrọ ụdị okwu kwesịrị ekwesị",
+    "body": "Họrọ ụdị okwu dabara na mmekọrịta ma debe eziokwu na nkwanye ùgwù.\n\nMalite na onye chọrọ ọrụ ahụ na ihe ọ chọrọ ime. Ihe atụ jikọtara mkpa, azịza bara uru na usoro ọzọ. Nye nkọwa zuru oke, jiri okwu nkwanye ùgwù ma zere okwu enweghị ihe akaebe. Lelee ọrụ ahụ na onye n’otu ị chọrọ iru.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Họrọ ụdị okwu kwesịrị ekwesị”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ndị a chọrọ iru anaghị emetụta nkọwa ozi.",
+    "answer": false,
+    "code": "same facts + different reader → different tone\n// respectful; clear; specific"
+  },
+  "writing-edit": {
+    "title": "Dezie n’usoro",
+    "body": "Dezie ihe ọ pụtara na nhazi tupu ahịrịokwu na mkpoputa.\n\nNdụmọdụ bara uru na-ekwu ihe a hụrụ ma nye usoro ọzọ. Lelee ihe atụ maka ihe akaebe nke ihe rụrụ ọrụ na ihe siri ike. Kewaa ihe ị hụrụ na ihe ị chere. Melite otu ihe ma lelee ma ọ na-enyere aka; obere otu anaghị anọchi anya onye ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Dezie n’usoro”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Dezie ihe ọ pụtara na nhazi tupu ahịrịokwu na mkpoputa.",
+    "answer": true,
+    "code": "draft → meaning → structure → sentence → spelling"
+  },
+  "writing-feedback": {
+    "title": "Jiri ndụmọdụ onye na-agụ",
+    "body": "Jụọ ihe onye na-agụ ghọtara na ebe ọ kwụsịrị, dezie akụkụ ahụ.\n\nNdụmọdụ bara uru na-ekwu ihe a hụrụ ma nye usoro ọzọ. Lelee ihe atụ maka ihe akaebe nke ihe rụrụ ọrụ na ihe siri ike. Kewaa ihe ị hụrụ na ihe ị chere. Melite otu ihe ma lelee ma ọ na-enyere aka; obere otu anaghị anọchi anya onye ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Jiri ndụmọdụ onye na-agụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Obere otu na-egosi mkpa onye ọ bụla.",
+    "answer": false,
+    "code": "reader understands: A\nreader asks: B?\nrevision: clarify B"
+  },
+  "writing-project": {
+    "title": "Bipụta ozi emeziri nke ọma",
+    "body": "Mepụta ozi dị mkpirikpi nwere ebumnuche, eziokwu a lelere na omume ọzọ.\n\nJikọta nka ị mụtara na obere ọrụ. Jiri ihe atụ malite nhazi, họrọ nsonaazụ bara uru ma mepụta ihe ị pụrụ igosi. Nwalee ya site na ebumnuche gị, kọwaa otu oke na otu mmezi. Debe ndetu na ihe akaebe ka onye na-amụ ọzọ ghọta mkpebi gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Bipụta ozi emeziri nke ọma”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Mepụta ozi dị mkpirikpi nwere ebumnuche, eziokwu a lelere na omume ọzọ.",
+    "answer": true,
+    "code": "brief → outline → draft → source check → revision → final message"
+  },
+  "project-scope": {
+    "title": "Họrọ oke na ihe a ga-eji mara ihe ịga nke ọma",
+    "body": "Kọwaa ihe dị n’ime, ihe na-adịghị na otu a ga-esi anabata nsonaazụ.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Họrọ oke na ihe a ga-eji mara ihe ịga nke ọma”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Kọwaa ihe dị n’ime, ihe na-adịghị na otu a ga-esi anabata nsonaazụ.",
+    "answer": true,
+    "code": "outcome + acceptance criteria\nin: A,B\nout: C"
+  },
+  "project-breakdown": {
+    "title": "Kewaa ihe a ga-emepụta",
+    "body": "Kewaa ihe a ga-emepụta n’ọrụ dị mfe, họrọ otu onye nwere ọrụ maka nke ọ bụla.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Kewaa ihe a ga-emepụta”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ozi na-adịghị ga-abụ efu mgbe niile.",
+    "answer": false,
+    "code": "deliverable → task A → subtask A1,A2\n// one owner per task"
+  },
+  "project-dependencies": {
+    "title": "Hazie ọrụ dabere na ibe ya",
+    "body": "Ọrụ dabere na-eche nke mbụ; njikọ kacha ogologo na-achị ụbọchị njedebe.\n\nỤfọdụ usoro na-eche usoro mbụ. Soro akụ ndị dị n’ihe atụ ma kọwaa ihe ga-ebu ụzọ na ihe kpatara ya. Hazie ihe a ga-eme ma ọ bụrụ na otu usoro ada. Lelee mgbanwe ọ bụla tupu ịga n’ihu; iru njedebe naanị anaghị egosi na ọrụ niile gara nke ọma.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie ọrụ dabere na ibe ya”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Ọrụ dabere na-eche nke mbụ; njikọ kacha ogologo na-achị ụbọchị njedebe.",
+    "answer": true,
+    "code": "A(2 days) → B(3 days) → D(1 day)\nA → C(1 day) → D\n// longest chain: 6 days"
+  },
+  "project-estimates": {
+    "title": "Tụọ oge na ikike",
+    "body": "Kewaa mgbalị na ogologo oge kalenda ma hapụ ohere maka ejighị n’aka.\n\nNgụkọta chọrọ ihe a na-etinye, usoro ngụkọta na nha. Jiri aka rụọ ihe atụ tupu iji ngwaọrụ. Lelee ihe a na-ekewa, data na-adịghị na ma nsonaazụ ọ bụ ihe ezi uche. Ngụkọta ziri ezi ka chọrọ nkọwa tupu e jiri ya mee mkpebi.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Tụọ oge na ikike”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nha na ihe a na-ekewa adịghị mkpa na ngụkọta.",
+    "answer": false,
+    "code": "A: 2h\nB: 3h\nC: 1h\ntotal: 6h + contingency"
+  },
+  "project-board": {
+    "title": "Jikwaa ọrụ na bọọdụ",
+    "body": "Bugharịa ọrụ site na To do ruo In progress ruo Done mgbe ọnọdụ nnabata mezuru.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Jikwaa ọrụ na bọọdụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Bugharịa ọrụ site na To do ruo In progress ruo Done mgbe ọnọdụ nnabata mezuru.",
+    "answer": true,
+    "code": "[To do] → [In progress] → [Done]\n// task + owner + acceptance check"
+  },
+  "project-risks": {
+    "title": "Hazie azịza ihe ize ndụ",
+    "body": "Dee ohere, mmetụta, onye nwere ọrụ na azịza ihe ize ndụ; lelee ọzọ.\n\nIhe ize ndụ jikọtara ohere ihe ga-eme na nsogbu ọ ga-ebute. Tụnyere ohere na mmetụta n’ihe atụ ma họrọ ụzọ nche. Bido na nnukwu ihe ize ndụ ma họrọ onye ga-eme ihe. Ndepụta nyocha na-ebelata njehie ma ọ naghị ewepụ egwu niile.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie azịza ihe ize ndụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Obere ohere pụtara na ihe ize ndụ agaghị emebi ihe.",
+    "answer": false,
+    "code": "risk: A\nlikelihood: 3\nimpact: 4\nowner: B\nresponse: C"
+  },
+  "project-updates": {
+    "title": "Dee akụkọ ọganihu bara uru",
+    "body": "Akụkọ ọganihu na-egosi ihe emechara, nke ọzọ, mgbochi na arịrịọ doro anya.\n\nMalite na onye chọrọ ọrụ ahụ na ihe ọ chọrọ ime. Ihe atụ jikọtara mkpa, azịza bara uru na usoro ọzọ. Nye nkọwa zuru oke, jiri okwu nkwanye ùgwù ma zere okwu enweghị ihe akaebe. Lelee ọrụ ahụ na onye n’otu ị chọrọ iru.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Dee akụkọ ọganihu bara uru”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Akụkọ ọganihu na-egosi ihe emechara, nke ọzọ, mgbochi na arịrịọ doro anya.",
+    "answer": true,
+    "code": "completed → next → blocker → request + date"
+  },
+  "project-retro": {
+    "title": "Lelee ihe mere",
+    "body": "Lelee ihe nyere aka na ihe gbochiri; nye otu mmezi onye ọrụ na ụbọchị.\n\nNdụmọdụ bara uru na-ekwu ihe a hụrụ ma nye usoro ọzọ. Lelee ihe atụ maka ihe akaebe nke ihe rụrụ ọrụ na ihe siri ike. Kewaa ihe ị hụrụ na ihe ị chere. Melite otu ihe ma lelee ma ọ na-enyere aka; obere otu anaghị anọchi anya onye ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Lelee ihe mere”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Obere otu na-egosi mkpa onye ọ bụla.",
+    "answer": false,
+    "code": "worked: A\nblocked: B\nnext change: C + owner + date"
+  },
+  "project-capstone": {
+    "title": "Hazie ma lelee obere ọrụ",
+    "body": "Hazie oke, ọrụ, ihe dabere na ihe ize ndụ; lelee ọnọdụ nnabata mbụ.\n\nJikọta nka ị mụtara na obere ọrụ. Jiri ihe atụ malite nhazi, họrọ nsonaazụ bara uru ma mepụta ihe ị pụrụ igosi. Nwalee ya site na ebumnuche gị, kọwaa otu oke na otu mmezi. Debe ndetu na ihe akaebe ka onye na-amụ ọzọ ghọta mkpebi gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie ma lelee obere ọrụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Hazie oke, ọrụ, ihe dabere na ihe ize ndụ; lelee ọnọdụ nnabata mbụ.",
+    "answer": true,
+    "code": "scope → tasks → dependencies → board → risk review → delivery check"
+  },
+  "teaching-goals": {
+    "title": "Dee ebumnuche a pụrụ ịhụ",
+    "body": "Jiri omume a na-ahụ dịka kọwaa ma ọ bụ gbakọọ kama ghọta naanị.\n\nNhazi doro anya na-enye akụkụ ọ bụla ọrụ ya. Gụọ ihe atụ site n’elu ruo n’ala ma chọpụta ihe a na-etinye, ozi dị mkpa na nsonaazụ. Gosi ozi na-adịghị kama ịmepụta ya. Akara na-agbanweghị na-eme ka nyocha na iji ọrụ ọzọ dị mfe.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Dee ebumnuche a pụrụ ịhụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Jiri omume a na-ahụ dịka kọwaa ma ọ bụ gbakọọ kama ghọta naanị.",
+    "answer": true,
+    "code": "By the end: learner can [observable action]\n// explain, calculate, demonstrate"
+  },
+  "teaching-baseline": {
+    "title": "Lelee ihe onye na-amụ maara",
+    "body": "Obere ọrụ mbido na-egosi ihe onye na-amụ maara na usoro nkuzi ọzọ.\n\nNdụmọdụ bara uru na-ekwu ihe a hụrụ ma nye usoro ọzọ. Lelee ihe atụ maka ihe akaebe nke ihe rụrụ ọrụ na ihe siri ike. Kewaa ihe ị hụrụ na ihe ị chere. Melite otu ihe ma lelee ma ọ na-enyere aka; obere otu anaghị anọchi anya onye ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Lelee ihe onye na-amụ maara”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Obere otu na-egosi mkpa onye ọ bụla.",
+    "answer": false,
+    "code": "before: example task → learner response → next teaching step"
+  },
+  "teaching-example": {
+    "title": "Gosi ihe atụ emechara",
+    "body": "Gosi usoro na ihe kpatara ya ma jụọ onye na-amụ ihe ga-esote.\n\nỤfọdụ usoro na-eche usoro mbụ. Soro akụ ndị dị n’ihe atụ ma kọwaa ihe ga-ebu ụzọ na ihe kpatara ya. Hazie ihe a ga-eme ma ọ bụrụ na otu usoro ada. Lelee mgbanwe ọ bụla tupu ịga n’ihu; iru njedebe naanị anaghị egosi na ọrụ niile gara nke ọma.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Gosi ihe atụ emechara”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Gosi usoro na ihe kpatara ya ma jụọ onye na-amụ ihe ga-esote.",
+    "answer": true,
+    "code": "show → explain why → learner predicts → compare"
+  },
+  "teaching-practice": {
+    "title": "Hazie omume nwere nduzi",
+    "body": "Malite na nduzi ma belata enyemaka tupu omume n’onwe ya.\n\nỤfọdụ usoro na-eche usoro mbụ. Soro akụ ndị dị n’ihe atụ ma kọwaa ihe ga-ebu ụzọ na ihe kpatara ya. Hazie ihe a ga-eme ma ọ bụrụ na otu usoro ada. Lelee mgbanwe ọ bụla tupu ịga n’ihu; iru njedebe naanị anaghị egosi na ọrụ niile gara nke ọma.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie omume nwere nduzi”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Usoro dabere nwere ike ịmalite tupu nke mbụ mgbe niile.",
+    "answer": false,
+    "code": "guided attempt → hints → independent attempt"
+  },
+  "teaching-feedback": {
+    "title": "Nye ndụmọdụ a pụrụ iji",
+    "body": "Kọwaa ihe ị hụrụ na mmezi ọzọ ma hapụ ya nwaa ọzọ.\n\nNdụmọdụ bara uru na-ekwu ihe a hụrụ ma nye usoro ọzọ. Lelee ihe atụ maka ihe akaebe nke ihe rụrụ ọrụ na ihe siri ike. Kewaa ihe ị hụrụ na ihe ị chere. Melite otu ihe ma lelee ma ọ na-enyere aka; obere otu anaghị anọchi anya onye ọ bụla.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Nye ndụmọdụ a pụrụ iji”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Kọwaa ihe ị hụrụ na mmezi ọzọ ma hapụ ya nwaa ọzọ.",
+    "answer": true,
+    "code": "specific observation → next improvement → retry"
+  },
+  "teaching-check": {
+    "title": "Lelee nka na ihe atụ ọhụrụ",
+    "body": "Lelee otu nka na ihe atụ ọhụrụ ka icheta naanị ghara izu.\n\nUle bara uru na-akọwa ihe a na-etinye na nsonaazụ a tụrụ anya tupu a lelee nke mere. Nwaa ihe atụ, mgbe ahụ nwaa ihe efu ma ọ bụ ihe a na-atụghị anya. Dee ihe mere ma mee obere mmezi. Nwalee ọzọ mgbe mmezi gasịrị iji mara na edoziwo nsogbu ahụ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Lelee nka na ihe atụ ọhụrụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Otu ule gara nke ọma na-egosi na ọrụ na-arụ n’ọnọdụ niile.",
+    "answer": false,
+    "code": "goal: calculate 10 + 20\ncheck: learner calculates 15 + 25\n// new example; same skill"
+  },
+  "teaching-inclusive": {
+    "title": "Mee ka omume dabara na onye ọ bụla",
+    "body": "Nye ederede a na-agụ, eserese na omume onye ọ bụla ga-eji na otu ebumnuche.\n\nTụnyere nhọrọ site na ebumnuche doro anya kama ịma mma naanị. Ihe atụ na-egosi nhọrọ ma ọ bụ oke. Kọwaa uru na ọghọm, tụnyere n’ezi omume ma jiri ihe akaebe. Ihe na-arụ ọrụ n’otu ọnọdụ nwere ike ịchọ mgbanwe n’ọnọdụ ọzọ.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Mee ka omume dabara na onye ọ bụla”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Nye ederede a na-agụ, eserese na omume onye ọ bụla ga-eji na otu ebumnuche.",
+    "answer": true,
+    "code": "text + diagram + keyboard access\n// same goal; different ways to practise"
+  },
+  "teaching-plan": {
+    "title": "Hazie obere oge ọmụmụ",
+    "body": "Kekọrịta oge maka ebumnuche, ihe atụ, omume na nyocha nwere ndụmọdụ.\n\nỤfọdụ usoro na-eche usoro mbụ. Soro akụ ndị dị n’ihe atụ ma kọwaa ihe ga-ebu ụzọ na ihe kpatara ya. Hazie ihe a ga-eme ma ọ bụrụ na otu usoro ada. Lelee mgbanwe ọ bụla tupu ịga n’ihu; iru njedebe naanị anaghị egosi na ọrụ niile gara nke ọma.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Hazie obere oge ọmụmụ”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Usoro dabere nwere ike ịmalite tupu nke mbụ mgbe niile.",
+    "answer": false,
+    "code": "2 min: goal\n3 min: example\n7 min: practice\n3 min: check + feedback"
+  },
+  "teaching-project": {
+    "title": "Kụzie obere nkuzi ma tụgharịa uche",
+    "body": "Kụzie obere oge, debe ihe akaebe mgbalị ma dezie akụkụ siri ike.\n\nJikọta nka ị mụtara na obere ọrụ. Jiri ihe atụ malite nhazi, họrọ nsonaazụ bara uru ma mepụta ihe ị pụrụ igosi. Nwalee ya site na ebumnuche gị, kọwaa otu oke na otu mmezi. Debe ndetu na ihe akaebe ka onye na-amụ ọzọ ghọta mkpebi gị.",
+    "practice": "Mụọ ihe atụ ahụ, mepụta nke gị maka “Kụzie obere nkuzi ma tụgharịa uche”. Gbanwee otu ihe ma ọ bụ mkpebi, kọwaa nsonaazụ na ihe kpatara usoro gị ji mezuo ebumnuche.",
+    "statement": "Kụzie obere oge, debe ihe akaebe mgbalị ma dezie akụkụ siri ike.",
+    "answer": true,
+    "code": "goal → starting check → example → practice → feedback → reflection"
+  }
+}

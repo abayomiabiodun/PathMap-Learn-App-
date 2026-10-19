@@ -1,0 +1,793 @@
+{
+  "html": {
+    "title": "Créer votre première page HTML",
+    "body": "HTML décrit la structure d’une page. <h1> crée un titre, <p> un paragraphe et <a href=\"...\"> un lien. Les balises ouvrantes et fermantes entourent le contenu. L’attribut href indique la destination du lien.\nCommencez par un titre clair et un court paragraphe. Donnez au lien un texte descriptif. La page doit rester compréhensible sans couleurs ni images.",
+    "practice": "Écrivez une page HTML sur vous : un h1, un p sur vos intérêts et un a vers un site utile. Expliquez href.",
+    "statement": "HTML décrit la structure d’une page web.",
+    "answer": true,
+    "code": "<h1>Ada</h1>\n<p>J’aime apprendre.</p>\n<a href=\"https://example.com\">Site d’exemple</a>"
+  },
+  "css": {
+    "title": "Mettre une page en forme avec CSS",
+    "body": "CSS contrôle les couleurs, l’espacement et la disposition. Un sélecteur choisit un élément ; les déclarations entre accolades définissent ses propriétés. Dans h1 { color: green; }, h1 est le sélecteur et color la propriété.\nUtilisez du texte lisible et un contraste suffisant. Une largeur fixe de 900px peut déborder sur un téléphone. max-width: 100% aide le contenu à tenir dans l’écran.",
+    "practice": "Écrivez du CSS pour colorer votre titre et ajouter du padding au paragraphe. Expliquez pourquoi la page doit tenir sur un petit écran.",
+    "statement": "CSS remplace la structure HTML.",
+    "answer": false,
+    "code": "h1 { color: green; }\np { padding: 16px; max-width: 100%; }"
+  },
+  "javascript": {
+    "title": "Ajouter une interaction avec JavaScript",
+    "body": "JavaScript réagit aux actions. querySelector trouve un élément ; addEventListener exécute une fonction lorsqu’un événement survient. textContent modifie le texte sans l’interpréter comme du HTML.\nUn vrai bouton fonctionne aussi au clavier. Gardez la page utile avant le chargement du script.",
+    "practice": "Écrivez un bouton et un écouteur click qui remplace un paragraphe par un message de bienvenue. Expliquez l’événement déclencheur.",
+    "statement": "Un écouteur click peut réagir à l’activation d’un bouton.",
+    "answer": true,
+    "code": "<button id=\"welcome\">Bienvenue</button>\n<p id=\"message\"></p>\n<script>\ndocument.querySelector(\"#welcome\").addEventListener(\"click\", () => {\n  document.querySelector(\"#message\").textContent = \"Bienvenue!\";\n});\n</script>"
+  },
+  "data": {
+    "title": "Poser une question utile aux données",
+    "body": "Les données sont des informations enregistrées. Commencez par une question, puis placez les observations en lignes et les champs en colonnes. Une valeur manquante n’est pas zéro. Vérifiez les unités et les doublons. La moyenne est la somme divisée par le nombre de valeurs.",
+    "practice": "Avec les ventes 10, 20, 30, calculez la moyenne, indiquez l’unité et posez une question sans réponse dans ces nombres.",
+    "statement": "La moyenne de 10, 20 et 30 est 20.",
+    "answer": true
+  },
+  "cyber": {
+    "title": "Protéger un compte",
+    "body": "Utilisez un mot de passe unique par service et un gestionnaire pour les conserver. L’authentification multifacteur ajoute une vérification. Un message inattendu demandant un mot de passe ou un code peut être du phishing. Ouvrez directement le service pour vérifier la demande.",
+    "practice": "Décrivez comment vérifier un message de connexion inattendu. Donnez deux protections pour un compte de test, sans saisir de vrai mot de passe.",
+    "statement": "On peut envoyer un code de connexion à toute personne prétendant travailler au support.",
+    "answer": false
+  },
+  "ai": {
+    "title": "Comprendre une prédiction",
+    "body": "Un modèle apprend des régularités à partir d’exemples. Les données d’entraînement influencent ses prédictions. Il peut se tromper, surtout avec des exemples différents. Évaluez-le avec des exemples séparés et examinez les erreurs.",
+    "practice": "Pour un modèle reconnaissant des fruits, décrivez des exemples d’entraînement et de test distincts. Nommez un risque d’erreur.",
+    "statement": "Une prédiction de modèle est toujours correcte.",
+    "answer": false
+  },
+  "design": {
+    "title": "Concevoir pour un besoin",
+    "body": "L’expérience utilisateur commence par une personne et un objectif. Décrivez le problème avant de dessiner les écrans. Un libellé clair aide à choisir une action. Testez un croquis avant de construire. Observez les difficultés au lieu de supposer les besoins.",
+    "practice": "Dessinez trois étapes pour enregistrer une leçon. Indiquez le but de l’utilisateur et une question de test.",
+    "statement": "Tester un croquis peut révéler des problèmes avant la construction d’une application.",
+    "answer": true
+  },
+  "marketing": {
+    "title": "Préparer un message utile",
+    "body": "Le marketing relie une offre utile à un public. Définissez votre public, son problème et l’action souhaitée. Mesurez un résultat pertinent, comme les demandes, plutôt que les seules vues. Évitez les promesses sans preuve.",
+    "practice": "Écrivez un message pour un service local. Précisez son public, son bénéfice, une action et une mesure de réussite.",
+    "statement": "Davantage de vues signifie toujours davantage de clients.",
+    "answer": false
+  },
+  "business": {
+    "title": "Tester une idée commerciale",
+    "body": "Une idée commerciale doit répondre à un problème client avec une offre réalisable. Parlez aux clients avant d’investir beaucoup. Le chiffre d’affaires est l’argent reçu ; le bénéfice tient aussi compte des coûts. Un petit test révèle la valeur perçue.",
+    "practice": "Un produit se vend 100 et coûte 70 à fournir. Calculez la différence avant les autres coûts et proposez un petit test client.",
+    "statement": "Les coûts doivent être pris en compte pour estimer le bénéfice.",
+    "answer": true
+  },
+  "writing": {
+    "title": "Écrire pour un lecteur",
+    "body": "Un texte clair a un objectif et un public. Placez l’essentiel au début, utilisez des mots concrets et proposez une prochaine étape. Révisez les phrases qui mélangent trop d’idées. Vérifiez que le lecteur peut agir.",
+    "practice": "Écrivez quatre phrases pour inviter un ami à étudier. Incluez le but, l’heure, le lieu et la prochaine action.",
+    "statement": "Connaître son public aide à choisir les détails utiles.",
+    "answer": true
+  },
+  "project": {
+    "title": "Découper un projet en tâches",
+    "body": "Un projet a un résultat, des tâches et des contraintes. Découpez le travail, attribuez les responsabilités et repérez les dépendances. Une tâche peut devoir attendre une autre. Suivez les progrès et adaptez le plan.",
+    "practice": "Planifiez une rencontre d’étude avec quatre tâches, leurs responsables et une dépendance. Définissez le résultat attendu.",
+    "statement": "Toutes les tâches d’un projet peuvent toujours commencer en même temps.",
+    "answer": false
+  },
+  "teaching": {
+    "title": "Aider quelqu’un à apprendre",
+    "body": "Une leçon a un objectif, un exemple, une pratique et un retour. Montrer un savoir-faire ne suffit pas. Demandez à l’apprenant d’essayer et d’expliquer son raisonnement. Utilisez sa réponse pour choisir la suite.",
+    "practice": "Planifiez dix minutes d’enseignement d’un savoir-faire. Écrivez l’objectif, l’exercice et une question de compréhension.",
+    "statement": "La pratique et les retours aident à vérifier la compréhension.",
+    "answer": true
+  },
+  "web-semantic": {
+    "title": "Utiliser le HTML sémantique",
+    "body": "header introduit la page, main contient son contenu central et footer les informations finales.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Utiliser le HTML sémantique ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "header introduit la page, main contient son contenu central et footer les informations finales.",
+    "answer": true,
+    "code": "<header>…</header>\n<main><article>…</article></main>\n<footer>…</footer>"
+  },
+  "web-layout": {
+    "title": "Créer une mise en page adaptative",
+    "body": "Grid auto-fit crée les colonnes possibles ; minmax empêche les cartes de devenir trop étroites.\n\nComparez les options selon un objectif clair. L’exemple présente des alternatives ou une contrainte. Expliquez le compromis, comparez équitablement et justifiez votre choix par des preuves. Une solution adaptée à un contexte peut nécessiter des changements dans un autre.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Créer une mise en page adaptative ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "L’option la plus jolie est toujours la meilleure pour tout objectif.",
+    "answer": false,
+    "code": ".cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }"
+  },
+  "web-forms": {
+    "title": "Recueillir des données avec un formulaire",
+    "body": "label nomme le champ ; type=email vérifie le format et required refuse une valeur vide.\n\nUn test utile définit l’entrée et le résultat attendu avant de vérifier le résultat réel. Essayez l’exemple puis un cas vide, inattendu ou limite. Notez le résultat et apportez une correction ciblée. Répétez le test après la correction pour vérifier que le problème est résolu.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Recueillir des données avec un formulaire ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "label nomme le champ ; type=email vérifie le format et required refuse une valeur vide.",
+    "answer": true,
+    "code": "<label for=\"email\">Email</label>\n<input id=\"email\" type=\"email\" required>\n// test: \"\", \"ada\", \"ada@example.test\""
+  },
+  "web-dom": {
+    "title": "Relier les événements au DOM",
+    "body": "querySelector trouve un élément ; addEventListener relie une action à une fonction ; textContent change le texte.\n\nCertaines étapes dépendent des précédentes. Suivez les flèches de l’exemple et expliquez ce qui doit venir en premier et pourquoi. Prévoyez aussi le cas où une étape échoue. Vérifiez chaque transition : atteindre la dernière étape ne prouve pas que tout le processus a fonctionné.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Relier les événements au DOM ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une étape dépendante peut toujours commencer avant son préalable.",
+    "answer": false,
+    "code": "const button = document.querySelector(\"button\");\nbutton.addEventListener(\"click\", () => {\n  document.querySelector(\"p\").textContent = \"✓\";\n});"
+  },
+  "web-access": {
+    "title": "Rendre une page accessible",
+    "body": "Un vrai bouton fonctionne au clavier. Le texte exige du contraste et les actions des libellés explicites.\n\nUn retour utile repose sur une observation et propose une prochaine action précise. Cherchez dans l’exemple ce qui fonctionne et ce qui pose problème. Distinguez observation et supposition. Améliorez un élément et vérifiez son effet ; un petit échantillon ne représente pas tout le monde.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Rendre une page accessible ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un vrai bouton fonctionne au clavier. Le texte exige du contraste et les actions des libellés explicites.",
+    "answer": true,
+    "code": "<button type=\"button\">✓</button>\n// Tab → Enter → ✓\n// contrast: 4.5:1"
+  },
+  "web-debug": {
+    "title": "Déboguer et tester une fonctionnalité",
+    "body": "Testez une quantité normale et zéro : 5 × 3 vaut 15 et 5 × 0 vaut zéro.\n\nUn test utile définit l’entrée et le résultat attendu avant de vérifier le résultat réel. Essayez l’exemple puis un cas vide, inattendu ou limite. Notez le résultat et apportez une correction ciblée. Répétez le test après la correction pour vérifier que le problème est résolu.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Déboguer et tester une fonctionnalité ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un seul test réussi prouve qu’une fonctionnalité marche dans tous les cas.",
+    "answer": false,
+    "code": "const total = (price, quantity) => price * quantity;\n// total(5, 3) → 15\n// total(5, 0) → 0"
+  },
+  "web-project": {
+    "title": "Créer un site personnel",
+    "body": "Réunissez HTML sémantique, CSS adaptatif et une interaction accessible au clavier dans votre site personnel.\n\nRéunissez les compétences précédentes dans un petit projet. Utilisez l’exemple comme plan initial, définissez un résultat utile et créez une réalisation démontrable. Testez-la selon votre objectif, expliquez une limite et notez une amélioration. Gardez vos brouillons et preuves pour expliquer vos décisions.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Créer un site personnel ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Réunissez HTML sémantique, CSS adaptatif et une interaction accessible au clavier dans votre site personnel.",
+    "answer": true,
+    "code": "<!doctype html>\n<html lang=\"en\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <main>…</main>\n</html>"
+  },
+  "data-clean": {
+    "title": "Nettoyer un petit jeu de données",
+    "body": "Un identifiant répété peut signaler un doublon. Une valeur vide est inconnue, pas automatiquement zéro.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Nettoyer un petit jeu de données ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un identifiant répété peut signaler un doublon. Une valeur vide est inconnue, pas automatiquement zéro.",
+    "answer": true,
+    "code": "id,value\n1,10\n2,\n2,20\n3,30\n// duplicate id: 2; missing ≠ 0"
+  },
+  "data-measures": {
+    "title": "Choisir des mesures de synthèse",
+    "body": "La moyenne est sensible aux valeurs extrêmes ; la médiane est au milieu des valeurs triées.\n\nUn calcul exige des entrées définies, une opération et une unité. Résolvez l’exemple à la main avant d’utiliser un outil. Vérifiez le dénominateur, les valeurs manquantes et la plausibilité du résultat. Un calcul exact demande encore du contexte avant de guider une décision.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Choisir des mesures de synthèse ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Les unités et le dénominateur ne comptent pas dans un calcul.",
+    "answer": false,
+    "code": "(10 + 20 + 30) / 3 = 20\nmedian(10, 20, 90) = 20\nmean(10, 20, 90) = 40"
+  },
+  "data-sheets": {
+    "title": "Calculer avec un tableur",
+    "body": "SUM additionne une plage, AVERAGE calcule sa moyenne et COUNT compte les cellules numériques.\n\nUn calcul exige des entrées définies, une opération et une unité. Résolvez l’exemple à la main avant d’utiliser un outil. Vérifiez le dénominateur, les valeurs manquantes et la plausibilité du résultat. Un calcul exact demande encore du contexte avant de guider une décision.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Calculer avec un tableur ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "SUM additionne une plage, AVERAGE calcule sa moyenne et COUNT compte les cellules numériques.",
+    "answer": true,
+    "code": "=SUM(B2:B4)\n=AVERAGE(B2:B4)\n=COUNT(B2:B4)\n// B2:B4 = 10,20,30"
+  },
+  "data-filter": {
+    "title": "Trier et filtrer des observations",
+    "body": "Filtrer conserve les lignes correspondantes ; trier change leur ordre sans modifier les valeurs.\n\nComparez les options selon un objectif clair. L’exemple présente des alternatives ou une contrainte. Expliquez le compromis, comparez équitablement et justifiez votre choix par des preuves. Une solution adaptée à un contexte peut nécessiter des changements dans un autre.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Trier et filtrer des observations ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "L’option la plus jolie est toujours la meilleure pour tout objectif.",
+    "answer": false,
+    "code": "id,region,value\n1,A,10\n2,B,30\n3,A,20\n// region=A → 1,3; value descending → 2,3,1"
+  },
+  "data-charts": {
+    "title": "Choisir un graphique honnête",
+    "body": "Un graphique en barres compare des catégories. Indiquez les unités et commencez l’axe numérique à zéro.\n\nComparez les options selon un objectif clair. L’exemple présente des alternatives ou une contrainte. Expliquez le compromis, comparez équitablement et justifiez votre choix par des preuves. Une solution adaptée à un contexte peut nécessiter des changements dans un autre.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Choisir un graphique honnête ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un graphique en barres compare des catégories. Indiquez les unités et commencez l’axe numérique à zéro.",
+    "answer": true,
+    "code": "A: ███ 30\nB: ██ 20\nC: █ 10\n// axis starts at 0; same unit"
+  },
+  "data-sql": {
+    "title": "Regrouper des données avec SQL",
+    "body": "GROUP BY forme des groupes ; SUM calcule un total pour chaque groupe.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Regrouper des données avec SQL ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une information manquante doit toujours être remplacée par zéro.",
+    "answer": false,
+    "code": "SELECT region, SUM(value) AS total\nFROM sales\nGROUP BY region;\n// A → 30; B → 30"
+  },
+  "data-privacy": {
+    "title": "Protéger les données personnelles",
+    "body": "Remplacer les noms par des identifiants réduit l’exposition, mais d’autres champs peuvent encore identifier quelqu’un.\n\nUtilisez des données inventées pour cet exercice. Ne recueillez que le nécessaire, supprimez les éléments identifiants et limitez l’accès. L’exemple montre des données à retirer ou des permissions à vérifier. N’inscrivez aucun vrai mot de passe, contact ou document confidentiel dans vos notes.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Protéger les données personnelles ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Remplacer les noms par des identifiants réduit l’exposition, mais d’autres champs peuvent encore identifier quelqu’un.",
+    "answer": true,
+    "code": "{\"person_id\":\"P01\",\"age_band\":\"20–29\",\"value\":10}\n// remove: name, email, phone"
+  },
+  "data-evidence": {
+    "title": "Expliquer les résultats et leurs limites",
+    "body": "Indiquez la taille de l’échantillon et l’incertitude. Une association ne prouve pas une causalité.\n\nUn retour utile repose sur une observation et propose une prochaine action précise. Cherchez dans l’exemple ce qui fonctionne et ce qui pose problème. Distinguez observation et supposition. Améliorez un élément et vérifiez son effet ; un petit échantillon ne représente pas tout le monde.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Expliquer les résultats et leurs limites ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un petit échantillon prouve les besoins de chaque personne.",
+    "answer": false,
+    "code": "n = 3\nmean = 20\nrange = 10–30\n// correlation ≠ causation"
+  },
+  "data-project": {
+    "title": "Créer un rapport de données",
+    "body": "Répondez à une question avec des données nettoyées, un graphique légendé et une recommandation nuancée.\n\nRéunissez les compétences précédentes dans un petit projet. Utilisez l’exemple comme plan initial, définissez un résultat utile et créez une réalisation démontrable. Testez-la selon votre objectif, expliquez une limite et notez une amélioration. Gardez vos brouillons et preuves pour expliquer vos décisions.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Créer un rapport de données ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Répondez à une question avec des données nettoyées, un graphique légendé et une recommandation nuancée.",
+    "answer": true,
+    "code": "CSV → clean → calculate → chart → recommendation\n10,20,30 → 20 → ███ → ?"
+  },
+  "cyber-phishing": {
+    "title": "Repérer un lien frauduleux",
+    "body": "Vérifiez le nom d’hôte : example.test.evil.test appartient à evil.test, pas à example.test.\n\nLe risque combine la probabilité d’un événement et son impact. Comparez ces deux dimensions dans l’exemple, puis choisissez une mesure pratique. Traitez les risques majeurs en premier et désignez un responsable. Une liste de contrôle réduit les erreurs sans garantir la disparition des menaces.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Repérer un lien frauduleux ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Vérifiez le nom d’hôte : example.test.evil.test appartient à evil.test, pas à example.test.",
+    "answer": true,
+    "code": "https://example.test\nhttps://example.test.evil.test\n// host: example.test ≠ example.test.evil.test"
+  },
+  "cyber-privacy": {
+    "title": "Préserver les informations sensibles",
+    "body": "Mots de passe et codes de connexion sont secrets ; remplacez-les par des exemples fictifs.\n\nUtilisez des données inventées pour cet exercice. Ne recueillez que le nécessaire, supprimez les éléments identifiants et limitez l’accès. L’exemple montre des données à retirer ou des permissions à vérifier. N’inscrivez aucun vrai mot de passe, contact ou document confidentiel dans vos notes.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Préserver les informations sensibles ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Les vrais mots de passe doivent figurer dans les exercices partagés.",
+    "answer": false,
+    "code": "{\"account\":\"test-01\",\"password\":\"[REDACTED]\",\"mfa_code\":\"[REDACTED]\"}"
+  },
+  "cyber-updates": {
+    "title": "Mettre à jour un appareil en sécurité",
+    "body": "Sauvegardez, installez une mise à jour officielle, redémarrez et vérifiez la version.\n\nCertaines étapes dépendent des précédentes. Suivez les flèches de l’exemple et expliquez ce qui doit venir en premier et pourquoi. Prévoyez aussi le cas où une étape échoue. Vérifiez chaque transition : atteindre la dernière étape ne prouve pas que tout le processus a fonctionné.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Mettre à jour un appareil en sécurité ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Sauvegardez, installez une mise à jour officielle, redémarrez et vérifiez la version.",
+    "answer": true,
+    "code": "backup → official update → restart → version check"
+  },
+  "cyber-network": {
+    "title": "Comprendre un trajet réseau",
+    "body": "DNS traduit les noms. HTTPS protège le transport, mais un site frauduleux peut aussi l’utiliser.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Comprendre un trajet réseau ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une information manquante doit toujours être remplacée par zéro.",
+    "answer": false,
+    "code": "device → router → DNS → HTTPS server\n// HTTPS protects transit; does not guarantee honesty"
+  },
+  "cyber-permissions": {
+    "title": "Accorder les permissions minimales",
+    "body": "Le moindre privilège limite les permissions au nécessaire ; un accès administrateur ajoute du risque.\n\nComparez les options selon un objectif clair. L’exemple présente des alternatives ou une contrainte. Expliquez le compromis, comparez équitablement et justifiez votre choix par des preuves. Une solution adaptée à un contexte peut nécessiter des changements dans un autre.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Accorder les permissions minimales ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Le moindre privilège limite les permissions au nécessaire ; un accès administrateur ajoute du risque.",
+    "answer": true,
+    "code": "viewer: read\neditor: read + write\nadmin: read + write + manage\n// role = minimum needed"
+  },
+  "cyber-backup": {
+    "title": "Tester une sauvegarde et sa restauration",
+    "body": "Une sauvegarde non testée peut être inutilisable. Restaurez un fichier de test et comparez son contenu.\n\nUn test utile définit l’entrée et le résultat attendu avant de vérifier le résultat réel. Essayez l’exemple puis un cas vide, inattendu ou limite. Notez le résultat et apportez une correction ciblée. Répétez le test après la correction pour vérifier que le problème est résolu.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Tester une sauvegarde et sa restauration ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un seul test réussi prouve qu’une fonctionnalité marche dans tous les cas.",
+    "answer": false,
+    "code": "3 copies · 2 storage types · 1 off-site\n// restore a test file; compare contents"
+  },
+  "cyber-threats": {
+    "title": "Hiérarchiser les risques de sécurité",
+    "body": "Probabilité multipliée par impact fournit une priorité simple, pas une prédiction certaine.\n\nLe risque combine la probabilité d’un événement et son impact. Comparez ces deux dimensions dans l’exemple, puis choisissez une mesure pratique. Traitez les risques majeurs en premier et désignez un responsable. Une liste de contrôle réduit les erreurs sans garantir la disparition des menaces.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Hiérarchiser les risques de sécurité ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Probabilité multipliée par impact fournit une priorité simple, pas une prédiction certaine.",
+    "answer": true,
+    "code": "risk = likelihood × impact\nA: 3 × 4 = 12\nB: 1 × 2 = 2"
+  },
+  "cyber-response": {
+    "title": "Réagir à un incident suspect",
+    "body": "Isolez l’appareil suspect, signalez l’incident et conservez les preuves avant la récupération.\n\nCertaines étapes dépendent des précédentes. Suivez les flèches de l’exemple et expliquez ce qui doit venir en premier et pourquoi. Prévoyez aussi le cas où une étape échoue. Vérifiez chaque transition : atteindre la dernière étape ne prouve pas que tout le processus a fonctionné.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Réagir à un incident suspect ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une étape dépendante peut toujours commencer avant son préalable.",
+    "answer": false,
+    "code": "isolate → report → preserve evidence → recover\n// practise only on your own test device"
+  },
+  "cyber-project": {
+    "title": "Créer une liste de sécurité",
+    "body": "Documentez protection du compte, mises à jour, permissions et restauration réussie dans votre environnement de test.\n\nRéunissez les compétences précédentes dans un petit projet. Utilisez l’exemple comme plan initial, définissez un résultat utile et créez une réalisation démontrable. Testez-la selon votre objectif, expliquez une limite et notez une amélioration. Gardez vos brouillons et preuves pour expliquer vos décisions.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Créer une liste de sécurité ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Documentez protection du compte, mises à jour, permissions et restauration réussie dans votre environnement de test.",
+    "answer": true,
+    "code": "test account → MFA → permissions → backup → restore check"
+  },
+  "ai-data": {
+    "title": "Organiser des exemples étiquetés",
+    "body": "Chaque exemple d’entraînement exige des caractéristiques utiles et une étiquette cohérente ; vérifiez erreurs et lacunes.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Organiser des exemples étiquetés ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Chaque exemple d’entraînement exige des caractéristiques utiles et une étiquette cohérente ; vérifiez erreurs et lacunes.",
+    "answer": true,
+    "code": "id,x,label\n1,1,A\n2,2,A\n3,8,B\n4,9,B"
+  },
+  "ai-split": {
+    "title": "Séparer entraînement et test",
+    "body": "Séparez les données de test avant l’entraînement ; leur fuite fausse l’évaluation.\n\nLes exemples d’entraînement permettent d’apprendre une régularité ; des exemples distincts servent au test. Ne mêlez pas les données de test à l’entraînement. Comparez les prédictions aux réponses connues et examinez les erreurs. Un petit test réussi ne garantit pas une fiabilité universelle.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Séparer entraînement et test ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Utiliser les exemples de test dans l’entraînement donne une évaluation équitable.",
+    "answer": false,
+    "code": "train: 1,2,3\ntest: 4\n// no test examples in training"
+  },
+  "ai-baseline": {
+    "title": "Comparer à une référence simple",
+    "body": "Prédire toujours A obtient 75 % avec trois A et un B ; comparez le modèle à cette référence.\n\nComparez les options selon un objectif clair. L’exemple présente des alternatives ou une contrainte. Expliquez le compromis, comparez équitablement et justifiez votre choix par des preuves. Une solution adaptée à un contexte peut nécessiter des changements dans un autre.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Comparer à une référence simple ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Prédire toujours A obtient 75 % avec trois A et un B ; comparez le modèle à cette référence.",
+    "answer": true,
+    "code": "labels: A,A,A,B\n// always predict A → 3/4\n// model accuracy must be compared with baseline"
+  },
+  "ai-evaluate": {
+    "title": "Mesurer la précision des prédictions",
+    "body": "La précision est le nombre de prédictions correctes divisé par le total ; trois sur quatre donnent 75 %.\n\nUn calcul exige des entrées définies, une opération et une unité. Résolvez l’exemple à la main avant d’utiliser un outil. Vérifiez le dénominateur, les valeurs manquantes et la plausibilité du résultat. Un calcul exact demande encore du contexte avant de guider une décision.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Mesurer la précision des prédictions ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Les unités et le dénominateur ne comptent pas dans un calcul.",
+    "answer": false,
+    "code": "actual: A,A,B,B\npredicted: A,B,B,B\naccuracy = 3 / 4 = 75%"
+  },
+  "ai-bias": {
+    "title": "Vérifier les erreurs par groupe",
+    "body": "Un score global peut masquer les erreurs d’un groupe ; vérifiez scores et tailles des groupes.\n\nUn retour utile repose sur une observation et propose une prochaine action précise. Cherchez dans l’exemple ce qui fonctionne et ce qui pose problème. Distinguez observation et supposition. Améliorez un élément et vérifiez son effet ; un petit échantillon ne représente pas tout le monde.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Vérifier les erreurs par groupe ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un score global peut masquer les erreurs d’un groupe ; vérifiez scores et tailles des groupes.",
+    "answer": true,
+    "code": "group A: 9/10 = 90%\ngroup B: 5/10 = 50%\noverall: 14/20 = 70%"
+  },
+  "ai-prompts": {
+    "title": "Rédiger une consigne structurée",
+    "body": "Une consigne définit tâche, contexte, format et contraintes ; excluez les données confidentielles.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Rédiger une consigne structurée ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une information manquante doit toujours être remplacée par zéro.",
+    "answer": false,
+    "code": "{\"task\":\"summarise\",\"context\":\"[synthetic text]\",\"format\":\"3 bullet points\",\"constraint\":\"use only supplied facts\"}"
+  },
+  "ai-verification": {
+    "title": "Vérifier les affirmations générées",
+    "body": "Le texte généré peut inventer des faits et sources. Vérifiez les affirmations avec les preuves originales.\n\nUn test utile définit l’entrée et le résultat attendu avant de vérifier le résultat réel. Essayez l’exemple puis un cas vide, inattendu ou limite. Notez le résultat et apportez une correction ciblée. Répétez le test après la correction pour vérifier que le problème est résolu.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Vérifier les affirmations générées ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Le texte généré peut inventer des faits et sources. Vérifiez les affirmations avec les preuves originales.",
+    "answer": true,
+    "code": "claim → source → evidence → verified / unknown\n// fluent text ≠ proof"
+  },
+  "ai-privacy": {
+    "title": "Écarter les données privées des consignes",
+    "body": "Utilisez des données fictives ou autorisées et retirez les informations confidentielles.\n\nUtilisez des données inventées pour cet exercice. Ne recueillez que le nécessaire, supprimez les éléments identifiants et limitez l’accès. L’exemple montre des données à retirer ou des permissions à vérifier. N’inscrivez aucun vrai mot de passe, contact ou document confidentiel dans vos notes.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Écarter les données privées des consignes ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Les vrais mots de passe doivent figurer dans les exercices partagés.",
+    "answer": false,
+    "code": "{\"name\":\"[REMOVED]\",\"health_record\":\"[REMOVED]\",\"example\":\"synthetic\"}"
+  },
+  "ai-project": {
+    "title": "Créer une expérience IA responsable",
+    "body": "Définissez une question, une référence simple, un test distinct et un rapport d’erreurs et de limites.\n\nRéunissez les compétences précédentes dans un petit projet. Utilisez l’exemple comme plan initial, définissez un résultat utile et créez une réalisation démontrable. Testez-la selon votre objectif, expliquez une limite et notez une amélioration. Gardez vos brouillons et preuves pour expliquer vos décisions.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Créer une expérience IA responsable ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Définissez une question, une référence simple, un test distinct et un rapport d’erreurs et de limites.",
+    "answer": true,
+    "code": "question → synthetic examples → baseline → test → limitations"
+  },
+  "design-research": {
+    "title": "Étudier un problème utilisateur",
+    "body": "Interrogez une expérience récente et observez les obstacles sans suggérer de réponse.\n\nCommencez par la personne concernée et l’action qu’elle souhaite accomplir. L’exemple relie un besoin, une réponse utile et une prochaine étape. Donnez le contexte nécessaire, restez respectueux et évitez les affirmations sans preuve. Vérifiez votre travail avec une personne du public visé.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Étudier un problème utilisateur ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Interrogez une expérience récente et observez les obstacles sans suggérer de réponse.",
+    "answer": true,
+    "code": "person → goal → obstacle\n// observe behaviour; ask open questions"
+  },
+  "design-flow": {
+    "title": "Tracer le parcours utilisateur",
+    "body": "Tracez le parcours normal et un parcours d’erreur ou hors ligne permettant de récupérer.\n\nCertaines étapes dépendent des précédentes. Suivez les flèches de l’exemple et expliquez ce qui doit venir en premier et pourquoi. Prévoyez aussi le cas où une étape échoue. Vérifiez chaque transition : atteindre la dernière étape ne prouve pas que tout le processus a fonctionné.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Tracer le parcours utilisateur ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une étape dépendante peut toujours commencer avant son préalable.",
+    "answer": false,
+    "code": "home → lesson → save → confirmation\n// also: offline → retry"
+  },
+  "design-wireframe": {
+    "title": "Dessiner une maquette simple",
+    "body": "La maquette organise le contenu et les actions avant couleurs et décoration.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Dessiner une maquette simple ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "La maquette organise le contenu et les actions avant couleurs et décoration.",
+    "answer": true,
+    "code": "[heading]\n[explanation]\n[primary action]\n[help]"
+  },
+  "design-hierarchy": {
+    "title": "Créer une hiérarchie visuelle",
+    "body": "Taille des titres, espacement et action principale montrent ce qui compte en premier.\n\nComparez les options selon un objectif clair. L’exemple présente des alternatives ou une contrainte. Expliquez le compromis, comparez équitablement et justifiez votre choix par des preuves. Une solution adaptée à un contexte peut nécessiter des changements dans un autre.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Créer une hiérarchie visuelle ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "L’option la plus jolie est toujours la meilleure pour tout objectif.",
+    "answer": false,
+    "code": "H1 > H2 > body\nprimary action: 1\nspacing: 8,16,24"
+  },
+  "design-access": {
+    "title": "Vérifier l’accessibilité",
+    "body": "Vérifiez contraste, clavier, focus visible, libellés et zoom sans masquer le contenu.\n\nUn test utile définit l’entrée et le résultat attendu avant de vérifier le résultat réel. Essayez l’exemple puis un cas vide, inattendu ou limite. Notez le résultat et apportez une correction ciblée. Répétez le test après la correction pour vérifier que le problème est résolu.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Vérifier l’accessibilité ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Vérifiez contraste, clavier, focus visible, libellés et zoom sans masquer le contenu.",
+    "answer": true,
+    "code": "contrast ≥ 4.5:1\nkeyboard: Tab → Enter\nzoom: 200%\nlabel + input"
+  },
+  "design-prototype": {
+    "title": "Relier un prototype interactif",
+    "body": "Un prototype relie des croquis pour simuler une action sans serveur achevé.\n\nCertaines étapes dépendent des précédentes. Suivez les flèches de l’exemple et expliquez ce qui doit venir en premier et pourquoi. Prévoyez aussi le cas où une étape échoue. Vérifiez chaque transition : atteindre la dernière étape ne prouve pas que tout le processus a fonctionné.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Relier un prototype interactif ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une étape dépendante peut toujours commencer avant son préalable.",
+    "answer": false,
+    "code": "screen A → tap → screen B → back → screen A"
+  },
+  "design-usability": {
+    "title": "Réaliser un test d’utilisation",
+    "body": "Donnez une tâche réaliste, observez sans aider et notez les blocages.\n\nUn retour utile repose sur une observation et propose une prochaine action précise. Cherchez dans l’exemple ce qui fonctionne et ce qui pose problème. Distinguez observation et supposition. Améliorez un élément et vérifiez son effet ; un petit échantillon ne représente pas tout le monde.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Réaliser un test d’utilisation ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Donnez une tâche réaliste, observez sans aider et notez les blocages.",
+    "answer": true,
+    "code": "task: A → B\nparticipant 1: ✓\nparticipant 2: A → C → ?\n// observe; do not coach"
+  },
+  "design-iterate": {
+    "title": "Améliorer une décision de conception",
+    "body": "Modifiez une décision, répétez la tâche et comparez les observations avec prudence.\n\nUne expérience commence par une question vérifiable et une mesure de réussite. L’exemple modifie un facteur en gardant les autres comparables. Notez une référence, faites un petit essai et comparez. Un seul résultat ne permet pas de promettre le même effet dans toutes les situations.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Améliorer une décision de conception ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Changer plusieurs facteurs à la fois isole l’effet d’un seul.",
+    "answer": false,
+    "code": "A: 2/5 succeed\nB: 4/5 succeed\n// same task; changed label only"
+  },
+  "design-project": {
+    "title": "Présenter une conception testée",
+    "body": "Présentez besoin, parcours testé, prototype, observations et révision fondée sur ces preuves.\n\nRéunissez les compétences précédentes dans un petit projet. Utilisez l’exemple comme plan initial, définissez un résultat utile et créez une réalisation démontrable. Testez-la selon votre objectif, expliquez une limite et notez une amélioration. Gardez vos brouillons et preuves pour expliquer vos décisions.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Présenter une conception testée ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Présentez besoin, parcours testé, prototype, observations et révision fondée sur ces preuves.",
+    "answer": true,
+    "code": "need → flow → sketch → prototype → test → revision"
+  },
+  "marketing-audience": {
+    "title": "Définir son public",
+    "body": "Décrivez le problème d’un public précis avant de choisir message ou canal.\n\nCommencez par la personne concernée et l’action qu’elle souhaite accomplir. L’exemple relie un besoin, une réponse utile et une prochaine étape. Donnez le contexte nécessaire, restez respectueux et évitez les affirmations sans preuve. Vérifiez votre travail avec une personne du public visé.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Définir son public ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Décrivez le problème d’un public précis avant de choisir message ou canal.",
+    "answer": true,
+    "code": "audience → problem → benefit → action"
+  },
+  "marketing-value": {
+    "title": "Expliquer un bénéfice utile",
+    "body": "Une caractéristique décrit l’offre ; un bénéfice explique comment elle aide le client.\n\nComparez les options selon un objectif clair. L’exemple présente des alternatives ou une contrainte. Expliquez le compromis, comparez équitablement et justifiez votre choix par des preuves. Une solution adaptée à un contexte peut nécessiter des changements dans un autre.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Expliquer un bénéfice utile ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "L’option la plus jolie est toujours la meilleure pour tout objectif.",
+    "answer": false,
+    "code": "feature: 10\nbenefit: 10 → goal\n// benefit must be supported by evidence"
+  },
+  "marketing-channel": {
+    "title": "Choisir un canal de communication",
+    "body": "Comparez le coût par demande pertinente plutôt que la taille du public seule.\n\nComparez les options selon un objectif clair. L’exemple présente des alternatives ou une contrainte. Expliquez le compromis, comparez équitablement et justifiez votre choix par des preuves. Une solution adaptée à un contexte peut nécessiter des changements dans un autre.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Choisir un canal de communication ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Comparez le coût par demande pertinente plutôt que la taille du public seule.",
+    "answer": true,
+    "code": "A: cost 20 / 2 enquiries\nB: cost 30 / 6 enquiries"
+  },
+  "marketing-copy": {
+    "title": "Rédiger un appel à l’action clair",
+    "body": "Un message utile présente problème, bénéfice étayé et action claire.\n\nCommencez par la personne concernée et l’action qu’elle souhaite accomplir. L’exemple relie un besoin, une réponse utile et une prochaine étape. Donnez le contexte nécessaire, restez respectueux et évitez les affirmations sans preuve. Vérifiez votre travail avec une personne du public visé.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Rédiger un appel à l’action clair ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Le public visé n’influence jamais les détails d’un message.",
+    "answer": false,
+    "code": "problem → useful offer → evidence → one action"
+  },
+  "marketing-calendar": {
+    "title": "Planifier un calendrier de contenu",
+    "body": "Prévoyez date, responsable, public et objectif pour chaque contenu.\n\nCertaines étapes dépendent des précédentes. Suivez les flèches de l’exemple et expliquez ce qui doit venir en premier et pourquoi. Prévoyez aussi le cas où une étape échoue. Vérifiez chaque transition : atteindre la dernière étape ne prouve pas que tout le processus a fonctionné.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Planifier un calendrier de contenu ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Prévoyez date, responsable, public et objectif pour chaque contenu.",
+    "answer": true,
+    "code": "Mon: A\nWed: B\nFri: C\n// owner + date + goal for each"
+  },
+  "marketing-metrics": {
+    "title": "Mesurer conversion et coût",
+    "body": "Le taux de conversion est actions sur visites ; le coût par demande est dépenses sur demandes.\n\nUn calcul exige des entrées définies, une opération et une unité. Résolvez l’exemple à la main avant d’utiliser un outil. Vérifiez le dénominateur, les valeurs manquantes et la plausibilité du résultat. Un calcul exact demande encore du contexte avant de guider une décision.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Mesurer conversion et coût ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Les unités et le dénominateur ne comptent pas dans un calcul.",
+    "answer": false,
+    "code": "100 visits → 5 enquiries\nconversion = 5 / 100 × 100 = 5%\ncost 20 / 5 enquiries = 4"
+  },
+  "marketing-test": {
+    "title": "Tester un changement de message",
+    "body": "Comparez deux messages avec un seul changement et des conditions similaires ; les petits échantillons restent incertains.\n\nUne expérience commence par une question vérifiable et une mesure de réussite. L’exemple modifie un facteur en gardant les autres comparables. Notez une référence, faites un petit essai et comparez. Un seul résultat ne permet pas de promettre le même effet dans toutes les situations.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Tester un changement de message ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Comparez deux messages avec un seul changement et des conditions similaires ; les petits échantillons restent incertains.",
+    "answer": true,
+    "code": "A: 10/100 = 10%\nB: 15/100 = 15%\n// change one headline; same audience and period"
+  },
+  "marketing-consent": {
+    "title": "Respecter consentement et vie privée",
+    "body": "Demandez l’accord avant tout contact commercial et facilitez la désinscription.\n\nUtilisez des données inventées pour cet exercice. Ne recueillez que le nécessaire, supprimez les éléments identifiants et limitez l’accès. L’exemple montre des données à retirer ou des permissions à vérifier. N’inscrivez aucun vrai mot de passe, contact ou document confidentiel dans vos notes.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Respecter consentement et vie privée ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Les vrais mots de passe doivent figurer dans les exercices partagés.",
+    "answer": false,
+    "code": "opt-in → explain use → unsubscribe\n// no bought contact lists"
+  },
+  "marketing-project": {
+    "title": "Créer un plan de campagne",
+    "body": "Fixez un petit budget, choisissez canal et message puis définissez le résultat à mesurer.\n\nRéunissez les compétences précédentes dans un petit projet. Utilisez l’exemple comme plan initial, définissez un résultat utile et créez une réalisation démontrable. Testez-la selon votre objectif, expliquez une limite et notez une amélioration. Gardez vos brouillons et preuves pour expliquer vos décisions.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Créer un plan de campagne ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Fixez un petit budget, choisissez canal et message puis définissez le résultat à mesurer.",
+    "answer": true,
+    "code": "audience → message → channel → budget → measure → revise"
+  },
+  "business-customer": {
+    "title": "Interroger un client potentiel",
+    "body": "Questionnez les comportements récents et problèmes actuels avant de proposer une solution.\n\nCommencez par la personne concernée et l’action qu’elle souhaite accomplir. L’exemple relie un besoin, une réponse utile et une prochaine étape. Donnez le contexte nécessaire, restez respectueux et évitez les affirmations sans preuve. Vérifiez votre travail avec une personne du public visé.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Interroger un client potentiel ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Questionnez les comportements récents et problèmes actuels avant de proposer une solution.",
+    "answer": true,
+    "code": "person → problem → current workaround → willingness to pay"
+  },
+  "business-offer": {
+    "title": "Définir son offre",
+    "body": "Une offre identifie client, problème, résultat, prix et mode de livraison.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Définir son offre ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une information manquante doit toujours être remplacée par zéro.",
+    "answer": false,
+    "code": "customer + problem + offer + price + delivery"
+  },
+  "business-costs": {
+    "title": "Calculer les coûts et le seuil de rentabilité",
+    "body": "La contribution est prix moins coût variable ; le seuil de rentabilité couvre les coûts fixes.\n\nUn calcul exige des entrées définies, une opération et une unité. Résolvez l’exemple à la main avant d’utiliser un outil. Vérifiez le dénominateur, les valeurs manquantes et la plausibilité du résultat. Un calcul exact demande encore du contexte avant de guider une décision.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Calculer les coûts et le seuil de rentabilité ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "La contribution est prix moins coût variable ; le seuil de rentabilité couvre les coûts fixes.",
+    "answer": true,
+    "code": "price = 100\nvariable cost = 70\ncontribution = 30\nfixed costs = 300\nbreak-even = 300 / 30 = 10 units"
+  },
+  "business-cash": {
+    "title": "Planifier la trésorerie",
+    "body": "La trésorerie finale est solde initial plus encaissements moins paiements ; une vente à crédit n’est pas encore encaissée.\n\nUn calcul exige des entrées définies, une opération et une unité. Résolvez l’exemple à la main avant d’utiliser un outil. Vérifiez le dénominateur, les valeurs manquantes et la plausibilité du résultat. Un calcul exact demande encore du contexte avant de guider une décision.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Planifier la trésorerie ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Les unités et le dénominateur ne comptent pas dans un calcul.",
+    "answer": false,
+    "code": "opening cash 200 + receipts 100 − payments 150 = closing cash 150"
+  },
+  "business-validation": {
+    "title": "Valider avec un petit essai",
+    "body": "Testez la demande avec des conversations et un essai avant un investissement important.\n\nUne expérience commence par une question vérifiable et une mesure de réussite. L’exemple modifie un facteur en gardant les autres comparables. Notez une référence, faites un petit essai et comparez. Un seul résultat ne permet pas de promettre le même effet dans toutes les situations.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Valider avec un petit essai ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Testez la demande avec des conversations et un essai avant un investissement important.",
+    "answer": true,
+    "code": "hypothesis → 5 conversations → small trial → evidence → decision"
+  },
+  "business-operations": {
+    "title": "Décrire les étapes de livraison",
+    "body": "Décrivez la commande jusqu’au suivi et attribuez le contrôle qualité.\n\nCertaines étapes dépendent des précédentes. Suivez les flèches de l’exemple et expliquez ce qui doit venir en premier et pourquoi. Prévoyez aussi le cas où une étape échoue. Vérifiez chaque transition : atteindre la dernière étape ne prouve pas que tout le processus a fonctionné.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Décrire les étapes de livraison ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une étape dépendante peut toujours commencer avant son préalable.",
+    "answer": false,
+    "code": "order → confirm → prepare → check → deliver → follow up"
+  },
+  "business-records": {
+    "title": "Tenir des registres simples",
+    "body": "Notez date, type, montant et référence ; conservez un justificatif pour chaque mouvement.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Tenir des registres simples ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Notez date, type, montant et référence ; conservez un justificatif pour chaque mouvement.",
+    "answer": true,
+    "code": "date,type,amount,reference\n2026-01-01,in,100,R01\n2026-01-02,out,70,R02"
+  },
+  "business-risk": {
+    "title": "Préparer les risques commerciaux",
+    "body": "Identifiez une dépendance majeure, estimez son risque et préparez une solution de secours.\n\nLe risque combine la probabilité d’un événement et son impact. Comparez ces deux dimensions dans l’exemple, puis choisissez une mesure pratique. Traitez les risques majeurs en premier et désignez un responsable. Une liste de contrôle réduit les erreurs sans garantir la disparition des menaces.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Préparer les risques commerciaux ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une faible probabilité signifie qu’un risque ne peut jamais nuire.",
+    "answer": false,
+    "code": "supplier A: likelihood 3 × impact 4 = 12\nbackup supplier → reduce impact"
+  },
+  "business-project": {
+    "title": "Présenter une idée testée",
+    "body": "Présentez preuves clients, offre chiffrée, essai et trésorerie avec les questions encore ouvertes.\n\nRéunissez les compétences précédentes dans un petit projet. Utilisez l’exemple comme plan initial, définissez un résultat utile et créez une réalisation démontrable. Testez-la selon votre objectif, expliquez une limite et notez une amélioration. Gardez vos brouillons et preuves pour expliquer vos décisions.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Présenter une idée testée ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Présentez preuves clients, offre chiffrée, essai et trésorerie avec les questions encore ouvertes.",
+    "answer": true,
+    "code": "problem → offer → costs → trial → cash plan → next decision"
+  },
+  "writing-purpose": {
+    "title": "Définir le lecteur et le but",
+    "body": "Identifiez le lecteur, le but du message et la prochaine action attendue.\n\nCommencez par la personne concernée et l’action qu’elle souhaite accomplir. L’exemple relie un besoin, une réponse utile et une prochaine étape. Donnez le contexte nécessaire, restez respectueux et évitez les affirmations sans preuve. Vérifiez votre travail avec une personne du public visé.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Définir le lecteur et le but ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Identifiez le lecteur, le but du message et la prochaine action attendue.",
+    "answer": true,
+    "code": "reader → purpose → main point → next action"
+  },
+  "writing-outline": {
+    "title": "Organiser un plan",
+    "body": "Un plan place l’idée principale avant les preuves et la demande d’action.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Organiser un plan ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une information manquante doit toujours être remplacée par zéro.",
+    "answer": false,
+    "code": "I. main point\nII. evidence\nIII. next action"
+  },
+  "writing-paragraph": {
+    "title": "Construire un paragraphe clair",
+    "body": "Un paragraphe développe une idée avec un détail pertinent et une transition.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Construire un paragraphe clair ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un paragraphe développe une idée avec un détail pertinent et une transition.",
+    "answer": true,
+    "code": "topic → supporting detail → connection"
+  },
+  "writing-clarity": {
+    "title": "Simplifier les phrases",
+    "body": "Supprimez les répétitions et séparez les phrases surchargées sans perdre le sens.\n\nComparez les options selon un objectif clair. L’exemple présente des alternatives ou une contrainte. Expliquez le compromis, comparez équitablement et justifiez votre choix par des preuves. Une solution adaptée à un contexte peut nécessiter des changements dans un autre.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Simplifier les phrases ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "L’option la plus jolie est toujours la meilleure pour tout objectif.",
+    "answer": false,
+    "code": "A: 42 words, 3 ideas\nB: 12 words, 1 idea\n// keep meaning; remove repetition"
+  },
+  "writing-evidence": {
+    "title": "Appuyer les affirmations sur des preuves",
+    "body": "Vérifiez chaque affirmation avec la source originale, sa date et ses preuves.\n\nUn test utile définit l’entrée et le résultat attendu avant de vérifier le résultat réel. Essayez l’exemple puis un cas vide, inattendu ou limite. Notez le résultat et apportez une correction ciblée. Répétez le test après la correction pour vérifier que le problème est résolu.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Appuyer les affirmations sur des preuves ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Vérifiez chaque affirmation avec la source originale, sa date et ses preuves.",
+    "answer": true,
+    "code": "claim → original source → date → supporting evidence"
+  },
+  "writing-tone": {
+    "title": "Choisir un ton adapté",
+    "body": "Adaptez le ton à la relation tout en restant clair et respectueux.\n\nCommencez par la personne concernée et l’action qu’elle souhaite accomplir. L’exemple relie un besoin, une réponse utile et une prochaine étape. Donnez le contexte nécessaire, restez respectueux et évitez les affirmations sans preuve. Vérifiez votre travail avec une personne du public visé.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Choisir un ton adapté ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Le public visé n’influence jamais les détails d’un message.",
+    "answer": false,
+    "code": "same facts + different reader → different tone\n// respectful; clear; specific"
+  },
+  "writing-edit": {
+    "title": "Réviser par étapes",
+    "body": "Révisez sens et structure avant phrases, orthographe et ponctuation.\n\nUn retour utile repose sur une observation et propose une prochaine action précise. Cherchez dans l’exemple ce qui fonctionne et ce qui pose problème. Distinguez observation et supposition. Améliorez un élément et vérifiez son effet ; un petit échantillon ne représente pas tout le monde.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Réviser par étapes ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Révisez sens et structure avant phrases, orthographe et ponctuation.",
+    "answer": true,
+    "code": "draft → meaning → structure → sentence → spelling"
+  },
+  "writing-feedback": {
+    "title": "Utiliser les retours du lecteur",
+    "body": "Demandez au lecteur ce qu’il a compris et ses hésitations, puis révisez la partie concernée.\n\nUn retour utile repose sur une observation et propose une prochaine action précise. Cherchez dans l’exemple ce qui fonctionne et ce qui pose problème. Distinguez observation et supposition. Améliorez un élément et vérifiez son effet ; un petit échantillon ne représente pas tout le monde.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Utiliser les retours du lecteur ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un petit échantillon prouve les besoins de chaque personne.",
+    "answer": false,
+    "code": "reader understands: A\nreader asks: B?\nrevision: clarify B"
+  },
+  "writing-project": {
+    "title": "Publier un message soigné",
+    "body": "Créez un message court avec but clair, faits vérifiés et prochaine action précise.\n\nRéunissez les compétences précédentes dans un petit projet. Utilisez l’exemple comme plan initial, définissez un résultat utile et créez une réalisation démontrable. Testez-la selon votre objectif, expliquez une limite et notez une amélioration. Gardez vos brouillons et preuves pour expliquer vos décisions.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Publier un message soigné ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Créez un message court avec but clair, faits vérifiés et prochaine action précise.",
+    "answer": true,
+    "code": "brief → outline → draft → source check → revision → final message"
+  },
+  "project-scope": {
+    "title": "Fixer le périmètre et les critères de réussite",
+    "body": "Définissez inclusions, exclusions et conditions d’acceptation du résultat.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Fixer le périmètre et les critères de réussite ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Définissez inclusions, exclusions et conditions d’acceptation du résultat.",
+    "answer": true,
+    "code": "outcome + acceptance criteria\nin: A,B\nout: C"
+  },
+  "project-breakdown": {
+    "title": "Décomposer les livrables",
+    "body": "Décomposez le livrable en tâches réalisables et donnez un responsable à chacune.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Décomposer les livrables ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une information manquante doit toujours être remplacée par zéro.",
+    "answer": false,
+    "code": "deliverable → task A → subtask A1,A2\n// one owner per task"
+  },
+  "project-dependencies": {
+    "title": "Relier les dépendances des tâches",
+    "body": "Une tâche dépendante attend sa condition préalable ; la chaîne la plus longue contraint la fin.\n\nCertaines étapes dépendent des précédentes. Suivez les flèches de l’exemple et expliquez ce qui doit venir en premier et pourquoi. Prévoyez aussi le cas où une étape échoue. Vérifiez chaque transition : atteindre la dernière étape ne prouve pas que tout le processus a fonctionné.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Relier les dépendances des tâches ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une tâche dépendante attend sa condition préalable ; la chaîne la plus longue contraint la fin.",
+    "answer": true,
+    "code": "A(2 days) → B(3 days) → D(1 day)\nA → C(1 day) → D\n// longest chain: 6 days"
+  },
+  "project-estimates": {
+    "title": "Estimer le temps et la capacité",
+    "body": "Distinguez effort et durée calendaire et prévoyez l’incertitude.\n\nUn calcul exige des entrées définies, une opération et une unité. Résolvez l’exemple à la main avant d’utiliser un outil. Vérifiez le dénominateur, les valeurs manquantes et la plausibilité du résultat. Un calcul exact demande encore du contexte avant de guider une décision.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Estimer le temps et la capacité ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Les unités et le dénominateur ne comptent pas dans un calcul.",
+    "answer": false,
+    "code": "A: 2h\nB: 3h\nC: 1h\ntotal: 6h + contingency"
+  },
+  "project-board": {
+    "title": "Gérer un tableau de tâches",
+    "body": "Passez les tâches de À faire à En cours puis Terminé selon les critères d’acceptation.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Gérer un tableau de tâches ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Passez les tâches de À faire à En cours puis Terminé selon les critères d’acceptation.",
+    "answer": true,
+    "code": "[To do] → [In progress] → [Done]\n// task + owner + acceptance check"
+  },
+  "project-risks": {
+    "title": "Préparer les réponses aux risques",
+    "body": "Notez probabilité, impact, responsable et réponse pour chaque risque ; réexaminez-les.\n\nLe risque combine la probabilité d’un événement et son impact. Comparez ces deux dimensions dans l’exemple, puis choisissez une mesure pratique. Traitez les risques majeurs en premier et désignez un responsable. Une liste de contrôle réduit les erreurs sans garantir la disparition des menaces.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Préparer les réponses aux risques ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une faible probabilité signifie qu’un risque ne peut jamais nuire.",
+    "answer": false,
+    "code": "risk: A\nlikelihood: 3\nimpact: 4\nowner: B\nresponse: C"
+  },
+  "project-updates": {
+    "title": "Rédiger un suivi utile",
+    "body": "Un suivi donne travail terminé, prochaines étapes, blocages et demande précise.\n\nCommencez par la personne concernée et l’action qu’elle souhaite accomplir. L’exemple relie un besoin, une réponse utile et une prochaine étape. Donnez le contexte nécessaire, restez respectueux et évitez les affirmations sans preuve. Vérifiez votre travail avec une personne du public visé.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Rédiger un suivi utile ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un suivi donne travail terminé, prochaines étapes, blocages et demande précise.",
+    "answer": true,
+    "code": "completed → next → blocker → request + date"
+  },
+  "project-retro": {
+    "title": "Organiser une rétrospective",
+    "body": "Examinez aides et obstacles puis attribuez une amélioration à un responsable et une date.\n\nUn retour utile repose sur une observation et propose une prochaine action précise. Cherchez dans l’exemple ce qui fonctionne et ce qui pose problème. Distinguez observation et supposition. Améliorez un élément et vérifiez son effet ; un petit échantillon ne représente pas tout le monde.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Organiser une rétrospective ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un petit échantillon prouve les besoins de chaque personne.",
+    "answer": false,
+    "code": "worked: A\nblocked: B\nnext change: C + owner + date"
+  },
+  "project-capstone": {
+    "title": "Planifier et évaluer un petit projet",
+    "body": "Planifiez périmètre, tâches, dépendances et risques puis vérifiez les critères d’acceptation initiaux.\n\nRéunissez les compétences précédentes dans un petit projet. Utilisez l’exemple comme plan initial, définissez un résultat utile et créez une réalisation démontrable. Testez-la selon votre objectif, expliquez une limite et notez une amélioration. Gardez vos brouillons et preuves pour expliquer vos décisions.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Planifier et évaluer un petit projet ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Planifiez périmètre, tâches, dépendances et risques puis vérifiez les critères d’acceptation initiaux.",
+    "answer": true,
+    "code": "scope → tasks → dependencies → board → risk review → delivery check"
+  },
+  "teaching-goals": {
+    "title": "Écrire un objectif observable",
+    "body": "Utilisez une action observable comme expliquer ou calculer plutôt que simplement comprendre.\n\nUne structure claire donne un rôle à chaque partie. Lisez l’exemple de haut en bas et repérez les entrées, les champs importants et le résultat. Signalez les informations manquantes plutôt que de les inventer. Des libellés cohérents facilitent la vérification et la réutilisation.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Écrire un objectif observable ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Utilisez une action observable comme expliquer ou calculer plutôt que simplement comprendre.",
+    "answer": true,
+    "code": "By the end: learner can [observable action]\n// explain, calculate, demonstrate"
+  },
+  "teaching-baseline": {
+    "title": "Vérifier les connaissances initiales",
+    "body": "Une courte tâche initiale révèle les acquis et guide la prochaine étape.\n\nUn retour utile repose sur une observation et propose une prochaine action précise. Cherchez dans l’exemple ce qui fonctionne et ce qui pose problème. Distinguez observation et supposition. Améliorez un élément et vérifiez son effet ; un petit échantillon ne représente pas tout le monde.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Vérifier les connaissances initiales ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un petit échantillon prouve les besoins de chaque personne.",
+    "answer": false,
+    "code": "before: example task → learner response → next teaching step"
+  },
+  "teaching-example": {
+    "title": "Montrer un exemple résolu",
+    "body": "Montrez étapes et raisonnement puis demandez de prédire l’étape suivante.\n\nCertaines étapes dépendent des précédentes. Suivez les flèches de l’exemple et expliquez ce qui doit venir en premier et pourquoi. Prévoyez aussi le cas où une étape échoue. Vérifiez chaque transition : atteindre la dernière étape ne prouve pas que tout le processus a fonctionné.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Montrer un exemple résolu ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Montrez étapes et raisonnement puis demandez de prédire l’étape suivante.",
+    "answer": true,
+    "code": "show → explain why → learner predicts → compare"
+  },
+  "teaching-practice": {
+    "title": "Concevoir une pratique guidée",
+    "body": "Commencez avec un guide et réduisez les indices avant une tentative autonome.\n\nCertaines étapes dépendent des précédentes. Suivez les flèches de l’exemple et expliquez ce qui doit venir en premier et pourquoi. Prévoyez aussi le cas où une étape échoue. Vérifiez chaque transition : atteindre la dernière étape ne prouve pas que tout le processus a fonctionné.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Concevoir une pratique guidée ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une étape dépendante peut toujours commencer avant son préalable.",
+    "answer": false,
+    "code": "guided attempt → hints → independent attempt"
+  },
+  "teaching-feedback": {
+    "title": "Donner un retour utile",
+    "body": "Décrivez une observation précise et une amélioration puis permettez de réessayer.\n\nUn retour utile repose sur une observation et propose une prochaine action précise. Cherchez dans l’exemple ce qui fonctionne et ce qui pose problème. Distinguez observation et supposition. Améliorez un élément et vérifiez son effet ; un petit échantillon ne représente pas tout le monde.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Donner un retour utile ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Décrivez une observation précise et une amélioration puis permettez de réessayer.",
+    "answer": true,
+    "code": "specific observation → next improvement → retry"
+  },
+  "teaching-check": {
+    "title": "Vérifier la compétence avec un nouvel exemple",
+    "body": "Vérifiez la même compétence sur un nouvel exemple pour éviter la simple mémorisation.\n\nUn test utile définit l’entrée et le résultat attendu avant de vérifier le résultat réel. Essayez l’exemple puis un cas vide, inattendu ou limite. Notez le résultat et apportez une correction ciblée. Répétez le test après la correction pour vérifier que le problème est résolu.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Vérifier la compétence avec un nouvel exemple ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Un seul test réussi prouve qu’une fonctionnalité marche dans tous les cas.",
+    "answer": false,
+    "code": "goal: calculate 10 + 20\ncheck: learner calculates 15 + 25\n// new example; same skill"
+  },
+  "teaching-inclusive": {
+    "title": "Rendre la pratique inclusive",
+    "body": "Proposez texte lisible, schémas et interaction accessible en gardant le même objectif.\n\nComparez les options selon un objectif clair. L’exemple présente des alternatives ou une contrainte. Expliquez le compromis, comparez équitablement et justifiez votre choix par des preuves. Une solution adaptée à un contexte peut nécessiter des changements dans un autre.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Rendre la pratique inclusive ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Proposez texte lisible, schémas et interaction accessible en gardant le même objectif.",
+    "answer": true,
+    "code": "text + diagram + keyboard access\n// same goal; different ways to practise"
+  },
+  "teaching-plan": {
+    "title": "Planifier une courte séance",
+    "body": "Prévoyez du temps pour objectif, exemple, pratique et vérification avec retour.\n\nCertaines étapes dépendent des précédentes. Suivez les flèches de l’exemple et expliquez ce qui doit venir en premier et pourquoi. Prévoyez aussi le cas où une étape échoue. Vérifiez chaque transition : atteindre la dernière étape ne prouve pas que tout le processus a fonctionné.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Planifier une courte séance ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Une étape dépendante peut toujours commencer avant son préalable.",
+    "answer": false,
+    "code": "2 min: goal\n3 min: example\n7 min: practice\n3 min: check + feedback"
+  },
+  "teaching-project": {
+    "title": "Enseigner et analyser une mini-leçon",
+    "body": "Enseignez une courte séance, gardez les essais du participant et révisez la difficulté observée.\n\nRéunissez les compétences précédentes dans un petit projet. Utilisez l’exemple comme plan initial, définissez un résultat utile et créez une réalisation démontrable. Testez-la selon votre objectif, expliquez une limite et notez une amélioration. Gardez vos brouillons et preuves pour expliquer vos décisions.",
+    "practice": "Étudiez l’exemple puis créez votre version de « Enseigner et analyser une mini-leçon ». Modifiez une entrée ou une décision, décrivez le résultat et expliquez comment votre approche répond au but.",
+    "statement": "Enseignez une courte séance, gardez les essais du participant et révisez la difficulté observée.",
+    "answer": true,
+    "code": "goal → starting check → example → practice → feedback → reflection"
+  }
+}

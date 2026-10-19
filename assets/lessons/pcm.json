@@ -1,0 +1,793 @@
+{
+  "html": {
+    "title": "Build your first HTML page",
+    "body": "HTML dey describe how page arrange. <h1> na heading, <p> na paragraph, and <a href=\"...\"> na link. Opening and closing tags dey hold content. href dey show where link go.\nStart with one clear heading and short paragraph. Make link text explain where e go. Page suppose make sense even without colour or picture.",
+    "practice": "Write HTML about yourself: one h1, p about wetin you like, and a link to useful website. Explain wetin href do.",
+    "statement": "HTML dey describe how web page arrange.",
+    "answer": true,
+    "code": "<h1>Ada</h1>\n<p>I like to learn.</p>\n<a href=\"https://example.com\">Example website</a>"
+  },
+  "css": {
+    "title": "Style page with CSS",
+    "body": "CSS dey control colour, spacing and layout. Selector dey choose element; declarations inside braces dey set properties. For h1 { color: green; }, h1 na selector and color na property.\nMake text easy to read. Fixed width of 900px fit pass phone screen. max-width: 100% fit help content fit screen.",
+    "practice": "Write CSS to give heading colour and paragraph padding. Explain why page suppose fit small screen.",
+    "statement": "CSS mean say you no need HTML structure again.",
+    "answer": false,
+    "code": "h1 { color: green; }\np { padding: 16px; max-width: 100%; }"
+  },
+  "javascript": {
+    "title": "Add interaction with JavaScript",
+    "body": "JavaScript dey respond to actions. querySelector dey find element; addEventListener dey run function when event happen. textContent dey change text without treating am as HTML.\nUse real button so keyboard fit work. Make page useful before script load.",
+    "practice": "Write button and click listener wey go change paragraph to welcome message. Explain event wey start am.",
+    "statement": "Click event listener fit respond when person activate button.",
+    "answer": true,
+    "code": "<button id=\"welcome\">You welcome</button>\n<p id=\"message\"></p>\n<script>\ndocument.querySelector(\"#welcome\").addEventListener(\"click\", () => {\n  document.querySelector(\"#message\").textContent = \"You welcome!\";\n});\n</script>"
+  },
+  "data": {
+    "title": "Ask useful question with data",
+    "body": "Data na information wey person record. Start with question. Put observations for rows and fields for columns. Missing value no be zero. Check units and duplicate rows. Average na sum divide by number of values.",
+    "practice": "Sales na 10, 20, 30. Calculate average, write unit, and one question wey numbers no fit answer.",
+    "statement": "Average of 10, 20 and 30 na 20.",
+    "answer": true
+  },
+  "cyber": {
+    "title": "Protect account",
+    "body": "Use different password for each service and password manager to keep dem. Multi-factor authentication dey add another check. Unexpected message wey ask password or code fit be phishing. Open service directly to check request.",
+    "practice": "Explain how you go check unexpected login message. Write two protection steps for test account; no put real password here.",
+    "statement": "E safe to send login code to anybody wey claim say dem be support.",
+    "answer": false
+  },
+  "ai": {
+    "title": "Understand model prediction",
+    "body": "Machine learning model dey learn patterns from examples. Training data dey affect prediction. Prediction fit wrong, especially if new examples different. Test with separate examples and check mistakes too.",
+    "practice": "For model wey recognise fruit, describe training examples and separate test examples. Name one way e fit fail.",
+    "statement": "Model prediction must always correct.",
+    "answer": false
+  },
+  "design": {
+    "title": "Design for user need",
+    "body": "User experience start with person and goal. Explain problem before you draw screen. Clear label dey help person choose action. Test simple sketch before you build. Watch where person get stuck.",
+    "practice": "Sketch three steps to save lesson. Write user goal and one question for test.",
+    "statement": "Testing sketch fit show problems before app build.",
+    "answer": true
+  },
+  "marketing": {
+    "title": "Plan useful message",
+    "body": "Marketing dey connect useful offer with audience. Choose who you wan reach, problem you solve and action dem suppose take. Measure useful result like enquiries, no be only views. No make claim wey you no fit prove.",
+    "practice": "Write short message for local service. Name audience, benefit, action and how you go measure success.",
+    "statement": "More views always mean more customers.",
+    "answer": false
+  },
+  "business": {
+    "title": "Test business idea",
+    "body": "Business idea need customer problem and offer wey fit work. Talk to customers before you spend plenty. Revenue na money wey enter; profit dey count costs too. Small test fit show if people value offer.",
+    "practice": "Item sell for 100 and cost 70 to provide. Calculate difference before other costs, then describe small customer test.",
+    "statement": "You need count costs when you estimate profit.",
+    "answer": true
+  },
+  "writing": {
+    "title": "Write for reader",
+    "body": "Clear writing get purpose and audience. Put main point early, use clear words and give next step. Edit sentence wey carry too many ideas. Make sure reader get enough information to act.",
+    "practice": "Write four sentences to invite friend for study session. Put purpose, time, place and next action.",
+    "statement": "Knowing audience dey help you choose useful details.",
+    "answer": true
+  },
+  "project": {
+    "title": "Break project into tasks",
+    "body": "Project get outcome, tasks and limits. Split work small, choose who go do each, and find dependencies. Some task need another finish first. Check progress and adjust plan.",
+    "practice": "Plan study event with four tasks, owner for each and one dependency. Write wetin success go look like.",
+    "statement": "Every project task fit always start same time.",
+    "answer": false
+  },
+  "teaching": {
+    "title": "Help person learn",
+    "body": "Lesson need clear goal, example, practice and feedback. Showing skill no mean person don learn am. Let learner try and explain reasoning. Use answer choose wetin to teach next.",
+    "practice": "Plan ten-minute lesson on skill you know. Write goal, practice and question to check understanding.",
+    "statement": "Practice and feedback dey help teacher check understanding.",
+    "answer": true
+  },
+  "web-semantic": {
+    "title": "Use HTML wey show meaning",
+    "body": "Use header for introduction, main for the page main content and footer for closing information.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Use HTML wey show meaning”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Use header for introduction, main for the page main content and footer for closing information.",
+    "answer": true,
+    "code": "<header>…</header>\n<main><article>…</article></main>\n<footer>…</footer>"
+  },
+  "web-layout": {
+    "title": "Build layout wey fit any screen",
+    "body": "Grid auto-fit create columns wey fit; minmax stop cards from becoming too narrow.\n\nCompare options with clear goal instead of choosing only the fine one. The example show different options or limit. Explain wetin you gain and lose, compare fairly and use evidence support your choice. Wetin work for one situation fit need change for another.",
+    "practice": "Study the example, then create your own version of “Build layout wey fit any screen”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Option wey fine pass na always best for every goal.",
+    "answer": false,
+    "code": ".cards { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }"
+  },
+  "web-forms": {
+    "title": "Collect input with forms",
+    "body": "Label name the input; type=email check format and required reject empty value.\n\nGood test state input and expected result before you check actual result. Try the example, then test empty, unexpected or boundary case. Write wetin happen and make small correction. Repeat the test after correction so you know say you solve the problem.",
+    "practice": "Study the example, then create your own version of “Collect input with forms”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Label name the input; type=email check format and required reject empty value.",
+    "answer": true,
+    "code": "<label for=\"email\">Email</label>\n<input id=\"email\" type=\"email\" required>\n// test: \"\", \"ada\", \"ada@example.test\""
+  },
+  "web-dom": {
+    "title": "Connect events to DOM",
+    "body": "querySelector find element; addEventListener connect action to function; textContent change plain text.\n\nSome steps need another step to finish first. Follow the arrows for the example and explain wetin must happen first and why. Plan wetin go happen if one step fail. Check each change before you continue; finishing last step alone no mean say the whole process work.",
+    "practice": "Study the example, then create your own version of “Connect events to DOM”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Step wey depend on another fit always start before that one.",
+    "answer": false,
+    "code": "const button = document.querySelector(\"button\");\nbutton.addEventListener(\"click\", () => {\n  document.querySelector(\"p\").textContent = \"✓\";\n});"
+  },
+  "web-access": {
+    "title": "Make everybody fit use page",
+    "body": "Real button support keyboard. Text need enough contrast and action need clear label.\n\nUseful feedback point to wetin person observe and give specific next step. Check the example for evidence of wetin work and wetin cause problem. Separate wetin you see from wetin you assume. Improve one thing and check if e help; small sample no represent everybody.",
+    "practice": "Study the example, then create your own version of “Make everybody fit use page”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Real button support keyboard. Text need enough contrast and action need clear label.",
+    "answer": true,
+    "code": "<button type=\"button\">✓</button>\n// Tab → Enter → ✓\n// contrast: 4.5:1"
+  },
+  "web-debug": {
+    "title": "Find error and test feature",
+    "body": "Test normal and zero quantities; 5 × 3 suppose give 15, and 5 × 0 give zero.\n\nGood test state input and expected result before you check actual result. Try the example, then test empty, unexpected or boundary case. Write wetin happen and make small correction. Repeat the test after correction so you know say you solve the problem.",
+    "practice": "Study the example, then create your own version of “Find error and test feature”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Testing one successful case prove say feature work for all situations.",
+    "answer": false,
+    "code": "const total = (price, quantity) => price * quantity;\n// total(5, 3) → 15\n// total(5, 0) → 0"
+  },
+  "web-project": {
+    "title": "Build your personal website",
+    "body": "Join semantic HTML, responsive CSS and one keyboard interaction for your personal website.\n\nJoin the skills wey you don learn for small project. Use example start your outline, define useful result and create something wey you fit show. Test am against your goal, explain one limit and write one improvement. Keep draft and evidence so another learner fit understand your decisions.",
+    "practice": "Study the example, then create your own version of “Build your personal website”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Join semantic HTML, responsive CSS and one keyboard interaction for your personal website.",
+    "answer": true,
+    "code": "<!doctype html>\n<html lang=\"en\">\n  <meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\n  <main>…</main>\n</html>"
+  },
+  "data-clean": {
+    "title": "Clean small dataset",
+    "body": "Repeated identifier fit be duplicate. Empty value mean unknown, no be zero automatically.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Clean small dataset”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Repeated identifier fit be duplicate. Empty value mean unknown, no be zero automatically.",
+    "answer": true,
+    "code": "id,value\n1,10\n2,\n2,20\n3,30\n// duplicate id: 2; missing ≠ 0"
+  },
+  "data-measures": {
+    "title": "Choose useful summary measures",
+    "body": "Mean use all values and extreme value affect am; median na middle value after sorting.\n\nCalculation need clear inputs, operation and unit. Work the example with hand before you use tool. Check wetin you divide by, missing values and whether result make sense. Correct calculation still need context before you use am make decision.",
+    "practice": "Study the example, then create your own version of “Choose useful summary measures”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Units and denominator no matter for calculation.",
+    "answer": false,
+    "code": "(10 + 20 + 30) / 3 = 20\nmedian(10, 20, 90) = 20\nmean(10, 20, 90) = 40"
+  },
+  "data-sheets": {
+    "title": "Calculate with spreadsheet",
+    "body": "SUM add range, AVERAGE find mean and COUNT count numeric cells.\n\nCalculation need clear inputs, operation and unit. Work the example with hand before you use tool. Check wetin you divide by, missing values and whether result make sense. Correct calculation still need context before you use am make decision.",
+    "practice": "Study the example, then create your own version of “Calculate with spreadsheet”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "SUM add range, AVERAGE find mean and COUNT count numeric cells.",
+    "answer": true,
+    "code": "=SUM(B2:B4)\n=AVERAGE(B2:B4)\n=COUNT(B2:B4)\n// B2:B4 = 10,20,30"
+  },
+  "data-filter": {
+    "title": "Sort and filter records",
+    "body": "Filtering keep matching rows; sorting change order without changing values.\n\nCompare options with clear goal instead of choosing only the fine one. The example show different options or limit. Explain wetin you gain and lose, compare fairly and use evidence support your choice. Wetin work for one situation fit need change for another.",
+    "practice": "Study the example, then create your own version of “Sort and filter records”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Option wey fine pass na always best for every goal.",
+    "answer": false,
+    "code": "id,region,value\n1,A,10\n2,B,30\n3,A,20\n// region=A → 1,3; value descending → 2,3,1"
+  },
+  "data-charts": {
+    "title": "Choose chart wey no mislead",
+    "body": "Bar chart compare categories. Label units and start numerical axis from zero.\n\nCompare options with clear goal instead of choosing only the fine one. The example show different options or limit. Explain wetin you gain and lose, compare fairly and use evidence support your choice. Wetin work for one situation fit need change for another.",
+    "practice": "Study the example, then create your own version of “Choose chart wey no mislead”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Bar chart compare categories. Label units and start numerical axis from zero.",
+    "answer": true,
+    "code": "A: ███ 30\nB: ██ 20\nC: █ 10\n// axis starts at 0; same unit"
+  },
+  "data-sql": {
+    "title": "Group data with SQL",
+    "body": "GROUP BY create groups; SUM calculate one total for each group.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Group data with SQL”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Information wey no dey suppose always become zero.",
+    "answer": false,
+    "code": "SELECT region, SUM(value) AS total\nFROM sales\nGROUP BY region;\n// A → 30; B → 30"
+  },
+  "data-privacy": {
+    "title": "Handle personal data well",
+    "body": "Replacing names with IDs reduce exposure, but other fields fit still identify person.\n\nUse information wey you invent for this exercise. Collect only wetin you need for clear purpose, remove details wey identify person and limit who fit see am. The example show data to remove or permission to check. No put real password, contact details or secret records for notes.",
+    "practice": "Study the example, then create your own version of “Handle personal data well”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Replacing names with IDs reduce exposure, but other fields fit still identify person.",
+    "answer": true,
+    "code": "{\"person_id\":\"P01\",\"age_band\":\"20–29\",\"value\":10}\n// remove: name, email, phone"
+  },
+  "data-evidence": {
+    "title": "Explain findings and limits",
+    "body": "State sample size and uncertainty. Two things wey move together no prove say one cause the other.\n\nUseful feedback point to wetin person observe and give specific next step. Check the example for evidence of wetin work and wetin cause problem. Separate wetin you see from wetin you assume. Improve one thing and check if e help; small sample no represent everybody.",
+    "practice": "Study the example, then create your own version of “Explain findings and limits”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Small sample prove wetin every person need.",
+    "answer": false,
+    "code": "n = 3\nmean = 20\nrange = 10–30\n// correlation ≠ causation"
+  },
+  "data-project": {
+    "title": "Create small data report",
+    "body": "Answer one question with clean data, labelled chart and recommendation wey show limits.\n\nJoin the skills wey you don learn for small project. Use example start your outline, define useful result and create something wey you fit show. Test am against your goal, explain one limit and write one improvement. Keep draft and evidence so another learner fit understand your decisions.",
+    "practice": "Study the example, then create your own version of “Create small data report”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Answer one question with clean data, labelled chart and recommendation wey show limits.",
+    "answer": true,
+    "code": "CSV → clean → calculate → chart → recommendation\n10,20,30 → 20 → ███ → ?"
+  },
+  "cyber-phishing": {
+    "title": "Spot phishing link",
+    "body": "Check real hostname: example.test.evil.test belong to evil.test, no be example.test.\n\nRisk join chance say something go happen with harm wey e fit cause. Compare likelihood and impact for the example, then choose practical control. Handle bigger risks first and name who go act. Checklist reduce mistakes but e no guarantee say all threats don disappear.",
+    "practice": "Study the example, then create your own version of “Spot phishing link”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Check real hostname: example.test.evil.test belong to evil.test, no be example.test.",
+    "answer": true,
+    "code": "https://example.test\nhttps://example.test.evil.test\n// host: example.test ≠ example.test.evil.test"
+  },
+  "cyber-privacy": {
+    "title": "Keep sensitive information private",
+    "body": "Password and sign-in code na secret; replace dem with invented placeholders for reports.\n\nUse information wey you invent for this exercise. Collect only wetin you need for clear purpose, remove details wey identify person and limit who fit see am. The example show data to remove or permission to check. No put real password, contact details or secret records for notes.",
+    "practice": "Study the example, then create your own version of “Keep sensitive information private”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Put real passwords for practice notes wey people share.",
+    "answer": false,
+    "code": "{\"account\":\"test-01\",\"password\":\"[REDACTED]\",\"mfa_code\":\"[REDACTED]\"}"
+  },
+  "cyber-updates": {
+    "title": "Update device safely",
+    "body": "Back up important data, use official update, restart and confirm installed version.\n\nSome steps need another step to finish first. Follow the arrows for the example and explain wetin must happen first and why. Plan wetin go happen if one step fail. Check each change before you continue; finishing last step alone no mean say the whole process work.",
+    "practice": "Study the example, then create your own version of “Update device safely”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Back up important data, use official update, restart and confirm installed version.",
+    "answer": true,
+    "code": "backup → official update → restart → version check"
+  },
+  "cyber-network": {
+    "title": "Understand network journey",
+    "body": "DNS find address from name. HTTPS protect data for transit, but fake site fit use HTTPS too.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Understand network journey”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Information wey no dey suppose always become zero.",
+    "answer": false,
+    "code": "device → router → DNS → HTTPS server\n// HTTPS protects transit; does not guarantee honesty"
+  },
+  "cyber-permissions": {
+    "title": "Choose only permission wey you need",
+    "body": "Least privilege give only permission wey task need; admin access get extra risk.\n\nCompare options with clear goal instead of choosing only the fine one. The example show different options or limit. Explain wetin you gain and lose, compare fairly and use evidence support your choice. Wetin work for one situation fit need change for another.",
+    "practice": "Study the example, then create your own version of “Choose only permission wey you need”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Least privilege give only permission wey task need; admin access get extra risk.",
+    "answer": true,
+    "code": "viewer: read\neditor: read + write\nadmin: read + write + manage\n// role = minimum needed"
+  },
+  "cyber-backup": {
+    "title": "Test backup and restore",
+    "body": "Backup wey you never test fit fail. Restore harmless test file and compare contents.\n\nGood test state input and expected result before you check actual result. Try the example, then test empty, unexpected or boundary case. Write wetin happen and make small correction. Repeat the test after correction so you know say you solve the problem.",
+    "practice": "Study the example, then create your own version of “Test backup and restore”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Testing one successful case prove say feature work for all situations.",
+    "answer": false,
+    "code": "3 copies · 2 storage types · 1 off-site\n// restore a test file; compare contents"
+  },
+  "cyber-threats": {
+    "title": "Arrange security risks by importance",
+    "body": "Likelihood times impact give simple priority score, no be certain prediction.\n\nRisk join chance say something go happen with harm wey e fit cause. Compare likelihood and impact for the example, then choose practical control. Handle bigger risks first and name who go act. Checklist reduce mistakes but e no guarantee say all threats don disappear.",
+    "practice": "Study the example, then create your own version of “Arrange security risks by importance”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Likelihood times impact give simple priority score, no be certain prediction.",
+    "answer": true,
+    "code": "risk = likelihood × impact\nA: 3 × 4 = 12\nB: 1 × 2 = 2"
+  },
+  "cyber-response": {
+    "title": "Respond to suspected incident",
+    "body": "For suspected incident, isolate device, report and preserve evidence before recovery.\n\nSome steps need another step to finish first. Follow the arrows for the example and explain wetin must happen first and why. Plan wetin go happen if one step fail. Check each change before you continue; finishing last step alone no mean say the whole process work.",
+    "practice": "Study the example, then create your own version of “Respond to suspected incident”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Step wey depend on another fit always start before that one.",
+    "answer": false,
+    "code": "isolate → report → preserve evidence → recover\n// practise only on your own test device"
+  },
+  "cyber-project": {
+    "title": "Create security checklist",
+    "body": "Document account protection, updates, permissions and successful backup restore for your own test setup.\n\nJoin the skills wey you don learn for small project. Use example start your outline, define useful result and create something wey you fit show. Test am against your goal, explain one limit and write one improvement. Keep draft and evidence so another learner fit understand your decisions.",
+    "practice": "Study the example, then create your own version of “Create security checklist”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Document account protection, updates, permissions and successful backup restore for your own test setup.",
+    "answer": true,
+    "code": "test account → MFA → permissions → backup → restore check"
+  },
+  "ai-data": {
+    "title": "Arrange labelled examples",
+    "body": "Training row need useful input and consistent label; check errors and missing examples.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Arrange labelled examples”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Training row need useful input and consistent label; check errors and missing examples.",
+    "answer": true,
+    "code": "id,x,label\n1,1,A\n2,2,A\n3,8,B\n4,9,B"
+  },
+  "ai-split": {
+    "title": "Separate training from testing",
+    "body": "Separate test examples before training; if dem leak enter training, evaluation fit mislead.\n\nTraining examples help model learn pattern; separate test examples check if e work beyond those examples. No put test examples for training. Compare prediction with known answers. Errors and unfamiliar cases matter; small test no guarantee say model go work everywhere.",
+    "practice": "Study the example, then create your own version of “Separate training from testing”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Using test examples for training give fair evaluation.",
+    "answer": false,
+    "code": "train: 1,2,3\ntest: 4\n// no test examples in training"
+  },
+  "ai-baseline": {
+    "title": "Compare with simple baseline",
+    "body": "Always predicting A score 75% for three A and one B; compare model with this baseline.\n\nCompare options with clear goal instead of choosing only the fine one. The example show different options or limit. Explain wetin you gain and lose, compare fairly and use evidence support your choice. Wetin work for one situation fit need change for another.",
+    "practice": "Study the example, then create your own version of “Compare with simple baseline”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Always predicting A score 75% for three A and one B; compare model with this baseline.",
+    "answer": true,
+    "code": "labels: A,A,A,B\n// always predict A → 3/4\n// model accuracy must be compared with baseline"
+  },
+  "ai-evaluate": {
+    "title": "Measure prediction accuracy",
+    "body": "Accuracy na correct predictions divide all predictions; three out of four na 75%.\n\nCalculation need clear inputs, operation and unit. Work the example with hand before you use tool. Check wetin you divide by, missing values and whether result make sense. Correct calculation still need context before you use am make decision.",
+    "practice": "Study the example, then create your own version of “Measure prediction accuracy”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Units and denominator no matter for calculation.",
+    "answer": false,
+    "code": "actual: A,A,B,B\npredicted: A,B,B,B\naccuracy = 3 / 4 = 75%"
+  },
+  "ai-bias": {
+    "title": "Check errors for different groups",
+    "body": "Overall score fit hide poor results for one group; check group results and sample size.\n\nUseful feedback point to wetin person observe and give specific next step. Check the example for evidence of wetin work and wetin cause problem. Separate wetin you see from wetin you assume. Improve one thing and check if e help; small sample no represent everybody.",
+    "practice": "Study the example, then create your own version of “Check errors for different groups”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Overall score fit hide poor results for one group; check group results and sample size.",
+    "answer": true,
+    "code": "group A: 9/10 = 90%\ngroup B: 5/10 = 50%\noverall: 14/20 = 70%"
+  },
+  "ai-prompts": {
+    "title": "Write structured prompt",
+    "body": "Prompt need task, context, output format and limits; no add confidential input.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Write structured prompt”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Information wey no dey suppose always become zero.",
+    "answer": false,
+    "code": "{\"task\":\"summarise\",\"context\":\"[synthetic text]\",\"format\":\"3 bullet points\",\"constraint\":\"use only supplied facts\"}"
+  },
+  "ai-verification": {
+    "title": "Verify claims wey AI generate",
+    "body": "Generated text fit invent facts and sources. Check claims with original evidence.\n\nGood test state input and expected result before you check actual result. Try the example, then test empty, unexpected or boundary case. Write wetin happen and make small correction. Repeat the test after correction so you know say you solve the problem.",
+    "practice": "Study the example, then create your own version of “Verify claims wey AI generate”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Generated text fit invent facts and sources. Check claims with original evidence.",
+    "answer": true,
+    "code": "claim → source → evidence → verified / unknown\n// fluent text ≠ proof"
+  },
+  "ai-privacy": {
+    "title": "Keep private data out of prompts",
+    "body": "Use synthetic or permitted data and remove confidential details before submitting prompt.\n\nUse information wey you invent for this exercise. Collect only wetin you need for clear purpose, remove details wey identify person and limit who fit see am. The example show data to remove or permission to check. No put real password, contact details or secret records for notes.",
+    "practice": "Study the example, then create your own version of “Keep private data out of prompts”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Put real passwords for practice notes wey people share.",
+    "answer": false,
+    "code": "{\"name\":\"[REMOVED]\",\"health_record\":\"[REMOVED]\",\"example\":\"synthetic\"}"
+  },
+  "ai-project": {
+    "title": "Build responsible AI experiment",
+    "body": "Define question, build simple baseline, test separate examples and report errors and limits.\n\nJoin the skills wey you don learn for small project. Use example start your outline, define useful result and create something wey you fit show. Test am against your goal, explain one limit and write one improvement. Keep draft and evidence so another learner fit understand your decisions.",
+    "practice": "Study the example, then create your own version of “Build responsible AI experiment”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Define question, build simple baseline, test separate examples and report errors and limits.",
+    "answer": true,
+    "code": "question → synthetic examples → baseline → test → limitations"
+  },
+  "design-research": {
+    "title": "Research user problem",
+    "body": "Ask about real recent experience and observe problems instead of suggesting answer.\n\nStart with person wey need the work and action wey dem want take. The example connect need, useful response and next step. Give enough context, use respectful words and no make claim without evidence. Check your work with person from the audience.",
+    "practice": "Study the example, then create your own version of “Research user problem”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Ask about real recent experience and observe problems instead of suggesting answer.",
+    "answer": true,
+    "code": "person → goal → obstacle\n// observe behaviour; ask open questions"
+  },
+  "design-flow": {
+    "title": "Map user journey",
+    "body": "Map normal path and error or offline path so user fit recover.\n\nSome steps need another step to finish first. Follow the arrows for the example and explain wetin must happen first and why. Plan wetin go happen if one step fail. Check each change before you continue; finishing last step alone no mean say the whole process work.",
+    "practice": "Study the example, then create your own version of “Map user journey”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Step wey depend on another fit always start before that one.",
+    "answer": false,
+    "code": "home → lesson → save → confirmation\n// also: offline → retry"
+  },
+  "design-wireframe": {
+    "title": "Sketch wireframe",
+    "body": "Wireframe arrange content and actions before colour and decoration.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Sketch wireframe”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Wireframe arrange content and actions before colour and decoration.",
+    "answer": true,
+    "code": "[heading]\n[explanation]\n[primary action]\n[help]"
+  },
+  "design-hierarchy": {
+    "title": "Arrange visual importance",
+    "body": "Heading size, spacing and one primary action help user see wetin matter first.\n\nCompare options with clear goal instead of choosing only the fine one. The example show different options or limit. Explain wetin you gain and lose, compare fairly and use evidence support your choice. Wetin work for one situation fit need change for another.",
+    "practice": "Study the example, then create your own version of “Arrange visual importance”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Option wey fine pass na always best for every goal.",
+    "answer": false,
+    "code": "H1 > H2 > body\nprimary action: 1\nspacing: 8,16,24"
+  },
+  "design-access": {
+    "title": "Check accessible design",
+    "body": "Check contrast, keyboard, visible focus, labels and zoom without hiding content.\n\nGood test state input and expected result before you check actual result. Try the example, then test empty, unexpected or boundary case. Write wetin happen and make small correction. Repeat the test after correction so you know say you solve the problem.",
+    "practice": "Study the example, then create your own version of “Check accessible design”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Check contrast, keyboard, visible focus, labels and zoom without hiding content.",
+    "answer": true,
+    "code": "contrast ≥ 4.5:1\nkeyboard: Tab → Enter\nzoom: 200%\nlabel + input"
+  },
+  "design-prototype": {
+    "title": "Connect clickable prototype",
+    "body": "Clickable prototype connect sketches to imitate action; e no need finished backend.\n\nSome steps need another step to finish first. Follow the arrows for the example and explain wetin must happen first and why. Plan wetin go happen if one step fail. Check each change before you continue; finishing last step alone no mean say the whole process work.",
+    "practice": "Study the example, then create your own version of “Connect clickable prototype”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Step wey depend on another fit always start before that one.",
+    "answer": false,
+    "code": "screen A → tap → screen B → back → screen A"
+  },
+  "design-usability": {
+    "title": "Run usability test",
+    "body": "Give realistic task and observe without coaching; record where person get stuck.\n\nUseful feedback point to wetin person observe and give specific next step. Check the example for evidence of wetin work and wetin cause problem. Separate wetin you see from wetin you assume. Improve one thing and check if e help; small sample no represent everybody.",
+    "practice": "Study the example, then create your own version of “Run usability test”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Give realistic task and observe without coaching; record where person get stuck.",
+    "answer": true,
+    "code": "task: A → B\nparticipant 1: ✓\nparticipant 2: A → C → ?\n// observe; do not coach"
+  },
+  "design-iterate": {
+    "title": "Improve one design decision",
+    "body": "Change one design choice, repeat same task and compare observations carefully.\n\nExperiment start with question wey you fit test and way to measure success. For the example, change one thing and keep others similar. Record starting result, run small trial and compare. No promise say one small result go work for every audience or situation.",
+    "practice": "Study the example, then create your own version of “Improve one design decision”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Changing plenty factors together isolate effect of one factor.",
+    "answer": false,
+    "code": "A: 2/5 succeed\nB: 4/5 succeed\n// same task; changed label only"
+  },
+  "design-project": {
+    "title": "Present design wey you test",
+    "body": "Present user need, tested flow, prototype, observations and revision wey evidence support.\n\nJoin the skills wey you don learn for small project. Use example start your outline, define useful result and create something wey you fit show. Test am against your goal, explain one limit and write one improvement. Keep draft and evidence so another learner fit understand your decisions.",
+    "practice": "Study the example, then create your own version of “Present design wey you test”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Present user need, tested flow, prototype, observations and revision wey evidence support.",
+    "answer": true,
+    "code": "need → flow → sketch → prototype → test → revision"
+  },
+  "marketing-audience": {
+    "title": "Define your audience",
+    "body": "Describe specific audience problem before choosing message or channel.\n\nStart with person wey need the work and action wey dem want take. The example connect need, useful response and next step. Give enough context, use respectful words and no make claim without evidence. Check your work with person from the audience.",
+    "practice": "Study the example, then create your own version of “Define your audience”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Describe specific audience problem before choosing message or channel.",
+    "answer": true,
+    "code": "audience → problem → benefit → action"
+  },
+  "marketing-value": {
+    "title": "Explain useful benefit",
+    "body": "Feature describe offer; benefit explain how e help customer achieve goal.\n\nCompare options with clear goal instead of choosing only the fine one. The example show different options or limit. Explain wetin you gain and lose, compare fairly and use evidence support your choice. Wetin work for one situation fit need change for another.",
+    "practice": "Study the example, then create your own version of “Explain useful benefit”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Option wey fine pass na always best for every goal.",
+    "answer": false,
+    "code": "feature: 10\nbenefit: 10 → goal\n// benefit must be supported by evidence"
+  },
+  "marketing-channel": {
+    "title": "Choose marketing channel",
+    "body": "Compare cost per useful enquiry, no be audience size alone, when choosing channel.\n\nCompare options with clear goal instead of choosing only the fine one. The example show different options or limit. Explain wetin you gain and lose, compare fairly and use evidence support your choice. Wetin work for one situation fit need change for another.",
+    "practice": "Study the example, then create your own version of “Choose marketing channel”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Compare cost per useful enquiry, no be audience size alone, when choosing channel.",
+    "answer": true,
+    "code": "A: cost 20 / 2 enquiries\nB: cost 30 / 6 enquiries"
+  },
+  "marketing-copy": {
+    "title": "Write clear action request",
+    "body": "Useful message state problem, supported benefit and one clear action.\n\nStart with person wey need the work and action wey dem want take. The example connect need, useful response and next step. Give enough context, use respectful words and no make claim without evidence. Check your work with person from the audience.",
+    "practice": "Study the example, then create your own version of “Write clear action request”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Audience no ever affect details wey message need.",
+    "answer": false,
+    "code": "problem → useful offer → evidence → one action"
+  },
+  "marketing-calendar": {
+    "title": "Plan content calendar",
+    "body": "Plan date, owner, audience and goal for each content item.\n\nSome steps need another step to finish first. Follow the arrows for the example and explain wetin must happen first and why. Plan wetin go happen if one step fail. Check each change before you continue; finishing last step alone no mean say the whole process work.",
+    "practice": "Study the example, then create your own version of “Plan content calendar”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Plan date, owner, audience and goal for each content item.",
+    "answer": true,
+    "code": "Mon: A\nWed: B\nFri: C\n// owner + date + goal for each"
+  },
+  "marketing-metrics": {
+    "title": "Measure conversion and cost",
+    "body": "Conversion na actions divide visits; cost per enquiry na spend divide enquiries.\n\nCalculation need clear inputs, operation and unit. Work the example with hand before you use tool. Check wetin you divide by, missing values and whether result make sense. Correct calculation still need context before you use am make decision.",
+    "practice": "Study the example, then create your own version of “Measure conversion and cost”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Units and denominator no matter for calculation.",
+    "answer": false,
+    "code": "100 visits → 5 enquiries\nconversion = 5 / 100 × 100 = 5%\ncost 20 / 5 enquiries = 4"
+  },
+  "marketing-test": {
+    "title": "Test one message change",
+    "body": "Compare two messages with one changed part under similar conditions; small sample still uncertain.\n\nExperiment start with question wey you fit test and way to measure success. For the example, change one thing and keep others similar. Record starting result, run small trial and compare. No promise say one small result go work for every audience or situation.",
+    "practice": "Study the example, then create your own version of “Test one message change”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Compare two messages with one changed part under similar conditions; small sample still uncertain.",
+    "answer": true,
+    "code": "A: 10/100 = 10%\nB: 15/100 = 15%\n// change one headline; same audience and period"
+  },
+  "marketing-consent": {
+    "title": "Respect consent and privacy",
+    "body": "Ask permission before marketing contact and make unsubscribe easy.\n\nUse information wey you invent for this exercise. Collect only wetin you need for clear purpose, remove details wey identify person and limit who fit see am. The example show data to remove or permission to check. No put real password, contact details or secret records for notes.",
+    "practice": "Study the example, then create your own version of “Respect consent and privacy”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Put real passwords for practice notes wey people share.",
+    "answer": false,
+    "code": "opt-in → explain use → unsubscribe\n// no bought contact lists"
+  },
+  "marketing-project": {
+    "title": "Create small campaign plan",
+    "body": "Set small budget, choose channel and message, then define result to measure.\n\nJoin the skills wey you don learn for small project. Use example start your outline, define useful result and create something wey you fit show. Test am against your goal, explain one limit and write one improvement. Keep draft and evidence so another learner fit understand your decisions.",
+    "practice": "Study the example, then create your own version of “Create small campaign plan”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Set small budget, choose channel and message, then define result to measure.",
+    "answer": true,
+    "code": "audience → message → channel → budget → measure → revise"
+  },
+  "business-customer": {
+    "title": "Interview possible customer",
+    "body": "Ask customers about recent behaviour and current problems before pitching solution.\n\nStart with person wey need the work and action wey dem want take. The example connect need, useful response and next step. Give enough context, use respectful words and no make claim without evidence. Check your work with person from the audience.",
+    "practice": "Study the example, then create your own version of “Interview possible customer”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Ask customers about recent behaviour and current problems before pitching solution.",
+    "answer": true,
+    "code": "person → problem → current workaround → willingness to pay"
+  },
+  "business-offer": {
+    "title": "Define your offer",
+    "body": "Offer identify customer, problem, deliverable, price and delivery method.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Define your offer”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Information wey no dey suppose always become zero.",
+    "answer": false,
+    "code": "customer + problem + offer + price + delivery"
+  },
+  "business-costs": {
+    "title": "Calculate costs and break-even",
+    "body": "Contribution na price minus variable cost; break-even units use contribution cover fixed costs.\n\nCalculation need clear inputs, operation and unit. Work the example with hand before you use tool. Check wetin you divide by, missing values and whether result make sense. Correct calculation still need context before you use am make decision.",
+    "practice": "Study the example, then create your own version of “Calculate costs and break-even”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Contribution na price minus variable cost; break-even units use contribution cover fixed costs.",
+    "answer": true,
+    "code": "price = 100\nvariable cost = 70\ncontribution = 30\nfixed costs = 300\nbreak-even = 300 / 30 = 10 units"
+  },
+  "business-cash": {
+    "title": "Plan cash flow",
+    "body": "Closing cash na opening cash plus receipts minus payments; credit sales fit never become cash.\n\nCalculation need clear inputs, operation and unit. Work the example with hand before you use tool. Check wetin you divide by, missing values and whether result make sense. Correct calculation still need context before you use am make decision.",
+    "practice": "Study the example, then create your own version of “Plan cash flow”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Units and denominator no matter for calculation.",
+    "answer": false,
+    "code": "opening cash 200 + receipts 100 − payments 150 = closing cash 150"
+  },
+  "business-validation": {
+    "title": "Validate with small trial",
+    "body": "Use conversations and small trial test demand before investing plenty.\n\nExperiment start with question wey you fit test and way to measure success. For the example, change one thing and keep others similar. Record starting result, run small trial and compare. No promise say one small result go work for every audience or situation.",
+    "practice": "Study the example, then create your own version of “Validate with small trial”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Use conversations and small trial test demand before investing plenty.",
+    "answer": true,
+    "code": "hypothesis → 5 conversations → small trial → evidence → decision"
+  },
+  "business-operations": {
+    "title": "Map delivery work",
+    "body": "Map order reach follow-up; choose who check quality before delivery.\n\nSome steps need another step to finish first. Follow the arrows for the example and explain wetin must happen first and why. Plan wetin go happen if one step fail. Check each change before you continue; finishing last step alone no mean say the whole process work.",
+    "practice": "Study the example, then create your own version of “Map delivery work”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Step wey depend on another fit always start before that one.",
+    "answer": false,
+    "code": "order → confirm → prepare → check → deliver → follow up"
+  },
+  "business-records": {
+    "title": "Keep simple business records",
+    "body": "Record date, type, amount and reference; keep evidence for each receipt and payment.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Keep simple business records”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Record date, type, amount and reference; keep evidence for each receipt and payment.",
+    "answer": true,
+    "code": "date,type,amount,reference\n2026-01-01,in,100,R01\n2026-01-02,out,70,R02"
+  },
+  "business-risk": {
+    "title": "Prepare for business risks",
+    "body": "Identify major dependency, estimate risk and prepare useful backup.\n\nRisk join chance say something go happen with harm wey e fit cause. Compare likelihood and impact for the example, then choose practical control. Handle bigger risks first and name who go act. Checklist reduce mistakes but e no guarantee say all threats don disappear.",
+    "practice": "Study the example, then create your own version of “Prepare for business risks”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Low likelihood mean say risk no fit ever cause harm.",
+    "answer": false,
+    "code": "supplier A: likelihood 3 × impact 4 = 12\nbackup supplier → reduce impact"
+  },
+  "business-project": {
+    "title": "Present business idea wey you test",
+    "body": "Present customer evidence, costed offer, trial result and cash plan with open questions.\n\nJoin the skills wey you don learn for small project. Use example start your outline, define useful result and create something wey you fit show. Test am against your goal, explain one limit and write one improvement. Keep draft and evidence so another learner fit understand your decisions.",
+    "practice": "Study the example, then create your own version of “Present business idea wey you test”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Present customer evidence, costed offer, trial result and cash plan with open questions.",
+    "answer": true,
+    "code": "problem → offer → costs → trial → cash plan → next decision"
+  },
+  "writing-purpose": {
+    "title": "Define reader and purpose",
+    "body": "Identify reader, purpose and wetin reader suppose do next.\n\nStart with person wey need the work and action wey dem want take. The example connect need, useful response and next step. Give enough context, use respectful words and no make claim without evidence. Check your work with person from the audience.",
+    "practice": "Study the example, then create your own version of “Define reader and purpose”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Identify reader, purpose and wetin reader suppose do next.",
+    "answer": true,
+    "code": "reader → purpose → main point → next action"
+  },
+  "writing-outline": {
+    "title": "Arrange outline",
+    "body": "Outline put main point before evidence and requested action.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Arrange outline”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Information wey no dey suppose always become zero.",
+    "answer": false,
+    "code": "I. main point\nII. evidence\nIII. next action"
+  },
+  "writing-paragraph": {
+    "title": "Build clear paragraph",
+    "body": "Paragraph develop one main idea with useful detail and link to next idea.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Build clear paragraph”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Paragraph develop one main idea with useful detail and link to next idea.",
+    "answer": true,
+    "code": "topic → supporting detail → connection"
+  },
+  "writing-clarity": {
+    "title": "Make sentences easy to read",
+    "body": "Remove repeated words and split heavy sentences without losing meaning.\n\nCompare options with clear goal instead of choosing only the fine one. The example show different options or limit. Explain wetin you gain and lose, compare fairly and use evidence support your choice. Wetin work for one situation fit need change for another.",
+    "practice": "Study the example, then create your own version of “Make sentences easy to read”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Option wey fine pass na always best for every goal.",
+    "answer": false,
+    "code": "A: 42 words, 3 ideas\nB: 12 words, 1 idea\n// keep meaning; remove repetition"
+  },
+  "writing-evidence": {
+    "title": "Support claims with evidence",
+    "body": "Check claim with original source, date and supporting evidence.\n\nGood test state input and expected result before you check actual result. Try the example, then test empty, unexpected or boundary case. Write wetin happen and make small correction. Repeat the test after correction so you know say you solve the problem.",
+    "practice": "Study the example, then create your own version of “Support claims with evidence”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Check claim with original source, date and supporting evidence.",
+    "answer": true,
+    "code": "claim → original source → date → supporting evidence"
+  },
+  "writing-tone": {
+    "title": "Choose suitable tone",
+    "body": "Change tone to fit relationship and situation; keep facts clear and respectful.\n\nStart with person wey need the work and action wey dem want take. The example connect need, useful response and next step. Give enough context, use respectful words and no make claim without evidence. Check your work with person from the audience.",
+    "practice": "Study the example, then create your own version of “Choose suitable tone”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Audience no ever affect details wey message need.",
+    "answer": false,
+    "code": "same facts + different reader → different tone\n// respectful; clear; specific"
+  },
+  "writing-edit": {
+    "title": "Edit in useful stages",
+    "body": "Edit meaning and structure before polishing sentences and spelling.\n\nUseful feedback point to wetin person observe and give specific next step. Check the example for evidence of wetin work and wetin cause problem. Separate wetin you see from wetin you assume. Improve one thing and check if e help; small sample no represent everybody.",
+    "practice": "Study the example, then create your own version of “Edit in useful stages”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Edit meaning and structure before polishing sentences and spelling.",
+    "answer": true,
+    "code": "draft → meaning → structure → sentence → spelling"
+  },
+  "writing-feedback": {
+    "title": "Use reader feedback",
+    "body": "Ask reader wetin dem understand and where dem pause; revise that part.\n\nUseful feedback point to wetin person observe and give specific next step. Check the example for evidence of wetin work and wetin cause problem. Separate wetin you see from wetin you assume. Improve one thing and check if e help; small sample no represent everybody.",
+    "practice": "Study the example, then create your own version of “Use reader feedback”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Small sample prove wetin every person need.",
+    "answer": false,
+    "code": "reader understands: A\nreader asks: B?\nrevision: clarify B"
+  },
+  "writing-project": {
+    "title": "Publish polished message",
+    "body": "Create short message with clear purpose, checked facts and specific next action.\n\nJoin the skills wey you don learn for small project. Use example start your outline, define useful result and create something wey you fit show. Test am against your goal, explain one limit and write one improvement. Keep draft and evidence so another learner fit understand your decisions.",
+    "practice": "Study the example, then create your own version of “Publish polished message”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Create short message with clear purpose, checked facts and specific next action.",
+    "answer": true,
+    "code": "brief → outline → draft → source check → revision → final message"
+  },
+  "project-scope": {
+    "title": "Set scope and acceptance checks",
+    "body": "State wetin dey inside scope, wetin no dey and how person go accept result.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Set scope and acceptance checks”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "State wetin dey inside scope, wetin no dey and how person go accept result.",
+    "answer": true,
+    "code": "outcome + acceptance criteria\nin: A,B\nout: C"
+  },
+  "project-breakdown": {
+    "title": "Break deliverables into tasks",
+    "body": "Break deliverable into manageable tasks; give each one accountable owner.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Break deliverables into tasks”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Information wey no dey suppose always become zero.",
+    "answer": false,
+    "code": "deliverable → task A → subtask A1,A2\n// one owner per task"
+  },
+  "project-dependencies": {
+    "title": "Map tasks wey depend on others",
+    "body": "Task wey depend on another must wait; longest dependency chain affect finish date.\n\nSome steps need another step to finish first. Follow the arrows for the example and explain wetin must happen first and why. Plan wetin go happen if one step fail. Check each change before you continue; finishing last step alone no mean say the whole process work.",
+    "practice": "Study the example, then create your own version of “Map tasks wey depend on others”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Task wey depend on another must wait; longest dependency chain affect finish date.",
+    "answer": true,
+    "code": "A(2 days) → B(3 days) → D(1 day)\nA → C(1 day) → D\n// longest chain: 6 days"
+  },
+  "project-estimates": {
+    "title": "Estimate time and capacity",
+    "body": "Separate effort from calendar duration and leave room for uncertainty.\n\nCalculation need clear inputs, operation and unit. Work the example with hand before you use tool. Check wetin you divide by, missing values and whether result make sense. Correct calculation still need context before you use am make decision.",
+    "practice": "Study the example, then create your own version of “Estimate time and capacity”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Units and denominator no matter for calculation.",
+    "answer": false,
+    "code": "A: 2h\nB: 3h\nC: 1h\ntotal: 6h + contingency"
+  },
+  "project-board": {
+    "title": "Manage work for task board",
+    "body": "Move tasks from To do to In progress to Done only after acceptance checks.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Manage work for task board”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Move tasks from To do to In progress to Done only after acceptance checks.",
+    "answer": true,
+    "code": "[To do] → [In progress] → [Done]\n// task + owner + acceptance check"
+  },
+  "project-risks": {
+    "title": "Plan risk response",
+    "body": "Record risk likelihood, impact, owner and response; review as work change.\n\nRisk join chance say something go happen with harm wey e fit cause. Compare likelihood and impact for the example, then choose practical control. Handle bigger risks first and name who go act. Checklist reduce mistakes but e no guarantee say all threats don disappear.",
+    "practice": "Study the example, then create your own version of “Plan risk response”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Low likelihood mean say risk no fit ever cause harm.",
+    "answer": false,
+    "code": "risk: A\nlikelihood: 3\nimpact: 4\nowner: B\nresponse: C"
+  },
+  "project-updates": {
+    "title": "Write useful status update",
+    "body": "Status update name finished work, next steps, blockers and specific request.\n\nStart with person wey need the work and action wey dem want take. The example connect need, useful response and next step. Give enough context, use respectful words and no make claim without evidence. Check your work with person from the audience.",
+    "practice": "Study the example, then create your own version of “Write useful status update”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Status update name finished work, next steps, blockers and specific request.",
+    "answer": true,
+    "code": "completed → next → blocker → request + date"
+  },
+  "project-retro": {
+    "title": "Review wetin work and wetin no work",
+    "body": "Review wetin help and wetin block progress; give one improvement owner and date.\n\nUseful feedback point to wetin person observe and give specific next step. Check the example for evidence of wetin work and wetin cause problem. Separate wetin you see from wetin you assume. Improve one thing and check if e help; small sample no represent everybody.",
+    "practice": "Study the example, then create your own version of “Review wetin work and wetin no work”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Small sample prove wetin every person need.",
+    "answer": false,
+    "code": "worked: A\nblocked: B\nnext change: C + owner + date"
+  },
+  "project-capstone": {
+    "title": "Plan and review small project",
+    "body": "Plan scope, tasks, dependencies and risks; assess delivery against original acceptance checks.\n\nJoin the skills wey you don learn for small project. Use example start your outline, define useful result and create something wey you fit show. Test am against your goal, explain one limit and write one improvement. Keep draft and evidence so another learner fit understand your decisions.",
+    "practice": "Study the example, then create your own version of “Plan and review small project”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Plan scope, tasks, dependencies and risks; assess delivery against original acceptance checks.",
+    "answer": true,
+    "code": "scope → tasks → dependencies → board → risk review → delivery check"
+  },
+  "teaching-goals": {
+    "title": "Write learning goal wey person fit show",
+    "body": "Use action wey person fit show, like explain or calculate, instead of only understand.\n\nClear structure give every part its own work. Read the example from top reach bottom; identify input, important fields and result. If information no dey, show am clearly instead of inventing am. Use labels wey remain the same so person fit check and use the work again.",
+    "practice": "Study the example, then create your own version of “Write learning goal wey person fit show”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Use action wey person fit show, like explain or calculate, instead of only understand.",
+    "answer": true,
+    "code": "By the end: learner can [observable action]\n// explain, calculate, demonstrate"
+  },
+  "teaching-baseline": {
+    "title": "Check wetin learner know before",
+    "body": "Short starting task reveal prior knowledge and guide next teaching step.\n\nUseful feedback point to wetin person observe and give specific next step. Check the example for evidence of wetin work and wetin cause problem. Separate wetin you see from wetin you assume. Improve one thing and check if e help; small sample no represent everybody.",
+    "practice": "Study the example, then create your own version of “Check wetin learner know before”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Small sample prove wetin every person need.",
+    "answer": false,
+    "code": "before: example task → learner response → next teaching step"
+  },
+  "teaching-example": {
+    "title": "Show worked example",
+    "body": "Show steps and reasoning, then ask learner predict next step.\n\nSome steps need another step to finish first. Follow the arrows for the example and explain wetin must happen first and why. Plan wetin go happen if one step fail. Check each change before you continue; finishing last step alone no mean say the whole process work.",
+    "practice": "Study the example, then create your own version of “Show worked example”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Show steps and reasoning, then ask learner predict next step.",
+    "answer": true,
+    "code": "show → explain why → learner predicts → compare"
+  },
+  "teaching-practice": {
+    "title": "Design guided practice",
+    "body": "Start with guidance and reduce hints before independent attempt.\n\nSome steps need another step to finish first. Follow the arrows for the example and explain wetin must happen first and why. Plan wetin go happen if one step fail. Check each change before you continue; finishing last step alone no mean say the whole process work.",
+    "practice": "Study the example, then create your own version of “Design guided practice”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Step wey depend on another fit always start before that one.",
+    "answer": false,
+    "code": "guided attempt → hints → independent attempt"
+  },
+  "teaching-feedback": {
+    "title": "Give feedback wey learner fit use",
+    "body": "Describe specific observation and next improvement, then allow retry.\n\nUseful feedback point to wetin person observe and give specific next step. Check the example for evidence of wetin work and wetin cause problem. Separate wetin you see from wetin you assume. Improve one thing and check if e help; small sample no represent everybody.",
+    "practice": "Study the example, then create your own version of “Give feedback wey learner fit use”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Describe specific observation and next improvement, then allow retry.",
+    "answer": true,
+    "code": "specific observation → next improvement → retry"
+  },
+  "teaching-check": {
+    "title": "Check skill with new example",
+    "body": "Check same skill with new example so memorising alone no fit pass.\n\nGood test state input and expected result before you check actual result. Try the example, then test empty, unexpected or boundary case. Write wetin happen and make small correction. Repeat the test after correction so you know say you solve the problem.",
+    "practice": "Study the example, then create your own version of “Check skill with new example”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Testing one successful case prove say feature work for all situations.",
+    "answer": false,
+    "code": "goal: calculate 10 + 20\ncheck: learner calculates 15 + 25\n// new example; same skill"
+  },
+  "teaching-inclusive": {
+    "title": "Make practice fit everybody",
+    "body": "Offer readable text, diagram and accessible interaction with same learning goal.\n\nCompare options with clear goal instead of choosing only the fine one. The example show different options or limit. Explain wetin you gain and lose, compare fairly and use evidence support your choice. Wetin work for one situation fit need change for another.",
+    "practice": "Study the example, then create your own version of “Make practice fit everybody”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Offer readable text, diagram and accessible interaction with same learning goal.",
+    "answer": true,
+    "code": "text + diagram + keyboard access\n// same goal; different ways to practise"
+  },
+  "teaching-plan": {
+    "title": "Plan short learning session",
+    "body": "Give time to goal, example, learner practice and check with feedback.\n\nSome steps need another step to finish first. Follow the arrows for the example and explain wetin must happen first and why. Plan wetin go happen if one step fail. Check each change before you continue; finishing last step alone no mean say the whole process work.",
+    "practice": "Study the example, then create your own version of “Plan short learning session”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Step wey depend on another fit always start before that one.",
+    "answer": false,
+    "code": "2 min: goal\n3 min: example\n7 min: practice\n3 min: check + feedback"
+  },
+  "teaching-project": {
+    "title": "Teach mini lesson and reflect",
+    "body": "Teach short session, keep evidence of learner attempt and improve part wey cause difficulty.\n\nJoin the skills wey you don learn for small project. Use example start your outline, define useful result and create something wey you fit show. Test am against your goal, explain one limit and write one improvement. Keep draft and evidence so another learner fit understand your decisions.",
+    "practice": "Study the example, then create your own version of “Teach mini lesson and reflect”. Change one input or decision, describe result and explain why your approach meet the goal.",
+    "statement": "Teach short session, keep evidence of learner attempt and improve part wey cause difficulty.",
+    "answer": true,
+    "code": "goal → starting check → example → practice → feedback → reflection"
+  }
+}
